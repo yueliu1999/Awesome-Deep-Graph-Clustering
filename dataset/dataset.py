@@ -18,7 +18,7 @@ def load_data(dataset_name, show_details=False):
     load_path = dataset_name+"/"+dataset_name
     feat = np.load(load_path+"_feat.npy", allow_pickle=True)
     label = np.load(load_path+"_label.npy", allow_pickle=True)
-    adj = np.load(label+"_adj.npy", allow_pickle=True)
+    adj = np.load(load_path+"_adj.npy", allow_pickle=True)
     if show_details:
         print("++++++++++++++++++++++++++++++")
         print("------details of dataset------")
