@@ -1,19 +1,19 @@
-[pypi-url]: https://pypi.org/project/PyGCL
-[python-img]: https://img.shields.io/github/languages/top/GraphCL/PyGCL?color=lightgrey
-[stars-img]: https://img.shields.io/github/stars/GraphCL/PyGCL?color=yellow
-[stars-url]: https://github.com/GraphCL/PyGCL/stargazers
-[fork-img]: https://img.shields.io/github/forks/GraphCL/PyGCL?color=lightblue&label=fork
-[fork-url]: https://github.com/GraphCL/PyGCL/network/members
-[visitors-img]: https://visitor-badge.glitch.me/badge?page_id=GraphCL.PyGCL
+[python-img]: https://img.shields.io/github/languages/top/yueliu1999/Awesome-Deep-Graph-Clustering?color=lightgrey
+[stars-img]: https://img.shields.io/github/stars/yueliu1999/Awesome-Deep-Graph-Clustering?color=yellow
+[stars-url]: https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering/stargazers
+[fork-img]: https://img.shields.io/github/forks/yueliu1999/Awesome-Deep-Graph-Clustering?color=lightblue&label=fork
+[fork-url]: https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering/network/members
+[visitors-img]: https://visitor-badge.glitch.me/badge?page_id=yueliu1999.Awesome-Deep-Graph-Clustering
+[pygcl-url]: https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering
 
 # ADGC: Awesome Deep Graph Clustering
 
 ADGC is a collection of state-of-the-art (SOTA), novel deep graph clustering methods (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact yueliu19990731@163.com.
 
-[![Made with Python][python-img]][pygcl-url]
+[![Made with Python][python-img]][adgc-url]
 [![GitHub stars][stars-img]][stars-url]
 [![GitHub forks][fork-img]][fork-url]
-[![visitors][visitors-img]][pygcl-url]
+[![visitors][visitors-img]][adgc-url]
 
 --------------
 
@@ -82,4 +82,4 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
 
 
 
-If you find this repository useful to your research or work, it is really appreciate to star this repository.
+If you find this repository useful to your research or work, it is really appreciate to star this repository.​ :heart:
