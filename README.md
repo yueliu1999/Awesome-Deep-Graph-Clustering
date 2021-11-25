@@ -1,5 +1,7 @@
 # Awesome-Deep-Graph-Clustering
 
+Deep graph clustering, which aims to reveal the underlying graph structure and divide the nodes into different groups, has attracted intensive attention in recent years.
+
 Awesome Deep Graph Clustering is a collection of state-of-the-art (SOTA), novel deep graph clustering methods (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact yueliu19990731@163.com.
 
 
@@ -34,6 +36,10 @@ We provide a grace function **./dataset/dataset.py** to load graph data.
    
 
 2. Non-graph Data
+
+   
+
+   
 
 
 
