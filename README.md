@@ -4,7 +4,7 @@
 [fork-img]: https://img.shields.io/github/forks/yueliu1999/Awesome-Deep-Graph-Clustering?color=lightblue&label=fork
 [fork-url]: https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering/network/members
 [visitors-img]: https://visitor-badge.glitch.me/badge?page_id=yueliu1999.Awesome-Deep-Graph-Clustering
-[pygcl-url]: https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering
+[adgc-url]: https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering
 
 # ADGC: Awesome Deep Graph Clustering
 
