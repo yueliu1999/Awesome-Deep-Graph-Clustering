@@ -18,6 +18,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 
 
+
+
 ## Benchmark Datasets
 
 We divide the datasets into two categories, i.e. graph datasets and non-graph datasets. Graph datasets are some graphs in real-world, such as citation networks, social networks and so on. Non-graph datasets are NOT graph type. However, if necessary, we could construct "adjacency matrices"  by K-Nearest Neighbors (KNN) algorithm.
@@ -52,10 +54,9 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
 
    | Dataset | Samples | Dimension |  Type  | Classes |                             URL                              |
    | :-----: | :-----: | :-------: | :----: | :-----: | :----------------------------------------------------------: |
-   |  USPS   |  9298   |    256    | Image  |   10    | [usps.zip](https://drive.google.com/file/d/1XWWMIDyvCQ4VJFnAmXS848ksN9MFm5ys/view?usp=sharing) |
-   |  HHAR   |  10299  |    561    | Record |    6    | [hhar.zip](https://drive.google.com/file/d/1U4q84d_n57BquHhUvpLtDzGQ1wzPGF71/view?usp=sharing) |
-   |  REUT   |  10000  |   2000    |  Text  |    4    | [reut.zip](https://drive.google.com/file/d/19j7zmQ-AMgzTX7yZoKzUK5wVxQwO5alx/view?usp=sharing) |
-   |         |         |           |        |         |                                                              |
+   |  USPS   |  9298   |    256    | Image  |   10    | [usps.zip](https://drive.google.com/file/d/19oBkSeIluW3A5kcV7W0UM1Bt6V9Q62e-/view?usp=sharing) |
+   |  HHAR   |  10299  |    561    | Record |    6    | [hhar.zip](https://drive.google.com/file/d/126OFuNhf2u-g9Tr0wukk0T8uM1cuPzy2/view?usp=sharing) |
+   |  REUT   |  10000  |   2000    |  Text  |    4    | [reut.zip](https://drive.google.com/file/d/12MpPWyN87bu-AQYTyjdEcofy1mgjgzi9/view?usp=sharing) |
 
 
 
@@ -65,7 +66,7 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
 
 
 
-If you use our code or datasets, please cite our paper with the following bibtex code:
+If you use our code or datasets, please cite our paper with the following bibtex code. Your support is the greatest impetus for us, thanks!
 
 ```
 XXXXXX
