@@ -1,14 +1,25 @@
+[pypi-url]: https://pypi.org/project/PyGCL
+[python-img]: https://img.shields.io/github/languages/top/GraphCL/PyGCL?color=lightgrey
+[stars-img]: https://img.shields.io/github/stars/GraphCL/PyGCL?color=yellow
+[stars-url]: https://github.com/GraphCL/PyGCL/stargazers
+[fork-img]: https://img.shields.io/github/forks/GraphCL/PyGCL?color=lightblue&label=fork
+[fork-url]: https://github.com/GraphCL/PyGCL/network/members
+[visitors-img]: https://visitor-badge.glitch.me/badge?page_id=GraphCL.PyGCL
+
 # ADGC: Awesome Deep Graph Clustering
 
 ADGC is a collection of state-of-the-art (SOTA), novel deep graph clustering methods (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact yueliu19990731@163.com.
 
+[![Made with Python][python-img]][pygcl-url]
+[![GitHub stars][stars-img]][stars-url]
+[![GitHub forks][fork-img]][fork-url]
+[![visitors][visitors-img]][pygcl-url]
 
+--------------
 
 ## What's Deep Graph Clustering?
 
 Deep graph clustering, which aims to reveal the underlying graph structure and divide the nodes into different groups, has attracted intensive attention in recent years.
-
-
 
 ## Important Survey Papers
 
