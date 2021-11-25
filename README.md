@@ -71,15 +71,4 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
 
 
 
-
-
-
-
-If you use our code or datasets, please cite our paper with the following bibtex code. Your support is the greatest impetus for us, thanks!
-
-```
-XXXXXX
-```
-
-
-
+If you find this repository useful to your research or work, it is really appreciate to star this repository.
