@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\dataset\utils.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

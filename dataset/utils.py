@@ -1,7 +1,12 @@
+# -*- coding: utf-8 -*-
+# @Author  : Yue Liu
+# @Email   : yueliu19990731@163.com
+# @Time    : 2021/11/25 11:11
+
 import numpy as np
 
 
-def load_data(dataset_name, show_details=False):
+def load_graph_data(dataset_name, show_details=False):
     """
     load graph data
     :param dataset_name: the name of the dataset
@@ -38,5 +43,5 @@ def load_data(dataset_name, show_details=False):
 
 
 if __name__ == '__main__':
-    dataset = "corafull"
-    X, y, A = load_data(dataset, show_details=True)
+    dataset = "citeseer"
+    X, y, A = load_graph_data(dataset, show_details=True)
