@@ -14,18 +14,20 @@ Awesome Deep Graph Clustering is a collection of state-of-the-art (SOTA), novel 
 
 ## Benchmark Datasets
 
+We provide a grace function **./dataset/dataset.py** to load graph data.
+
 1. Graph Data
 
-   | Dataset  | Samples | Dimension | Clusters |                             URL                              |
-   | :------: | :-----: | :-------: | :------: | :----------------------------------------------------------: |
-   |   DBLP   |  4058   |    334    |    4     | [DBLP](https://drive.google.com/file/d/1GoKPeC7vdVqu93gSFSGVU1ZhIqFwEDu0/view?usp=sharing) |
-   |   CITE   |  3327   |   3703    |    6     | [CITE](https://drive.google.com/file/d/1DgFXjTn3FWsHoetMF3GoxBCM2MEZi6jX/view?usp=sharing) |
-   |   ACM    |  3025   |   1870    |    3     | [ACM](https://drive.google.com/file/d/1HgrZmhN50VL0342uwtIAch69mYtfawa-/view?usp=sharing) |
-   |   AMAP   |  7650   |    745    |    8     |                                                              |
-   |  PUBMED  |  19717  |    500    |    3     |                                                              |
-   | CORAFULL |  19793  |   8710    |    70    |                                                              |
-   |   CORA   |         |           |          |                                                              |
-   | CITESEER |         |           |          |                                                              |
+   | Dataset  | Samples | Dimension | Edges  | Clusters |                             URL                              |
+   | :------: | :-----: | :-------: | :----: | :------: | :----------------------------------------------------------: |
+   |   DBLP   |  4057   |    334    |  3528  |    4     | [DBLP](https://drive.google.com/file/d/1XWWMIDyvCQ4VJFnAmXS848ksN9MFm5ys/view?usp=sharing) |
+   |   CITE   |  3327   |   3703    |  4552  |    6     | [CITE](https://drive.google.com/file/d/1U4q84d_n57BquHhUvpLtDzGQ1wzPGF71/view?usp=sharing) |
+   |   ACM    |  3025   |   1870    | 13128  |    3     | [ACM](https://drive.google.com/file/d/19j7zmQ-AMgzTX7yZoKzUK5wVxQwO5alx/view?usp=sharing) |
+   |   AMAP   |  7650   |    745    | 119081 |    8     | [AMAP](https://drive.google.com/file/d/1qqLWPnBOPkFktHfGMrY9nu8hioyVZV31/view?usp=sharing) |
+   |  PUBMED  |  19717  |    500    | 44325  |    3     | [PUBMED](https://drive.google.com/file/d/1tdr20dvvjZ9tBHXj8xl6wjO9mQzD0rzA/view?usp=sharing) |
+   | CORAFULL |  19793  |   8710    | 63421  |    70    |                         [CORAFULL]()                         |
+   |   CORA   |         |           |        |          |                           [CORA]()                           |
+   | CITESEER |         |           |        |          |                         [CITESEER]()                         |
 
    
 

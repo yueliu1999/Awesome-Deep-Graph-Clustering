@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Author  : Yue Liu
-# @Email   : yueliu19990731@163.com
-# @Time    : 2021/11/25 11:10
-# @Function: load_data
 import numpy as np
 
 
@@ -32,8 +27,8 @@ def load_data(dataset_name, show_details=False):
         print("feature shape:  ", feat.shape)
         print("label shape:    ", label.shape)
         print("adj shape:      ", adj.shape)
-        print("edge num:       ", np.nonzero(adj)[0].shape)
-        print("category num:   ", max(label)+1)
+        print("undirected edge num:   ", int(np.nonzero(adj)[0].shape[0]/2))
+        print("category num:          ", max(label)+1)
         print("category distribution: ")
         for i in range(max(label)+1):
             print("label", i, end=":")
@@ -43,5 +38,5 @@ def load_data(dataset_name, show_details=False):
 
 
 if __name__ == '__main__':
-    dataset = "acm"
+    dataset = "corafull"
     X, y, A = load_data(dataset, show_details=True)
