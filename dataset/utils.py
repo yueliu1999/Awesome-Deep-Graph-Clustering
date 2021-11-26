@@ -73,9 +73,43 @@ def load_data(dataset_name, show_details=False):
     return feat, label
 
 
-if __name__ == '__main__':
-    graph_dataset = "dblp"
-    X, y, A = load_graph_data(graph_dataset, show_details=True)
+def construct_graph(feat, k, metric="euclidean"):
+    """
+    construct the knn graph for a non-graph dataset
+    :param feat: the input feature matrix
+    :param k: hyper-parameter of knn
+    :param metric: the metric of distance calculation
+    - euclidean: euclidean distance
+    - cosine: cosine distance
+    :return: the constructed graph
+    """
 
-    # non_graph_dataset = "hhar"
-    # X, y = load_data(non_graph_dataset, show_details=True)
+    # euclidean distance, sqrt((x-y)^2)
+    if metric == "euclidean":
+        xy = np.matmul(feat, feat.transpose())
+        xx = (feat * feat).sum(1).reshape(-1, 1)
+        xx_yy = xx + xx.transpose()
+        euclidean_distance = xx_yy - 2 * xy
+        euclidean_distance[euclidean_distance < 1e-5] = 0
+        distance_matrix = np.sqrt(euclidean_distance)
+
+    # cosine distance, 1 - cosine similarity
+    if metric == "cosine":
+        norm_feat = feat / np.sqrt(np.sum(feat ** 2, axis=1)).reshape(-1, 1)
+        cosine_distance = 1 - np.matmul(norm_feat, norm_feat.transpose())
+        cosine_distance[cosine_distance < 1e-5] = 0
+        distance_matrix = cosine_distance
+
+    # heat
+
+    print(distance_matrix)
+    return None
+
+
+if __name__ == '__main__':
+    # graph_dataset = "dblp"
+    # X, y, A = load_graph_data(graph_dataset, show_details=True)
+
+    non_graph_dataset = "hhar"
+    X, y = load_data(non_graph_dataset, show_details=False)
+    construct_graph(X, k=5)
