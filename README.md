@@ -34,9 +34,11 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 5. GAE/VGAE : "Variational Graph Auto-Encoders" \[[pdf](https://arxiv.org/pdf/1611.07308.pdf%5D)|[code](https://github.com/DaehanKim/vgae_pytorch)]
 6. DAEGC (IJCAI19): "Attributed Graph Clustering: A Deep Attentional Embedding Approach" \[[pdf](https://www.ijcai.org/proceedings/2019/0509.pdf)|[code](https://github.com/Tiger101010/DAEGC)]
 7. ARGA/ARVGA (TCYB19): "Learning Graph Embedding with Adversarial Training Methods" \[[pdf](https://arxiv.org/pdf/1901.01250)|[code](https://github.com/GRAND-Lab/ARGA)]
-8. SDCN/SDCN_Q (WWW20): "Structural Deep Clustering Network" \[[pdf](https://arxiv.org/pdf/2002.01633)|[code](https://github.com/bdy9527/SDCN)]
-9. DFCN (AAAI21): "Deep Fusion Clustering Network" \[[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/17198/17005)|[code](https://github.com/WxTu/DFCN)]
-10. MVGRL (ICML20): "Contrastive Multi-View Representation Learning on Graphs" \[[pdf](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf)|[code](https://github.com/kavehhassani/mvgrl)]
+8. MCGC (TIP19): "Multiview Consensus Graph Clustering" \[[pdf](https://ieeexplore.ieee.org/abstract/document/8501973)|[code](https://github.com/kunzhan/MCGC)]
+9. SDCN/SDCN_Q (WWW20): "Structural Deep Clustering Network" \[[pdf](https://arxiv.org/pdf/2002.01633)|[code](https://github.com/bdy9527/SDCN)]
+10. DFCN (AAAI21): "Deep Fusion Clustering Network" \[[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/17198/17005)|[code](https://github.com/WxTu/DFCN)]
+11. MVGRL (ICML20): "Contrastive Multi-View Representation Learning on Graphs" \[[pdf](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf)|[code](https://github.com/kavehhassani/mvgrl)]
+12. MCGC (NIPS21): "Multi-view Contrastive Graph Clustering" \[[pdf](https://papers.nips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf)|[code](https://github.com/panern/mcgc)]
 
 
 
