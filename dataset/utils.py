@@ -4,6 +4,30 @@
 # @Time    : 2021/11/25 11:11
 
 import numpy as np
+import torch
+
+
+def numpy_to_torch(a, is_sparse=False):
+    """
+    numpy array to torch tensor
+    :param a: the numpy array
+    :param is_sparse: is sparse tensor or not
+    :return: torch tensor
+    """
+    if is_sparse:
+        a = torch.sparse.Tensor(a)
+    else:
+        a = torch.from_numpy(a)
+    return a
+
+
+def torch_to_numpy(t):
+    """
+    torch tensor to numpy array
+    :param t: the torch tensor
+    :return: numpy array
+    """
+    return t.numpy()
 
 
 def load_graph_data(dataset_name, show_details=False):
@@ -73,7 +97,7 @@ def load_data(dataset_name, show_details=False):
     return feat, label
 
 
-def construct_graph(feat, k, metric="euclidean"):
+def construct_graph(feat, k=5, metric="euclidean"):
     """
     construct the knn graph for a non-graph dataset
     :param feat: the input feature matrix
@@ -81,17 +105,23 @@ def construct_graph(feat, k, metric="euclidean"):
     :param metric: the metric of distance calculation
     - euclidean: euclidean distance
     - cosine: cosine distance
+    - heat: heat kernel
     :return: the constructed graph
     """
 
     # euclidean distance, sqrt((x-y)^2)
-    if metric == "euclidean":
+    if metric == "euclidean" or metric == "heat":
         xy = np.matmul(feat, feat.transpose())
         xx = (feat * feat).sum(1).reshape(-1, 1)
         xx_yy = xx + xx.transpose()
         euclidean_distance = xx_yy - 2 * xy
         euclidean_distance[euclidean_distance < 1e-5] = 0
         distance_matrix = np.sqrt(euclidean_distance)
+
+        # heat kernel, exp^{- euclidean^2/t}
+        if metric == "heat":
+            distance_matrix = - (distance_matrix ** 2) / 2
+            distance_matrix = np.exp(distance_matrix)
 
     # cosine distance, 1 - cosine similarity
     if metric == "cosine":
@@ -100,16 +130,34 @@ def construct_graph(feat, k, metric="euclidean"):
         cosine_distance[cosine_distance < 1e-5] = 0
         distance_matrix = cosine_distance
 
-    # heat
+    # top k
+    distance_matrix = numpy_to_torch(distance_matrix)
+    top_k, index = torch.topk(distance_matrix, k)
+    top_k_min = torch.min(top_k, dim=-1).values.unsqueeze(-1).repeat(1, distance_matrix.shape[-1])
+    ones = torch.ones_like(distance_matrix)
+    zeros = torch.zeros_like(distance_matrix)
+    knn_graph = torch.where(torch.ge(distance_matrix, top_k_min), ones, zeros)
 
-    print(distance_matrix)
+    return torch_to_numpy(knn_graph)
+
+
+def norm_adj(adj, self_loop=True, symmetry=True):
+    """
+    normalize the adj matrix
+    :param adj: input adj matrix
+    :param self_loop: if add the self loop or not
+    :param symmetry: symmetry normalize or not
+    :return: the normalized adj matrix
+    """
     return None
 
 
 if __name__ == '__main__':
+    # graph dataset
     # graph_dataset = "dblp"
     # X, y, A = load_graph_data(graph_dataset, show_details=True)
 
+    # non graph dataset
     non_graph_dataset = "hhar"
     X, y = load_data(non_graph_dataset, show_details=False)
     construct_graph(X, k=5)
