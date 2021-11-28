@@ -141,7 +141,7 @@ def construct_graph(feat, k=5, metric="euclidean"):
     return torch_to_numpy(knn_graph)
 
 
-def norm_adj(adj, self_loop=True, symmetry=True):
+def normalize_adj(adj, self_loop=True, symmetry=True):
     """
     normalize the adj matrix
     :param adj: input adj matrix
@@ -149,15 +149,35 @@ def norm_adj(adj, self_loop=True, symmetry=True):
     :param symmetry: symmetry normalize or not
     :return: the normalized adj matrix
     """
-    return None
+    # add the self_loop
+    if self_loop:
+        adj += np.eye(adj.shape[0])
+
+    # calculate degree matrix and it's inverse matrix
+    d = np.diag(adj.sum(0))
+    d_inv = np.linalg.inv(d)
+
+    # symmetry normalize: D^{-0.5} A D^{-0.5}
+    if symmetry:
+        sqrt_d_inv = np.sqrt(d_inv)
+        norm_adj = np.matmul(np.matmul(sqrt_d_inv, adj), adj)
+
+    # non-symmetry normalize: D^{-1} A
+    else:
+        norm_adj = np.matmul(d_inv, adj)
+
+    return norm_adj
 
 
 if __name__ == '__main__':
     # graph dataset
-    # graph_dataset = "dblp"
-    # X, y, A = load_graph_data(graph_dataset, show_details=True)
+    graph_dataset = "dblp"
+    X, y, A = load_graph_data(graph_dataset, show_details=True)
 
     # non graph dataset
-    non_graph_dataset = "hhar"
-    X, y = load_data(non_graph_dataset, show_details=False)
-    construct_graph(X, k=5)
+    # non_graph_dataset = "hhar"
+    # X, y = load_data(non_graph_dataset, show_details=False)
+    # construct_graph(X, k=5)
+
+    # normalize the adj
+    norm_A = normalize_adj(A, self_loop=True, symmetry=True)
