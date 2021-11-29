@@ -44,7 +44,7 @@ def load_graph_data(dataset_name, show_details=False):
     - category distribution
     :return: the features, labels and adj
     """
-    load_path = dataset_name+"/"+dataset_name
+    load_path = "dataset/" + dataset_name + "/" + dataset_name
     feat = np.load(load_path+"_feat.npy", allow_pickle=True)
     label = np.load(load_path+"_label.npy", allow_pickle=True)
     adj = np.load(load_path+"_adj.npy", allow_pickle=True)
@@ -78,7 +78,7 @@ def load_data(dataset_name, show_details=False):
     - category distribution
     :return: the features and labels
     """
-    load_path = dataset_name+"/"+dataset_name
+    load_path = "dataset/" + dataset_name + "/" + dataset_name
     feat = np.load(load_path+"_feat.npy", allow_pickle=True)
     label = np.load(load_path+"_label.npy", allow_pickle=True)
     if show_details:
@@ -167,17 +167,3 @@ def normalize_adj(adj, self_loop=True, symmetry=True):
         norm_adj = np.matmul(d_inv, adj)
 
     return norm_adj
-
-
-if __name__ == '__main__':
-    # graph dataset
-    graph_dataset = "dblp"
-    X, y, A = load_graph_data(graph_dataset, show_details=True)
-
-    # non graph dataset
-    # non_graph_dataset = "hhar"
-    # X, y = load_data(non_graph_dataset, show_details=False)
-    # construct_graph(X, k=5)
-
-    # normalize the adj
-    norm_A = normalize_adj(A, self_loop=True, symmetry=True)
