@@ -49,12 +49,26 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
 #### Quick Start
 
 - Step1: Download all datasets from \[[Google Drive](https://drive.google.com/drive/folders/1thSxtAexbvOyjx-bJre8D4OyFKsBe1bK?usp=sharing)] | \[[Baidu Netdisk](https://pan.baidu.com/s/1c6qI6Txx222jgh4wWWrLwQ), code: 1234]. Optionally, download some of them from URLs in the tables (Google Drive)
-
 - Step2: Unzip them to **./dataset/**
+- Step3: Change the type and the name of the dataset in **main.py**
+- Step4: Run the **main.py**
 
-- Step3: Run the **./dataset/utils.py**
 
-  Two functions **load_graph_data** and **load_data** are provided in **./dataset/utils.py** to load graph datasets and non-graph datasets, respectively.
+
+#### Code
+
+- **utils.py**
+  1. **load_graph_data**: load graph datasets 
+  2. **load_data**: load non-graph datasets
+  3. **normalize_adj**: normalize the adjacency matrix
+  4. **construct_graph**: construct the knn graph for non-graph datasets
+  5. **numpy_to_torch**: convert numpy to torch
+  6. **torch_to_numpy**: convert torch to numpy
+- **clustering.py**
+  1. **setup_seed**:  fix the random seed
+  2. 
+
+
 
 #### Datasets Details
 
