@@ -66,7 +66,8 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
   6. **torch_to_numpy**: convert torch to numpy
 - **clustering.py**
   1. **setup_seed**:  fix the random seed
-  2. 
+  2. **evaluation**: evaluate the performance of clustering
+  3. **k_means**: K-means algorithm
 
 
 
