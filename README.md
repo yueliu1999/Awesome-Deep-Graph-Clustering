@@ -28,17 +28,21 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 ## Papers
 
 1. K-Means: "Algorithm AS 136: A k-means clustering algorithm" \[[pdf](http://danida.vnu.edu.vn/cpis/files/Refs/LAD/Algorithm%20AS%20136-%20A%20K-Means%20Clustering%20Algorithm.pdf)|[code]()]
-2. DCN (ICML17): "Towards k-means-friendly spaces: Simultaneous deep learning and clustering"  \[[pdf](http://proceedings.mlr.press/v70/yang17b/yang17b.pdf)|[code](https://github.com/boyangumn/DCN)]
-3. DEC (ICML16): "Unsupervised Deep Embedding for Clustering Analysis" \[[pdf](http://proceedings.mlr.press/v48/xieb16.pdf)|[code](https://github.com/piiswrong/dec)]
+2. DEC (ICML16): "Unsupervised Deep Embedding for Clustering Analysis" \[[pdf](http://proceedings.mlr.press/v48/xieb16.pdf)|[code](https://github.com/piiswrong/dec)]
+3. DCN (ICML17): "Towards k-means-friendly spaces: Simultaneous deep learning and clustering"  \[[pdf](http://proceedings.mlr.press/v70/yang17b/yang17b.pdf)|[code](https://github.com/boyangumn/DCN)]
 4. IDEC (IJCAI17): "Improved Deep Embedded Clustering with Local Structure Preservation" \[[pdf](https://www.researchgate.net/profile/Xifeng-Guo/publication/317095655_Improved_Deep_Embedded_Clustering_with_Local_Structure_Preservation/links/59263224458515e3d4537edc/Improved-Deep-Embedded-Clustering-with-Local-Structure-Preservation.pdf)|[code](https://github.com/XifengGuo/IDEC)]
 5. GAE/VGAE : "Variational Graph Auto-Encoders" \[[pdf](https://arxiv.org/pdf/1611.07308.pdf%5D)|[code](https://github.com/DaehanKim/vgae_pytorch)]
 6. DAEGC (IJCAI19): "Attributed Graph Clustering: A Deep Attentional Embedding Approach" \[[pdf](https://www.ijcai.org/proceedings/2019/0509.pdf)|[code](https://github.com/Tiger101010/DAEGC)]
 7. ARGA/ARVGA (TCYB19): "Learning Graph Embedding with Adversarial Training Methods" \[[pdf](https://arxiv.org/pdf/1901.01250)|[code](https://github.com/GRAND-Lab/ARGA)]
 8. MCGC (TIP19): "Multiview Consensus Graph Clustering" \[[pdf](https://ieeexplore.ieee.org/abstract/document/8501973)|[code](https://github.com/kunzhan/MCGC)]
 9. SDCN/SDCN_Q (WWW20): "Structural Deep Clustering Network" \[[pdf](https://arxiv.org/pdf/2002.01633)|[code](https://github.com/bdy9527/SDCN)]
-10. DFCN (AAAI21): "Deep Fusion Clustering Network" \[[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/17198/17005)|[code](https://github.com/WxTu/DFCN)]
+10. AGE (SIGKDD20): "Adaptive Graph Encoder for Attributed Graph Embedding" \[[pdf](https://arxiv.org/pdf/2007.01594)|[code](https://github.com/thunlp/AGE)]
 11. MVGRL (ICML20): "Contrastive Multi-View Representation Learning on Graphs" \[[pdf](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf)|[code](https://github.com/kavehhassani/mvgrl)]
-12. MCGC (NIPS21): "Multi-view Contrastive Graph Clustering" \[[pdf](https://papers.nips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf)|[code](https://github.com/panern/mcgc)]
+12. DFCN (AAAI21): "Deep Fusion Clustering Network" \[[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/17198/17005)|[code](https://github.com/WxTu/DFCN)]
+13. MCGC (NIPS21): "Multi-view Contrastive Graph Clustering" \[[pdf](https://papers.nips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf)|[code](https://github.com/panern/mcgc)]
+14. GCC (ICCV21): "Graph Contrastive Clustering" \[[pdf](https://arxiv.org/pdf/2104.01429)|[code](https://github.com/mynameischaos/GCC)]
+
+
 
 
 
