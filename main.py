@@ -11,7 +11,7 @@ if __name__ == '__main__':
     # fix the random seed
     setup_seed(0)
 
-    dataset_name = "acm"
+    dataset_name = "cora"
     dataset_type = "graph"
 
     # non_graph_dataset = "hhar"

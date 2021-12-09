@@ -57,7 +57,7 @@ def load_graph_data(dataset_name, show_details=False):
         print("label shape:    ", label.shape)
         print("adj shape:      ", adj.shape)
         print("undirected edge num:   ", int(np.nonzero(adj)[0].shape[0]/2))
-        print("category num:          ", max(label)+1)
+        print("category num:          ", max(label)-min(label)+1)
         print("category distribution: ")
         for i in range(max(label)+1):
             print("label", i, end=":")
@@ -88,7 +88,7 @@ def load_data(dataset_name, show_details=False):
         print("dataset name:   ", dataset_name)
         print("feature shape:  ", feat.shape)
         print("label shape:    ", label.shape)
-        print("category num:   ", max(label)+1)
+        print("category num:   ", max(label)-min(label)+1)
         print("category distribution: ")
         for i in range(max(label)+1):
             print("label", i, end=":")
