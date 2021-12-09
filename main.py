@@ -11,11 +11,11 @@ if __name__ == '__main__':
     # fix the random seed
     setup_seed(0)
 
-    dataset_name = "cora"
-    dataset_type = "graph"
+    # dataset_name = "cite"
+    # dataset_type = "graph"
 
-    # non_graph_dataset = "hhar"
-    # dataset_type = "non_graph"
+    dataset_name = "hhar"
+    dataset_type = "non_graph"
 
     if dataset_type == "graph":
         # graph dataset
