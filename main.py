@@ -3,7 +3,7 @@
 # @Email   : yueliu19990731@163.com
 # @Time    : 2021/11/25 11:11
 
-from utils import load_graph_data, load_data, construct_graph, normalize_adj
+from utils import load_graph_data, load_data, construct_graph, normalize_adj, diffusion_adj
 from clustering import setup_seed
 from visualization import t_sne
 
@@ -28,6 +28,9 @@ if __name__ == '__main__':
 
     # normalize the adj
     norm_A = normalize_adj(A, self_loop=True, symmetry=True)
+
+    # graph diffusion
+    diff_A = diffusion_adj(A)
 
     # t-SNE
     t_sne(X, y)

@@ -151,19 +151,53 @@ def normalize_adj(adj, self_loop=True, symmetry=True):
     """
     # add the self_loop
     if self_loop:
-        adj += np.eye(adj.shape[0])
+        adj_tmp = adj + np.eye(adj.shape[0])
+    else:
+        adj_tmp = adj
 
     # calculate degree matrix and it's inverse matrix
-    d = np.diag(adj.sum(0))
+    d = np.diag(adj_tmp.sum(0))
     d_inv = np.linalg.inv(d)
 
     # symmetry normalize: D^{-0.5} A D^{-0.5}
     if symmetry:
         sqrt_d_inv = np.sqrt(d_inv)
-        norm_adj = np.matmul(np.matmul(sqrt_d_inv, adj), adj)
+        norm_adj = np.matmul(np.matmul(sqrt_d_inv, adj_tmp), adj_tmp)
 
     # non-symmetry normalize: D^{-1} A
     else:
-        norm_adj = np.matmul(d_inv, adj)
+        norm_adj = np.matmul(d_inv, adj_tmp)
 
     return norm_adj
+
+
+def diffusion_adj(adj, self_loop=True, mode="ppr", transport_rate=0.2):
+    """
+    graph diffusion
+    :param adj: input adj matrix
+    :param self_loop: if add the self loop or not
+    :param mode: the mode of graph diffusion
+    :param transport_rate: the transport rate
+    - personalized page rank
+    -
+    :return: the graph diffusion
+    """
+    # add the self_loop
+    if self_loop:
+        adj_tmp = adj + np.eye(adj.shape[0])
+    else:
+        adj_tmp = adj
+
+    # calculate degree matrix and it's inverse matrix
+    d = np.diag(adj_tmp.sum(0))
+    d_inv = np.linalg.inv(d)
+    sqrt_d_inv = np.sqrt(d_inv)
+
+    # calculate norm adj
+    norm_adj = np.matmul(np.matmul(sqrt_d_inv, adj_tmp), sqrt_d_inv)
+
+    # calculate graph diffusion
+    if mode == "ppr":
+        diff_adj = transport_rate * np.linalg.inv((np.eye(d.shape[0]) - (1 - transport_rate) * norm_adj))
+
+    return diff_adj
