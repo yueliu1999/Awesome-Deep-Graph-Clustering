@@ -81,9 +81,10 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
   1. **load_graph_data**: load graph datasets 
   2. **load_data**: load non-graph datasets
   3. **normalize_adj**: normalize the adjacency matrix
-  4. **construct_graph**: construct the knn graph for non-graph datasets
-  5. **numpy_to_torch**: convert numpy to torch
-  6. **torch_to_numpy**: convert torch to numpy
+  4. **diffusion_adj**: calculate the graph diffusion
+  5. **construct_graph**: construct the knn graph for non-graph datasets
+  6. **numpy_to_torch**: convert numpy to torch
+  7. **torch_to_numpy**: convert torch to numpy
 - **clustering.py**
   1. **setup_seed**:  fix the random seed
   2. **evaluation**: evaluate the performance of clustering
