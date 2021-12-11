@@ -91,6 +91,7 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
   3. **k_means**: K-means algorithm
 - **visualization.py**
   1. **t_sne**: t-SNE algorithm
+  2. **similarity_plot**: visualize cosine similarity matrix of the embedding or feature
 
 
 
