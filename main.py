@@ -3,9 +3,9 @@
 # @Email   : yueliu19990731@163.com
 # @Time    : 2021/11/25 11:11
 
-from utils import load_graph_data, load_data, construct_graph, normalize_adj, diffusion_adj
-from clustering import setup_seed
 from visualization import t_sne
+from clustering import setup_seed
+from utils import load_graph_data, load_data, construct_graph, normalize_adj, diffusion_adj
 
 if __name__ == '__main__':
     # fix the random seed
@@ -34,3 +34,5 @@ if __name__ == '__main__':
 
     # t-SNE
     t_sne(X, y)
+
+    # similarity plot

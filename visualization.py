@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# @Author  : Yue Liu
+# @Email   : yueliu19990731@163.com
+# @Time    : 2021/11/25 11:11
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
@@ -44,3 +49,7 @@ def t_sne(embeds, labels, sample_num=2000, show_fig=True):
         plt.show()
 
     return fig
+
+
+def similarity_plot(embedding, label):
+    return 0

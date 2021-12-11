@@ -3,8 +3,8 @@
 # @Email   : yueliu19990731@163.com
 # @Time    : 2021/11/25 11:11
 
-import numpy as np
 import torch
+import numpy as np
 
 
 def numpy_to_torch(a, is_sparse=False):

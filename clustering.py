@@ -4,13 +4,13 @@
 # @Time    : 2021/11/25 11:11
 
 import torch
-import numpy as np
 import random
+import numpy as np
+from munkres import Munkres
+from sklearn.cluster import KMeans
+from sklearn.metrics import accuracy_score, f1_score
 from sklearn.metrics import adjusted_rand_score as ari_score
 from sklearn.metrics.cluster import normalized_mutual_info_score as nmi_score
-from sklearn.metrics import accuracy_score, f1_score
-from sklearn.cluster import KMeans
-from munkres import Munkres
 
 
 def setup_seed(seed):
