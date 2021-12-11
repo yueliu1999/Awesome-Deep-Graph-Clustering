@@ -4,6 +4,7 @@
 # @Time    : 2021/11/25 11:11
 
 import numpy as np
+import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 
@@ -47,9 +48,39 @@ def t_sne(embeds, labels, sample_num=2000, show_fig=True):
     plt.axis('off')
     if show_fig:
         plt.show()
-
     return fig
 
 
-def similarity_plot(embedding, label):
-    return 0
+def similarity_plot(embedding, label, sample_num=1000, show_fig=True):
+    """
+    show cosine similarity of embedding or x
+    :param embedding: the input embedding
+    :param label: the ground truth
+    :param sample_num: sample number
+    :param show_fig: if show the figure
+    :return: the figure
+    """
+    # sampling
+    label_sample = label[:sample_num]
+    embedding_sample = embedding[:sample_num, :]
+
+    # sort the embedding based on label
+    cat = np.concatenate([embedding_sample, label_sample.reshape(-1, 1)], axis=1)
+    arg_sort = np.argsort(label_sample)
+    cat = cat[arg_sort]
+    embedding_sample = cat[:, :-1]
+
+    # cosine similarity
+    norm_embedding_sample = embedding_sample / np.sqrt(np.sum(embedding_sample ** 2, axis=1)).reshape(-1, 1)
+    cosine_sim = np.matmul(norm_embedding_sample, norm_embedding_sample.transpose())
+    cosine_sim[cosine_sim < 1e-5] = 0
+
+    # figure
+    fig = plt.figure()
+    sns.heatmap(data=cosine_sim, cmap="RdBu_r", vmin=-1, vmax=1)
+    plt.axis("off")
+
+    # plot
+    if show_fig:
+        plt.show()
+    return fig
