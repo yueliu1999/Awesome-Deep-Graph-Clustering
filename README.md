@@ -8,7 +8,7 @@
 
 # ADGC: Awesome Deep Graph Clustering
 
-ADGC is a collection of state-of-the-art (SOTA), novel deep graph clustering methods (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact yueliu19990731@163.com.
+ADGC is a collection of state-of-the-art (SOTA), novel deep graph clustering methods (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact yueliu19990731@163.com. If you find this repository useful to your research or work, it is really appreciate to star this repository. :heart:
 
 [![Made with Python][python-img]][adgc-url]
 [![GitHub stars][stars-img]][stars-url]
@@ -122,6 +122,14 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
 
 
 
+### Citation
+
+If you use this code for your research, please cite our paper.
+
+```
+@inproceedings{
+}
+```
 
 
-If you find this repository useful to your research or work, it is really appreciate to star this repository.​ :heart:
+
