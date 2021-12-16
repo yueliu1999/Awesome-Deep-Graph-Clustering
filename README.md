@@ -126,7 +126,7 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
 
 ### Citation
 
-If you use this code for your research, please cite our paper.
+If you use code or datasets in this repository for your research, please cite our paper.
 
 ```
 @inproceedings{
