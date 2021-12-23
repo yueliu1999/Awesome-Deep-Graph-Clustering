@@ -41,8 +41,9 @@ def t_sne(embeds, labels, sample_num=2000, show_fig=True):
     # plot
     fig = plt.figure()
     for i in range(norm_ts_embeds.shape[0]):
-        plt.text(norm_ts_embeds[i, 0], norm_ts_embeds[i, 1], str(sample_labels[i]), color=plt.cm.Set1(sample_labels[i] % max(sample_labels)),
-                 fontdict={'weight': 'bold', 'size': max(sample_labels)})
+        plt.text(norm_ts_embeds[i, 0], norm_ts_embeds[i, 1], str(sample_labels[i]),
+                 color=plt.cm.Set1(sample_labels[i] % 7),
+                 fontdict={'weight': 'bold', 'size': 7})
     plt.xticks([])
     plt.yticks([])
     plt.title('t-SNE', fontsize=14)
