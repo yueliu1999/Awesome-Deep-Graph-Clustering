@@ -22,6 +22,7 @@ def t_sne(embeds, labels, sample_num=2000, show_fig=True):
     # sampling
     sample_index = np.random.randint(0, embeds.shape[0], sample_num)
     sample_embeds = embeds[sample_index]
+    sample_labels = labels[sample_index]
 
     # t-SNE
     ts = TSNE(n_components=2, init='pca', random_state=0)
@@ -40,8 +41,8 @@ def t_sne(embeds, labels, sample_num=2000, show_fig=True):
     # plot
     fig = plt.figure()
     for i in range(norm_ts_embeds.shape[0]):
-        plt.text(norm_ts_embeds[i, 0], norm_ts_embeds[i, 1], str(labels[i]), color=plt.cm.Set1(labels[i] % max(labels)),
-                 fontdict={'weight': 'bold', 'size': max(labels)})
+        plt.text(norm_ts_embeds[i, 0], norm_ts_embeds[i, 1], str(sample_labels[i]), color=plt.cm.Set1(sample_labels[i] % max(sample_labels)),
+                 fontdict={'weight': 'bold', 'size': max(sample_labels)})
     plt.xticks([])
     plt.yticks([])
     plt.title('t-SNE', fontsize=14)
