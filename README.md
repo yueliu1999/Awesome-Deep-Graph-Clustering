@@ -55,7 +55,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 13. SDCN/SDCN_Q (WWW20): "Structural Deep Clustering Network" \[[paper](https://arxiv.org/pdf/2002.01633)|[code](https://github.com/bdy9527/SDCN)]
 14. AGE (SIGKDD20): "Adaptive Graph Encoder for Attributed Graph Embedding" \[[paper](https://arxiv.org/pdf/2007.01594)|[code](https://github.com/thunlp/AGE)]
 15. MVGRL (ICML20): "Contrastive Multi-View Representation Learning on Graphs" \[[paper](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf)|[code](https://github.com/kavehhassani/mvgrl)]
-16. CGCN (AAAI20): "Collaborative Graph Convolutional Networks: Unsupervised Learning Meets Semi-Supervised Learning" \[[paper](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf)]
+16. CGCN (AAAI20): "Collaborative Graph Convolutional Networks: Unsupervised Learning Meets Semi-Supervised Learning" \[[paper](https://ojs.aaai.org/index.php/AAAI/article/download/5843/5699)]
 17. R-GAE (arxiv21): "Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering" \[[paper](https://arxiv.org/pdf/2107.08562)|[code](https://github.com/nairouz/R-GAE)]
 18. AGCN (MM2021): "Attention-driven Graph Clustering Network" \[[paper](https://arxiv.org/pdf/2108.05499)|[code](https://github.com/ZhihaoPENG-CityU/AGCN)]
 19. DFCN (AAAI21): "Deep Fusion Clustering Network" \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17198/17005)|[code](https://github.com/WxTu/DFCN)]
@@ -110,8 +110,8 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
 
    | Dataset  | Samples | Dimension | Edges  | Classes |                             URL                              |
    | :------: | :-----: | :-------: | :----: | :-----: | :----------------------------------------------------------: |
-   |   CORA   |  2708   |   1433    |  6632  |    7    | [cora.zip](https://drive.google.com/file/d/1_LesghFTQ02vKOBUfDP8fmDF1JP3MPrJ/view?usp=sharing) |
-   | CITESEER |  3327   |   3703    |  6215  |    6    | [citeseer.zip](https://drive.google.com/file/d/1dEsxq5z5dc35tS3E46pg6pc2LUMlF6jF/view?usp=sharing) |
+   |   CORA   |  2708   |   1433    |  5278  |    7    | [cora.zip](https://drive.google.com/file/d/1_LesghFTQ02vKOBUfDP8fmDF1JP3MPrJ/view?usp=sharing) |
+   | CITESEER |  3327   |   3703    |  4552  |    6    | [citeseer.zip](https://drive.google.com/file/d/1dEsxq5z5dc35tS3E46pg6pc2LUMlF6jF/view?usp=sharing) |
    |  PUBMED  |  19717  |    500    | 44325  |    3    | [pubmed.zip](https://drive.google.com/file/d/1tdr20dvvjZ9tBHXj8xl6wjO9mQzD0rzA/view?usp=sharing) |
    |   DBLP   |  4057   |    334    |  3528  |    4    | [dblp.zip](https://drive.google.com/file/d/1XWWMIDyvCQ4VJFnAmXS848ksN9MFm5ys/view?usp=sharing) |
    |   CITE   |  3327   |   3703    |  4552  |    6    | [cite.zip](https://drive.google.com/file/d/1U4q84d_n57BquHhUvpLtDzGQ1wzPGF71/view?usp=sharing) |

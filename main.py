@@ -11,7 +11,7 @@ if __name__ == '__main__':
     # fix the random seed
     setup_seed(0)
 
-    dataset_name = "cite"
+    dataset_name = "dblp"
     dataset_type = "graph"
 
     # dataset_name = "hhar"
