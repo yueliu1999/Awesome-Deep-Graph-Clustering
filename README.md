@@ -142,3 +142,7 @@ If you use code or datasets in this repository for your research, please cite ou
 
 
 
+### Other Awesome Repository
+
+[awesome-awesome-machine-learning](https://github.com/ZhiningLiu1998/awesome-awesome-machine-learning)
+
