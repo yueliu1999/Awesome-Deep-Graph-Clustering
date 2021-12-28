@@ -77,7 +77,7 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
 
 #### Quick Start
 
-- Step1: Download all datasets from \[[Google Drive](https://drive.google.com/drive/folders/1thSxtAexbvOyjx-bJre8D4OyFKsBe1bK?usp=sharing)] | \[[Baidu Netdisk](https://pan.baidu.com/s/1BUQBjM4ZIyMKJl9-fKHi0Q), code: 1234]. Optionally, download some of them from URLs in the tables (Google Drive)
+- Step1: Download all datasets from \[[Google Drive](https://drive.google.com/drive/folders/1thSxtAexbvOyjx-bJre8D4OyFKsBe1bK?usp=sharing) | [Nutstore](https://www.jianguoyun.com/p/DfzK1pwQwdaSChjI2aME)]. Optionally, download some of them from URLs in the tables (Google Drive)
 - Step2: Unzip them to **./dataset/**
 - Step3: Change the type and the name of the dataset in **main.py**
 - Step4: Run the **main.py**
@@ -119,6 +119,7 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
    |   AMAP   |  7650   |    745    | 119081 |    8    | [amap.zip](https://drive.google.com/file/d/1qqLWPnBOPkFktHfGMrY9nu8hioyVZV31/view?usp=sharing) |
    |   AMAC   |  13752  |    767    | 245861 |   10    | [amac.zip](https://drive.google.com/file/d/1DJhSOYWXzlRDSTvaC27bSmacTbGq6Ink/view?usp=sharing) |
    | CORAFULL |  19793  |   8710    | 63421  |   70    | [corafull.zip](https://drive.google.com/file/d/1XLqs084J3xgWW9jtbBXJOmmY84goT1CE/view?usp=sharing) |
+   |   WIKI   |  2405   |   4973    |  8261  |   19    | [wiki.zip](https://drive.google.com/file/d/1vxupFQaEvw933yUuWzzgQXxIMQ_46dva/view?usp=sharing) |
    |   COCS   |         |           |        |         |                                                              |
 
 2. Non-graph Datasets

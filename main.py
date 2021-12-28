@@ -35,4 +35,4 @@ if __name__ == '__main__':
     # t_sne(X, y)
 
     # similarity plot
-    similarity_plot(embedding=X, label=y, sample_num=1000, show_fig=True)
+    # similarity_plot(embedding=X, label=y, sample_num=1000, show_fig=True)
