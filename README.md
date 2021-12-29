@@ -55,7 +55,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 13. SDCN/SDCN_Q (WWW20): "Structural Deep Clustering Network" \[[paper](https://arxiv.org/pdf/2002.01633)|[code](https://github.com/bdy9527/SDCN)]
 14. AGE (SIGKDD20): "Adaptive Graph Encoder for Attributed Graph Embedding" \[[paper](https://arxiv.org/pdf/2007.01594)|[code](https://github.com/thunlp/AGE)]
 15. MVGRL (ICML20): "Contrastive Multi-View Representation Learning on Graphs" \[[paper](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf)|[code](https://github.com/kavehhassani/mvgrl)]
-16. CGCN/GMM-VGAE (AAAI20): "Collaborative Graph Convolutional Networks: Unsupervised Learning Meets Semi-Supervised Learning" \[[paper](https://ojs.aaai.org/index.php/AAAI/article/download/5843/5699)]|[code](https://github.com/nairouz/R-GAE/tree/master/GMM-VGAE)]
+16. CGCN/GMM-VGAE (AAAI20): "Collaborative Graph Convolutional Networks: Unsupervised Learning Meets Semi-Supervised Learning" \[[paper](https://ojs.aaai.org/index.php/AAAI/article/download/5843/5699)|[code](https://github.com/nairouz/R-GAE/tree/master/GMM-VGAE)]
 17. GDCL (IJCAI21): "Graph Debiased Contrastive Learning with Joint Representation Clustering" \[[paper](https://www.ijcai.org/proceedings/2021/0473.pdf)]
 18. GCC (ICCV21): "Graph Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2104.01429)|[code](https://github.com/mynameischaos/GCC)]
 19. MCGC (NIPS21): "Multi-view Contrastive Graph Clustering" \[[paper](https://papers.nips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf)|[code](https://github.com/panern/mcgc)]
