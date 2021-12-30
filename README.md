@@ -110,6 +110,8 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
 
 #### Datasets Details
 
+About the introduction of each dataset, please check [here](./dataset/README.md)
+
 1. Graph Datasets
 
    | Dataset  | Samples | Dimension | Edges  | Classes |                             URL                              |
@@ -125,6 +127,9 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
    | CORAFULL |  19793  |   8710    | 63421  |   70    | [corafull.zip](https://drive.google.com/file/d/1XLqs084J3xgWW9jtbBXJOmmY84goT1CE/view?usp=sharing) |
    |   WIKI   |  2405   |   4973    |  8261  |   19    | [wiki.zip](https://drive.google.com/file/d/1vxupFQaEvw933yUuWzzgQXxIMQ_46dva/view?usp=sharing) |
    |   COCS   |         |           |        |         |                                                              |
+   |   BAT    |   131   |    81     |  1038  |    4    | [bat.zip](https://drive.google.com/file/d/1hRPtdFo9CzcxlFb84NWXg-HmViZnqshu/view?usp=sharing) |
+   |   EAT    |   399   |    203    |  5994  |    4    | [eat.zip](https://drive.google.com/file/d/1iE0AFKs1V5-nMk2XhV-TnfmPhvh0L9uo/view?usp=sharing) |
+   |   UAT    |  1190   |    239    | 13599  |    4    | [uat.zip](https://drive.google.com/file/d/1RUTHp54dVPB-VGPsEk8tV32DsSU0l-n_/view?usp=sharing) |
 
 2. Non-graph Datasets
 
@@ -138,7 +143,7 @@ We divide the datasets into two categories, i.e. graph datasets and non-graph da
 
 ### Citation
 
-If you use code or datasets in this repository for your research, please cite our paper.
+If you use code in this repository for your research, please cite our paper.
 
 ```
 @inproceedings{
