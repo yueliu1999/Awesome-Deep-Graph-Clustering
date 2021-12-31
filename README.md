@@ -51,7 +51,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 9. GALA (ICCV19): "Symmetric Graph Convolutional Autoencoder for Unsupervised Graph Representation Learning" \[[paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Park_Symmetric_Graph_Convolutional_Autoencoder_for_Unsupervised_Graph_Representation_Learning_ICCV_2019_paper.pdf)|[code](https://github.com/sseung0703/GALA_TF2.0)]
 10. ARGA/ARVGA (TCYB19): "Learning Graph Embedding with Adversarial Training Methods" \[[paper](https://arxiv.org/pdf/1901.01250)|[code](https://github.com/GRAND-Lab/ARGA)]
 11. MCGC (TIP19): "Multiview Consensus Graph Clustering" \[[paper](https://ieeexplore.ieee.org/abstract/document/8501973)|[code](https://github.com/kunzhan/MCGC)]
-12. RWR-GAE (arxiv19): "RWR-GAE: Random Walk Regularization for Graph Auto Encoders" \[[paper](https://arxiv.org/pdf/1908.04003)|[code](https://github.com/MysteryVaibhav/RWR-GAE)]
+12. RWR-GAE (arXiv19): "RWR-GAE: Random Walk Regularization for Graph Auto Encoders" \[[paper](https://arxiv.org/pdf/1908.04003)|[code](https://github.com/MysteryVaibhav/RWR-GAE)]
 13. SDCN/SDCN_Q (WWW20): "Structural Deep Clustering Network" \[[paper](https://arxiv.org/pdf/2002.01633)|[code](https://github.com/bdy9527/SDCN)]
 14. AGE (SIGKDD20): "Adaptive Graph Encoder for Attributed Graph Embedding" \[[paper](https://arxiv.org/pdf/2007.01594)|[code](https://github.com/thunlp/AGE)]
 15. MVGRL (ICML20): "Contrastive Multi-View Representation Learning on Graphs" \[[paper](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf)|[code](https://github.com/kavehhassani/mvgrl)]
@@ -61,11 +61,12 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 19. MCGC (NIPS21): "Multi-view Contrastive Graph Clustering" \[[paper](https://papers.nips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf)|[code](https://github.com/panern/mcgc)]
 20. AGCN (MM2021): "Attention-driven Graph Clustering Network" \[[paper](https://arxiv.org/pdf/2108.05499)|[code](https://github.com/ZhihaoPENG-CityU/AGCN)]
 21. DFCN (AAAI21): "Deep Fusion Clustering Network" \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17198/17005)|[code](https://github.com/WxTu/DFCN)]
-22. SCAGC (arxiv21): "Self-supervised Contrastive Attributed Graph Clustering" \[[paper](https://arxiv.org/abs/2110.08264)]
-23. R-GAE (arxiv21): "Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering" \[[paper](https://arxiv.org/pdf/2107.08562)|[code](https://github.com/nairouz/R-GAE)]
-24. WARGA (arxiv21): "Wasserstein Adversarially Regularized Graph Autoencoder" \[[paper](https://arxiv.org/pdf/2111.04981)|[code](https://github.com/LeonResearch/WARGA)]
-25. MvAGC (IJCAI21): "Graph Filter-based Multi-view Attributed Graph Clustering"  \[[paper](https://www.ijcai.org/proceedings/2021/0375.pdf)|[code](https://github.com/sckangz/MvAGC)]
-26. DCRN (AAAI22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.researchgate.net/profile/Yue-Liu-240/publication/357271184_Deep_Graph_Clustering_via_Dual_Correlation_Reduction/links/61c466e68bb20101842f9a92/Deep-Graph-Clustering-via-Dual-Correlation-Reduction.pdf)|[code](https://github.com/yueliu1999/DCRN)]
+22. SCAGC (arXiv21): "Self-supervised Contrastive Attributed Graph Clustering" \[[paper](https://arxiv.org/abs/2110.08264)]
+23. R-GAE (arXiv21): "Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering" \[[paper](https://arxiv.org/pdf/2107.08562)|[code](https://github.com/nairouz/R-GAE)]
+24. WARGA (arXiv21): "Wasserstein Adversarially Regularized Graph Autoencoder" \[[paper](https://arxiv.org/pdf/2111.04981)|[code](https://github.com/LeonResearch/WARGA)]
+25. DAGC (arXiv21, extension of AGCN): ”Deep Attention-guided Graph Clustering with Dual Self-supervision“ \[[paper](https://arxiv.org/abs/2111.05548)|[code](https://github.com/ZhihaoPENG-CityU/DAGC)]
+26. MvAGC (IJCAI21): "Graph Filter-based Multi-view Attributed Graph Clustering"  \[[paper](https://www.ijcai.org/proceedings/2021/0375.pdf)|[code](https://github.com/sckangz/MvAGC)]
+27. DCRN (AAAI22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.researchgate.net/profile/Yue-Liu-240/publication/357271184_Deep_Graph_Clustering_via_Dual_Correlation_Reduction/links/61c466e68bb20101842f9a92/Deep-Graph-Clustering-via-Dual-Correlation-Reduction.pdf)|[code](https://github.com/yueliu1999/DCRN)]
 
 
 
