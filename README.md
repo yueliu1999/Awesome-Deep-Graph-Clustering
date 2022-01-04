@@ -67,8 +67,9 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 25. WARGA (arXiv21): "Wasserstein Adversarially Regularized Graph Autoencoder" \[[paper](https://arxiv.org/pdf/2111.04981)|[code](https://github.com/LeonResearch/WARGA)]
 26. DAGC (arXiv21, extension of AGCN): ”Deep Attention-guided Graph Clustering with Dual Self-supervision“ \[[paper](https://arxiv.org/abs/2111.05548)|[code](https://github.com/ZhihaoPENG-CityU/DAGC)]
 27. MGCCN (arXiv21): "Multilayer Graph Contrastive Clustering Network" \[[paper](https://arxiv.org/pdf/2112.14021)]
-28. MvAGC (IJCAI21): "Graph Filter-based Multi-view Attributed Graph Clustering"  \[[paper](https://www.ijcai.org/proceedings/2021/0375.pdf)|[code](https://github.com/sckangz/MvAGC)]
-29. DCRN (AAAI22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.researchgate.net/profile/Yue-Liu-240/publication/357271184_Deep_Graph_Clustering_via_Dual_Correlation_Reduction/links/61c466e68bb20101842f9a92/Deep-Graph-Clustering-via-Dual-Correlation-Reduction.pdf)|[code](https://github.com/yueliu1999/DCRN)]
+28. MvAGC (IJCAI21): "Graph Filter-based Multi-view Attributed Graph Clustering"  \[[paper](https://doi.org/10.1007/978-3-030-75762-5_43)|[code](https://github.com/sckangz/MvAGC)]
+29. GIC (PAKDD21): "Graph InfoClust: Maximizing Coarse-Grain Mutual Information in Graphs" \[[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-75762-5_43)|[code](https://github.com/cmavro/Graph-InfoClust-GIC)]
+30. DCRN (AAAI22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.researchgate.net/profile/Yue-Liu-240/publication/357271184_Deep_Graph_Clustering_via_Dual_Correlation_Reduction/links/61c466e68bb20101842f9a92/Deep-Graph-Clustering-via-Dual-Correlation-Reduction.pdf)|[code](https://github.com/yueliu1999/DCRN)]
 
 
 
