@@ -63,7 +63,7 @@ A-Computers and A-Photo are extracted from Amazon co-purchase graph, where nodes
 
 ##### WIKI
 
-The Wikipedia is an online encyclopedia created and edited by volunteers around the world. The dataset is a word co-occurrence network constructed from the entire set of English Wikipedia pages. This data contains 2405 nodes, 17981 edges and 19 labels.
+The Wikipedia (WIKI) is an online encyclopedia created and edited by volunteers around the world. The dataset is a word co-occurrence network constructed from the entire set of English Wikipedia pages. This data contains 2405 nodes, 17981 edges and 19 labels.
 
 ##### COCS
 
