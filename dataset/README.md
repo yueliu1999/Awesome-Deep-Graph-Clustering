@@ -47,19 +47,15 @@ The Pubmed dataset consists of 19717 scientific publications from PubMed databas
 
 ##### DBLP
 
-
+This is an author network from the DBLP dataset. There is an edge between two authors if they are the coauthor relationship. The authors are divided into four areas: database, data mining, machine learning and information retrieval. We label each author’s research area according to the conferences they submitted. Author features are the elements of a bag-of-words represented of keywords.
 
 ##### ACM
 
+This is a paper network from the ACM dataset. There is an edge between two papers if they are written by same author. Paper features are the bag-of-words of the keywords. We select papers published in KDD, SIGMOD, SIGCOMM, MobiCOMM and divide the papers into three classes (database, wireless communication, data mining) by their research area.
 
+##### AMAP & AMAC
 
-##### AMAP
-
-
-
-##### AMAC
-
-
+A-Computers and A-Photo are extracted from Amazon co-purchase graph, where nodes represent products, edges represent whether two products are frequently co-purchased or not, features represent product reviews encoded by bag-of-words, and labels are predefined product categories.
 
 ##### CORAFULL
 
@@ -67,7 +63,7 @@ The Pubmed dataset consists of 19717 scientific publications from PubMed databas
 
 ##### WIKI
 
-
+The Wikipedia is an online encyclopedia created and edited by volunteers around the world. The dataset is a word co-occurrence network constructed from the entire set of English Wikipedia pages. This data contains 2405 nodes, 17981 edges and 19 labels.
 
 ##### COCS
 
