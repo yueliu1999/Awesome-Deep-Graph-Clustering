@@ -163,7 +163,7 @@ def normalize_adj(adj, self_loop=True, symmetry=True):
     # symmetry normalize: D^{-0.5} A D^{-0.5}
     if symmetry:
         sqrt_d_inv = np.sqrt(d_inv)
-        norm_adj = np.matmul(np.matmul(sqrt_d_inv, adj_tmp), adj_tmp)
+        norm_adj = np.matmul(np.matmul(sqrt_d_inv, adj_tmp), sqrt_d_inv)
 
     # non-symmetry normalize: D^{-1} A
     else:
