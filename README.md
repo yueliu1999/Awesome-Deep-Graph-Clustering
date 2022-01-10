@@ -57,7 +57,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 15. AGE (SIGKDD20): "Adaptive Graph Encoder for Attributed Graph Embedding" \[[paper](https://arxiv.org/pdf/2007.01594)|[code](https://github.com/thunlp/AGE)]
 16. MVGRL (ICML20): "Contrastive Multi-View Representation Learning on Graphs" \[[paper](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf)|[code](https://github.com/kavehhassani/mvgrl)]
 17. CGCN/GMM-VGAE (AAAI20): "Collaborative Graph Convolutional Networks: Unsupervised Learning Meets Semi-Supervised Learning" \[[paper](https://ojs.aaai.org/index.php/AAAI/article/download/5843/5699)|[code](https://github.com/nairouz/R-GAE/tree/master/GMM-VGAE)]
-18. O2MAC (WWW20) : "One2Multi Graph Autoencoder for Multi-view Graph Clustering" \[[paper](http://shichuan.org/doc/83.pdf)|[code](https://github.com/googlebaba/WWW2020-O2MAC)]
+18. O2MAC (WWW20): "One2Multi Graph Autoencoder for Multi-view Graph Clustering" \[[paper](http://shichuan.org/doc/83.pdf)|[code](https://github.com/googlebaba/WWW2020-O2MAC)]
 19. GDCL (IJCAI21): "Graph Debiased Contrastive Learning with Joint Representation Clustering" \[[paper](https://www.ijcai.org/proceedings/2021/0473.pdf)]
 20. GCC (ICCV21): "Graph Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2104.01429)|[code](https://github.com/mynameischaos/GCC)]
 21. MCGC (NIPS21): "Multi-view Contrastive Graph Clustering" \[[paper](https://papers.nips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf)|[code](https://github.com/panern/mcgc)]
@@ -71,7 +71,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 29. Graph-MVP (arXiv21): "Graph-MVP: Multi-View Prototypical Contrastive Learning for Multiplex Graphs" \[[paper](https://arxiv.org/abs/2109.03560)|[code](https://github.com/chao1224/GraphMVP)]
 30. MvAGC (IJCAI21): "Graph Filter-based Multi-view Attributed Graph Clustering" \[[paper](https://doi.org/10.1007/978-3-030-75762-5_43)|[code](https://github.com/sckangz/MvAGC)]
 31. GIC (PAKDD21): "Graph InfoClust: Maximizing Coarse-Grain Mutual Information in Graphs" \[[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-75762-5_43)|[code](https://github.com/cmavro/Graph-InfoClust-GIC)]
-32. DCRN (AAAI22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.researchgate.net/profile/Yue-Liu-240/publication/357271184_Deep_Graph_Clustering_via_Dual_Correlation_Reduction/links/61c466e68bb20101842f9a92/Deep-Graph-Clustering-via-Dual-Correlation-Reduction.pdf)|[code](https://github.com/yueliu1999/DCRN)]
+32. AFGRL (AAAI22): "Augmentation-Free Self-Supervised Learning on Graphs" \[[paper](https://arxiv.org/pdf/2112.02472)|[code](https://github.com/Namkyeong/AFGRL)]
+33. DCRN (AAAI22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.researchgate.net/profile/Yue-Liu-240/publication/357271184_Deep_Graph_Clustering_via_Dual_Correlation_Reduction/links/61c466e68bb20101842f9a92/Deep-Graph-Clustering-via-Dual-Correlation-Reduction.pdf)|[code](https://github.com/yueliu1999/DCRN)]
 
 
 
@@ -137,8 +138,9 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
    |   EAT    |   399   |    203    |  5994  |    4    | [eat.zip](https://drive.google.com/file/d/1iE0AFKs1V5-nMk2XhV-TnfmPhvh0L9uo/view?usp=sharing) |
    |   UAT    |  1190   |    239    | 13599  |    4    | [uat.zip](https://drive.google.com/file/d/1RUTHp54dVPB-VGPsEk8tV32DsSU0l-n_/view?usp=sharing) |
    
+
 **Edges**: Here, we just count the number of undirected edges.
-   
+
 2. Non-graph Datasets
 
    | Dataset | Samples | Dimension |  Type  | Classes |                             URL                              |
