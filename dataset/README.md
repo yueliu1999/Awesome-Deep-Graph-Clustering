@@ -67,7 +67,7 @@ The Wikipedia (WIKI) is an online encyclopedia created and edited by volunteers 
 
 ##### COCS
 
-
+Coauthor-CS and Coauthor-Physics are two academic networks containing co-authorship relationship based on Microsoft Academic Graph. Nodes in these graphs denote authors, and edges denote co-authored relationship. In each dataset, authors are classified into 15 and 5 classes, respectively, based on the author’s research field, and the node feature is a bag-of-words representation of the paper keywords.
 
 ##### BAT
 
