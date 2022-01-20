@@ -73,8 +73,9 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 31. MvAGC (IJCAI21): "Graph Filter-based Multi-view Attributed Graph Clustering" \[[paper](https://doi.org/10.1007/978-3-030-75762-5_43)|[code](https://github.com/sckangz/MvAGC)]
 32. GIC (PAKDD21): "Graph InfoClust: Maximizing Coarse-Grain Mutual Information in Graphs" \[[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-75762-5_43)|[code](https://github.com/cmavro/Graph-InfoClust-GIC)]
 33. SOLI (Neurocomputing21): "Deep node clustering based on mutual information maximization" \[[paper](https://www.sciencedirect.com/science/article/pii/S0925231221003842?casa_token=uAABs_vafrIAAAAA:CIVh-5I934nN2TvJIN39SRa-JW1pVn6q0JYmfqc-57bSzkVzlUkgzWTzr-P1qEEp2BviskCuYg)|[code](https://github.com/SoheilaMolaei/SOLI)]
-34. AFGRL (AAAI22): "Augmentation-Free Self-Supervised Learning on Graphs" \[[paper](https://arxiv.org/pdf/2112.02472)|[code](https://github.com/Namkyeong/AFGRL)]
-35. DCRN (AAAI22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.researchgate.net/profile/Yue-Liu-240/publication/357271184_Deep_Graph_Clustering_via_Dual_Correlation_Reduction/links/61c466e68bb20101842f9a92/Deep-Graph-Clustering-via-Dual-Correlation-Reduction.pdf)|[code](https://github.com/yueliu1999/DCRN)]
+34. MAGC (TKDE21): "Multi-view Attributed Graph Clustering" \[[paper](https://www.researchgate.net/profile/Zhao-Kang-6/publication/353747180_Multi-view_Attributed_Graph_Clustering/links/612059cd0c2bfa282a5cd55e/Multi-view-Attributed-Graph-Clustering.pdf)|[code](https://github.com/sckangz/MAGC)]
+35. AFGRL (AAAI22): "Augmentation-Free Self-Supervised Learning on Graphs" \[[paper](https://arxiv.org/pdf/2112.02472)|[code](https://github.com/Namkyeong/AFGRL)]
+36. DCRN (AAAI22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.researchgate.net/profile/Yue-Liu-240/publication/357271184_Deep_Graph_Clustering_via_Dual_Correlation_Reduction/links/61c466e68bb20101842f9a92/Deep-Graph-Clustering-via-Dual-Correlation-Reduction.pdf)|[code](https://github.com/yueliu1999/DCRN)]
 
 
 
