@@ -46,7 +46,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 4. DCN (ICML17): "Towards k-means-friendly spaces: Simultaneous deep learning and clustering"  \[[paper](http://proceedings.mlr.press/v70/yang17b/yang17b.pdf)|[code](https://github.com/boyangumn/DCN)]
 5. IDEC (IJCAI17): "Improved Deep Embedded Clustering with Local Structure Preservation" \[[paper](https://www.researchgate.net/profile/Xifeng-Guo/publication/317095655_Improved_Deep_Embedded_Clustering_with_Local_Structure_Preservation/links/59263224458515e3d4537edc/Improved-Deep-Embedded-Clustering-with-Local-Structure-Preservation.pdf)|[code](https://github.com/XifengGuo/IDEC)]
 6. MGAE (CIKM17): "MGAE: Marginalized Graph Autoencoder for Graph Clustering" \[[paper](https://www.researchgate.net/profile/Shirui-Pan-3/publication/320882195_MGAE_Marginalized_Graph_Autoencoder_for_Graph_Clustering/links/5b76157b45851546c90a3d74/MGAE-Marginalized-Graph-Autoencoder-for-Graph-Clustering.pdf)|[code](https://github.com/GRAND-Lab/MGAE)]
-7. NetVAE (IJCAI): "Network-Specific Variational Auto-Encoder for Embedding in Attribute Networks" \[[paper](https://www.ijcai.org/proceedings/2019/370)]
+7. NetVAE (IJCAI19): "Network-Specific Variational Auto-Encoder for Embedding in Attribute Networks" \[[paper](https://www.ijcai.org/proceedings/2019/370)]
 8. DAEGC (IJCAI19): "Attributed Graph Clustering: A Deep Attentional Embedding Approach" \[[paper](https://www.ijcai.org/proceedings/2019/0509.pdf)|[code](https://github.com/Tiger101010/DAEGC)]
 9. AGAE (IJCAI19): "Adversarial Graph Embedding for Ensemble Clustering" \[[paper](https://par.nsf.gov/servlets/purl/10113653)]
 10. AGC (IJCAI19): "Attributed Graph Clustering via Adaptive Graph Convolution" \[[paper](https://www.ijcai.org/Proceedings/2019/0601.pdf)|[code](https://github.com/karenlatong/AGC-master)]
@@ -181,3 +181,4 @@ If you use code in this repository for your research, please cite our paper.
 
 [awesome-awesome-machine-learning](https://github.com/ZhiningLiu1998/awesome-awesome-machine-learning)
 
+[Awesome Incomplete Graph Representation Learning](https://github.com/WxTu/Awesome-Incomplete-Graph-Representation-Learning)
