@@ -85,7 +85,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 43. AHGAE (TKDE21): "Adaptive Hypergraph Auto-Encoder for Relational Data Clustering" \[[paper](https://ieeexplore.ieee.org/iel7/69/4358933/09525190.pdf%3Fcasa_token%3DmbL8SLkmu8AAAAAA:mNPoE2n3BwaMZsYdRotHwa8Qs3uyzY53ZPVd0ixXutwqovM4vA7OSmsYWN3qXOAGW3CgH-LugHo&hl=en&sa=T&oi=ucasa&ct=ucasa&ei=_dvpYcTXCcCVy9YPgta4-AM&scisig=AAGBfm2V50SkaPV0K8x2F_mYsC15x028wA)]
 44. AdaGAE (TPAMI21): "Adaptive Graph Auto-Encoder for General Data Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9606581)|[code](https://github.com/hyzhang98/AdaGAE)]
 45. NAS-GC(TCYB21):"Smoothness_Sensor_Adaptive_Smoothness-Transition_Graph_Convolutions_for_Attributed_Graph_Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9514513)|[code](https://github.com/aI-area/NASGC)]
-46. 45. SDSNE(AAAI22):"Stationary diffusion state neural estimation for multiview clustering" \[[paper](https://arxiv.org/abs/2112.01334)|[code](https://github.com/kunzhan/SDSNE)]
+46. SDSNE(AAAI22):"Stationary diffusion state neural estimation for multiview clustering" \[[paper](https://arxiv.org/abs/2112.01334)|[code](https://github.com/kunzhan/SDSNE)]
 47. AFGRL (AAAI22): "Augmentation-Free Self-Supervised Learning on Graphs" \[[paper](https://arxiv.org/pdf/2112.02472)|[code](https://github.com/Namkyeong/AFGRL)]
 48. DCRN (AAAI22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.researchgate.net/profile/Yue-Liu-240/publication/357271184_Deep_Graph_Clustering_via_Dual_Correlation_Reduction/links/61c466e68bb20101842f9a92/Deep-Graph-Clustering-via-Dual-Correlation-Reduction.pdf)|[code](https://github.com/yueliu1999/DCRN)]
 
