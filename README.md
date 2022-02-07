@@ -177,6 +177,12 @@ If you use code in this repository for your research, please cite our paper.
   booktitle={AAAI Conference on Artificial Intelligence},
   year={2022}
 }
+@article{mrabah2021rethinking,
+  title={Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering},
+  author={Mrabah, Nairouz and Bouguessa, Mohamed and Touati, Mohamed Fawzi and Ksantini, Riadh},
+  journal={arXiv preprint arXiv:2107.08562},
+  year={2021}
+}
 ```
 
 
