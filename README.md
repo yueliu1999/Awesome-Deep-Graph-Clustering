@@ -70,7 +70,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 28. DBGAN (CVPR20): "Distribution-induced Bidirectional GAN for Graph Representation Learning" \[[paper](https://arxiv.org/pdf/1912.01899)|[code](https://github.com/SsGood/DBGAN)]
 29. DGVAE (NeurIPS20): "Dirichlet Graph Variational Autoencoder" \[[paper](https://proceedings.neurips.cc/paper/2020/file/38a77aa456fc813af07bb428f2363c8d-Paper.pdf)|[code](https://github.com/xiyou3368/DGVAE)]
 30. CAGNN (arXiv20): "Cluster-Aware Graph Neural Networks for Unsupervised Graph Representation Learning" \[[paper](https://arxiv.org/abs/2009.01674)]
-31. GDCL (IJCAI21): "Graph Debiased Contrastive Learning with Joint Representation Clustering" \[[paper](https://www.ijcai.org/proceedings/2021/0473.pdf)]
+31. GDCL (IJCAI21): "Graph Debiased Contrastive Learning with Joint Representation Clustering" \[[paper](https://www.ijcai.org/proceedings/2021/0473.pdf)|[code](https://github.com/hzhao98/GDCL)]
 32. GCC (ICCV21): "Graph Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2104.01429)|[code](https://github.com/mynameischaos/GCC)]
 33. MCGC (NeurIPS21): "Multi-view Contrastive Graph Clustering" \[[paper](https://papers.nips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf)|[code](https://github.com/panern/mcgc)]
 34. COLES (NeurIPS21): "Contrastive Laplacian Eigenmaps"  \[[paper](https://proceedings.neurips.cc/paper/2021/file/2d1b2a5ff364606ff041650887723470-Paper.pdf)|[code](https://github.com/allenhaozhu/COLES)]
