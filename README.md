@@ -101,6 +101,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 59. AUTOSSL (ICLR22): "Automated Self-Supervised Learning For Graphs" \[[paper](https://openreview.net/forum?id=rFbR4Fv-D6-)|[code](https://github.com/ChandlerBang/AutoSSL)]
 60. SAGES (TKDE22): "SAGES: Scalable Attributed Graph Embedding with Sampling for Unsupervised Learning" \[[paper](https://ieeexplore.ieee.org/abstract/document/9705119)]
 61. GCC (WSDM22): "Efficient Graph Convolution for Joint Node Representation Learning and Clustering" \[[paper](https://dl.acm.org/doi/pdf/10.1145/3488560.3498533)|[code](https://github.com/chakib401/graph_convolutional_clustering)]
+62. IDCRN (arXiv22): "Improved Dual Correlation Reduction Network" \[[paper](https://arxiv.org/abs/2202.12533)]
 
 
 ## Benchmark Datasets
