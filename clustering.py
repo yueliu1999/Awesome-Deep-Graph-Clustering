@@ -7,6 +7,7 @@ import torch
 import random
 import numpy as np
 from munkres import Munkres
+from kmeans_pytorch import kmeans
 from sklearn.cluster import KMeans
 from sklearn.metrics import accuracy_score, f1_score
 from sklearn.metrics import adjusted_rand_score as ari_score
@@ -82,12 +83,13 @@ def evaluation(y_true, y_pred):
     return acc, nmi, ari, f1
 
 
-def k_means(embedding, k, y_true):
+def k_means(embedding, k, y_true, device="cpu"):
     """
     K-means algorithm
     :param embedding: embedding of clustering
     :param k: hyper-parameter in K-means
     :param y_true: ground truth
+    :param device: device
     :return:
     - acc
     - nmi
@@ -95,7 +97,12 @@ def k_means(embedding, k, y_true):
     - f1
     - cluster centers
     """
-    model = KMeans(n_clusters=k, n_init=20)
-    cluster_id = model.fit_predict(embedding)
+    if device == "cpu":
+        model = KMeans(n_clusters=k, n_init=20)
+        cluster_id = model.fit_predict(embedding)
+        center = model.cluster_centers_
+    if device == "gpu":
+        cluster_id, center = kmeans(X=torch.tensor(embedding), num_clusters=k, distance="euclidean", device="cuda")
+        cluster_id = cluster_id.numpy()
     acc, nmi, ari, f1 = evaluation(y_true, cluster_id)
-    return acc, nmi, ari, f1, model.cluster_centers_
+    return acc, nmi, ari, f1, center
