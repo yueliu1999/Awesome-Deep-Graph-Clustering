@@ -21,7 +21,7 @@ def kmeans(
         num_clusters,
         distance='euclidean',
         tol=1e-4,
-        device=torch.device('cpu')
+        device=torch.device('cuda')
 ):
     """
     perform kmeans
@@ -42,16 +42,23 @@ def kmeans(
         raise NotImplementedError
 
     # convert to float
-    # X = X.float()
+    X = X.float()
 
     # transfer to device
     X = X.to(device)
 
     # initialize
-    initial_state = initialize(X, num_clusters)
+    dis_min = float('inf')
+    initial_state_best = None
+    for i in range(20):
+        initial_state = initialize(X, num_clusters)
+        dis = pairwise_distance_function(X, initial_state).sum()
+        if dis < dis_min:
+            dis_min = dis
+            initial_state_best = initial_state
 
+    initial_state = initial_state_best
     iteration = 0
-    # tqdm_meter = tqdm(desc='[running kmeans]')
     while True:
         dis = pairwise_distance_function(X, initial_state)
 
@@ -73,13 +80,6 @@ def kmeans(
         # increment iteration
         iteration = iteration + 1
 
-        # # update tqdm meter
-        # tqdm_meter.set_postfix(
-        #     iteration=f'{iteration}',
-        #     center_shift=f'{center_shift ** 2:0.6f}',
-        #     tol=f'{tol:0.6f}'
-        # )
-        # tqdm_meter.update()
         if iteration > 300:
             break
         if center_shift ** 2 < tol:
@@ -92,7 +92,7 @@ def kmeans_predict(
         X,
         cluster_centers,
         distance='euclidean',
-        device=torch.device('cpu')
+        device=torch.device('cuda')
 ):
     """
     predict using cluster centers
@@ -102,7 +102,7 @@ def kmeans_predict(
     :param device: (torch.device) device [default: 'cpu']
     :return: (torch.tensor) cluster ids
     """
-    print(f'predicting on {device}..')
+    # print(f'predicting on {device}..')
 
     if distance == 'euclidean':
         pairwise_distance_function = pairwise_distance
@@ -123,7 +123,7 @@ def kmeans_predict(
     return choice_cluster.cpu()
 
 
-def pairwise_distance(data1, data2, device=torch.device('cpu')):
+def pairwise_distance(data1, data2, device=torch.device('cuda')):
     # transfer to device
     data1, data2 = data1.to(device), data2.to(device)
 
@@ -139,7 +139,7 @@ def pairwise_distance(data1, data2, device=torch.device('cpu')):
     return dis
 
 
-def pairwise_cosine(data1, data2, device=torch.device('cpu')):
+def pairwise_cosine(data1, data2, device=torch.device('cuda')):
     # transfer to device
     data1, data2 = data1.to(device), data2.to(device)
 
