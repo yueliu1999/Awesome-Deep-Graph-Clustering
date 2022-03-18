@@ -7,7 +7,7 @@ import torch
 import random
 import numpy as np
 from munkres import Munkres
-from kmeans_pytorch import kmeans
+from kmeans_gpu import kmeans
 from sklearn.cluster import KMeans
 from sklearn.metrics import accuracy_score, f1_score
 from sklearn.metrics import adjusted_rand_score as ari_score
