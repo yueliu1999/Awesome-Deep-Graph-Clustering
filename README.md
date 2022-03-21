@@ -103,6 +103,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 61. GCC (WSDM22): "Efficient Graph Convolution for Joint Node Representation Learning and Clustering" \[[paper](https://dl.acm.org/doi/pdf/10.1145/3488560.3498533)|[code](https://github.com/chakib401/graph_convolutional_clustering)]
 62. IDCRN (arXiv22, extension of DCRN): "Improved Dual Correlation Reduction Network" \[[paper](https://arxiv.org/abs/2202.12533)]
 63. MVGC (NN22) : "Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation" \[[paper](https://www.sciencedirect.com/science/article/pii/S089360802100397X?via%3Dihub)|[code](https://github.com/xdweixia/NN-2022-MVGC)]
+64. SUBLIME (WWW22) : "Towards Unsupervised Deep Graph Structure Learning" \[[paper](https://arxiv.org/pdf/2201.06367.pdf)|[code](https://github.com/GRAND-Lab/SUBLIME)]
 
 
 ## Benchmark Datasets
