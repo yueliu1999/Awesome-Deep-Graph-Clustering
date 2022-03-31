@@ -7,9 +7,11 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
+from scipy.io import loadmat
+import random
 
 
-def t_sne(embeds, labels, sample_num=2000, show_fig=True):
+def t_sne(embeds, labels, sample_num, show_fig=True):
     """
     visualize embedding by t-SNE algorithm
     :param embeds: embedding of the data
@@ -18,11 +20,21 @@ def t_sne(embeds, labels, sample_num=2000, show_fig=True):
     :param show_fig: if show the figure
     :return: figure
     """
+    # exception
+    if sample_num>embeds.shape[0]:
+        print("Value Error: Sample larger than population")
+        return
 
     # sampling
-    sample_index = np.random.randint(0, embeds.shape[0], sample_num)
+    random.seed(1)
+    sample_index = random.sample(range(0, embeds.shape[0]), sample_num)
+    sample_index.sort()
     sample_embeds = embeds[sample_index]
     sample_labels = labels[sample_index]
+
+    # getting cluster number
+    unique = np.unique(sample_labels)
+    clusters = np.size(unique, axis=0)
 
     # t-SNE
     ts = TSNE(n_components=2, init='pca', random_state=0)
@@ -41,9 +53,8 @@ def t_sne(embeds, labels, sample_num=2000, show_fig=True):
     # plot
     fig = plt.figure()
     for i in range(norm_ts_embeds.shape[0]):
-        plt.text(norm_ts_embeds[i, 0], norm_ts_embeds[i, 1], str(sample_labels[i]),
-                 color=plt.cm.Set1(sample_labels[i] % 7),
-                 fontdict={'weight': 'bold', 'size': 7})
+        plt.plot(norm_ts_embeds[i, 0], norm_ts_embeds[i, 1],
+                 color=plt.cm.Set1(sample_labels[i] % clusters), marker='.', markersize=5)
     plt.xticks([])
     plt.yticks([])
     plt.title('t-SNE', fontsize=14)
@@ -53,7 +64,7 @@ def t_sne(embeds, labels, sample_num=2000, show_fig=True):
     return fig
 
 
-def similarity_plot(embedding, label, sample_num=1000, show_fig=True):
+def similarity_plot(embedding, label, sample_num, show_fig=True):
     """
     show cosine similarity of embedding or x
     :param embedding: the input embedding
@@ -62,6 +73,11 @@ def similarity_plot(embedding, label, sample_num=1000, show_fig=True):
     :param show_fig: if show the figure
     :return: the figure
     """
+    # exception
+    if sample_num > embedding.shape[0]:
+        print("Value Error: Sample larger than population")
+        return
+
     # sampling
     label_sample = label[:sample_num]
     embedding_sample = embedding[:sample_num, :]
