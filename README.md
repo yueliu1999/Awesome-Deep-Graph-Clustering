@@ -36,6 +36,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 ## Important Survey Papers
 
+1. "A survey of clustering with deep learning: From the perspective of network architecture" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8412085)]
+
 
 
 ## Papers
@@ -55,16 +57,23 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 1. SAE (AAAI14): "Learning Deep Representations for Graph Clustering" \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/8916/8775)|[code](https://github.com/quinngroup/deep-representations-clustering)]
 2. GAE/VGAE (NeurIPS16): "Variational Graph Auto-Encoders" \[[paper](https://arxiv.org/pdf/1611.07308.pdf%5D)|[code](https://github.com/tkipf/gae)]
 3. MGAE (CIKM17): "MGAE: Marginalized Graph Autoencoder for Graph Clustering" \[[paper](https://www.researchgate.net/profile/Shirui-Pan-3/publication/320882195_MGAE_Marginalized_Graph_Autoencoder_for_Graph_Clustering/links/5b76157b45851546c90a3d74/MGAE-Marginalized-Graph-Autoencoder-for-Graph-Clustering.pdf)|[code](https://github.com/GRAND-Lab/MGAE)]
-4. DAEGC (IJCAI19): "Attributed Graph Clustering: A Deep Attentional Embedding Approach" \[[paper](https://www.ijcai.org/proceedings/2019/0509.pdf)|[code](https://github.com/Tiger101010/DAEGC)]
-5. SDCN/SDCN_Q (WWW20): "Structural Deep Clustering Network" \[[paper](https://arxiv.org/pdf/2002.01633)|[code](https://github.com/bdy9527/SDCN)]
-6. O2MAC (WWW20): "One2Multi Graph Autoencoder for Multi-view Graph Clustering" \[[paper](http://shichuan.org/doc/83.pdf)|[code](https://github.com/googlebaba/WWW2020-O2MAC)]
-7. DFCN (AAAI21): "Deep Fusion Clustering Network" \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17198/17005)|[code](https://github.com/WxTu/DFCN)]
-8. R-GAE (arXiv21): "Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering" \[[paper](https://arxiv.org/pdf/2107.08562)|[code](https://github.com/nairouz/R-GAE)]
-9. AGCN (MM2021): "Attention-driven Graph Clustering Network" \[[paper](https://arxiv.org/pdf/2108.05499)|[code](https://github.com/ZhihaoPENG-CityU/AGCN)]
-10. DAGC (arXiv21, extension of AGCN): ”Deep Attention-guided Graph Clustering with Dual Self-supervision“ \[[paper](https://arxiv.org/abs/2111.05548)|[code](https://github.com/ZhihaoPENG-CityU/DAGC)]
-11. AdaGAE (TPAMI21): "Adaptive Graph Auto-Encoder for General Data Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9606581)|[code](https://github.com/hyzhang98/AdaGAE)]
-12. AHGAE (TKDE21): "Adaptive Hypergraph Auto-Encoder for Relational Data Clustering" \[[paper](https://ieeexplore.ieee.org/iel7/69/4358933/09525190.pdf%3Fcasa_token%3DmbL8SLkmu8AAAAAA:mNPoE2n3BwaMZsYdRotHwa8Qs3uyzY53ZPVd0ixXutwqovM4vA7OSmsYWN3qXOAGW3CgH-LugHo&hl=en&sa=T&oi=ucasa&ct=ucasa&ei=_dvpYcTXCcCVy9YPgta4-AM&scisig=AAGBfm2V50SkaPV0K8x2F_mYsC15x028wA)]
-13. EGAE (TNNLS22): "Embedding Graph Auto-Encoder for Graph Clustering"\[[paper](https://ieeexplore.ieee.org/document/9741755)|[code](https://github.com/hyzhang98/EGAE)]
+4. NetVAE (IJCAI19): "Network-Specific Variational Auto-Encoder for Embedding in Attribute Networks" \[[paper](https://www.ijcai.org/proceedings/2019/370)]
+5. DAEGC (IJCAI19): "Attributed Graph Clustering: A Deep Attentional Embedding Approach" \[[paper](https://www.ijcai.org/proceedings/2019/0509.pdf)|[code](https://github.com/Tiger101010/DAEGC)]
+6. GALA (ICCV19): "Symmetric Graph Convolutional Autoencoder for Unsupervised Graph Representation Learning" \[[paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Park_Symmetric_Graph_Convolutional_Autoencoder_for_Unsupervised_Graph_Representation_Learning_ICCV_2019_paper.pdf)|[code](https://github.com/sseung0703/GALA_TF2.0)]
+7. RWR-GAE (arXiv19): "RWR-GAE: Random Walk Regularization for Graph Auto Encoders" \[[paper](https://arxiv.org/pdf/1908.04003)|[code](https://github.com/MysteryVaibhav/RWR-GAE)]
+8. DGVAE (NeurIPS20): "Dirichlet Graph Variational Autoencoder" \[[paper](https://proceedings.neurips.cc/paper/2020/file/38a77aa456fc813af07bb428f2363c8d-Paper.pdf)|[code](https://github.com/xiyou3368/DGVAE)]
+9. SDCN/SDCN_Q (WWW20): "Structural Deep Clustering Network" \[[paper](https://arxiv.org/pdf/2002.01633)|[code](https://github.com/bdy9527/SDCN)]
+10. O2MAC (WWW20): "One2Multi Graph Autoencoder for Multi-view Graph Clustering" \[[paper](http://shichuan.org/doc/83.pdf)|[code](https://github.com/googlebaba/WWW2020-O2MAC)]
+11. CGCN/GMM-VGAE (AAAI20): "Collaborative Graph Convolutional Networks: Unsupervised Learning Meets Semi-Supervised Learning" \[[paper](https://ojs.aaai.org/index.php/AAAI/article/download/5843/5699)|[code](https://github.com/nairouz/R-GAE/tree/master/GMM-VGAE)]
+12. DFCN (AAAI21): "Deep Fusion Clustering Network" \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17198/17005)|[code](https://github.com/WxTu/DFCN)]
+13. R-GAE (arXiv21): "Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering" \[[paper](https://arxiv.org/pdf/2107.08562)|[code](https://github.com/nairouz/R-GAE)]
+14. AGCN (MM2021): "Attention-driven Graph Clustering Network" \[[paper](https://arxiv.org/pdf/2108.05499)|[code](https://github.com/ZhihaoPENG-CityU/AGCN)]
+15. DAGC (arXiv21, extension of AGCN): ”Deep Attention-guided Graph Clustering with Dual Self-supervision“ \[[paper](https://arxiv.org/abs/2111.05548)|[code](https://github.com/ZhihaoPENG-CityU/DAGC)]
+16. AdaGAE (TPAMI21): "Adaptive Graph Auto-Encoder for General Data Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9606581)|[code](https://github.com/hyzhang98/AdaGAE)]
+17. AHGAE (TKDE21): "Adaptive Hypergraph Auto-Encoder for Relational Data Clustering" \[[paper](https://ieeexplore.ieee.org/iel7/69/4358933/09525190.pdf%3Fcasa_token%3DmbL8SLkmu8AAAAAA:mNPoE2n3BwaMZsYdRotHwa8Qs3uyzY53ZPVd0ixXutwqovM4vA7OSmsYWN3qXOAGW3CgH-LugHo&hl=en&sa=T&oi=ucasa&ct=ucasa&ei=_dvpYcTXCcCVy9YPgta4-AM&scisig=AAGBfm2V50SkaPV0K8x2F_mYsC15x028wA)]
+18. EGAE (TNNLS22): "Embedding Graph Auto-Encoder for Graph Clustering"\[[paper](https://ieeexplore.ieee.org/document/9741755)|[code](https://github.com/hyzhang98/EGAE)]
+19. GC-VGE (PR22): "Graph Clustering via Variational Graph Embedding" \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320321005148)]
+20. GCC (WSDM22): "Efficient Graph Convolution for Joint Node Representation Learning and Clustering" \[[paper](https://dl.acm.org/doi/pdf/10.1145/3488560.3498533)|[code](https://github.com/chakib401/graph_convolutional_clustering)]
 
 #### Adversarial Deep Graph Clustering
 
@@ -81,47 +90,40 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 5. MGCCN (arXiv21): "Multilayer Graph Contrastive Clustering Network" \[[paper](https://arxiv.org/pdf/2112.14021)]
 6. GDCL (IJCAI21): "Graph Debiased Contrastive Learning with Joint Representation Clustering" \[[paper](https://www.ijcai.org/proceedings/2021/0473.pdf)|[code](https://github.com/hzhao98/GDCL)]
 7. GCC (ICCV21): "Graph Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2104.01429)|[code](https://github.com/mynameischaos/GCC)]
-8. SAIL(AAAI22): "SAIL: Self-Augmented Graph Contrastive Learning" \[[paper](https://arxiv.org/abs/2009.00934)]
-9. DCRN (AAAI22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.researchgate.net/profile/Yue-Liu-240/publication/357271184_Deep_Graph_Clustering_via_Dual_Correlation_Reduction/links/61c466e68bb20101842f9a92/Deep-Graph-Clustering-via-Dual-Correlation-Reduction.pdf)|[code](https://github.com/yueliu1999/DCRN)]
-10. AFGRL (AAAI22): "Augmentation-Free Self-Supervised Learning on Graphs" \[[paper](https://arxiv.org/pdf/2112.02472)|[code](https://github.com/Namkyeong/AFGRL)]
-11. IDCRN (arXiv22, extension of DCRN): "Improved Dual Correlation Reduction Network" \[[paper](https://arxiv.org/abs/2202.12533)]
+8. SOLI (Neurocomputing21): "Deep node clustering based on mutual information maximization" \[[paper](https://www.sciencedirect.com/science/article/pii/S0925231221003842?casa_token=uAABs_vafrIAAAAA:CIVh-5I934nN2TvJIN39SRa-JW1pVn6q0JYmfqc-57bSzkVzlUkgzWTzr-P1qEEp2BviskCuYg)|[code](https://github.com/SoheilaMolaei/SOLI)]
+9. SAIL(AAAI22): "SAIL: Self-Augmented Graph Contrastive Learning" \[[paper](https://arxiv.org/abs/2009.00934)]
+10. DCRN (AAAI22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.researchgate.net/profile/Yue-Liu-240/publication/357271184_Deep_Graph_Clustering_via_Dual_Correlation_Reduction/links/61c466e68bb20101842f9a92/Deep-Graph-Clustering-via-Dual-Correlation-Reduction.pdf)|[code](https://github.com/yueliu1999/DCRN)]
+11. AFGRL (AAAI22): "Augmentation-Free Self-Supervised Learning on Graphs" \[[paper](https://arxiv.org/pdf/2112.02472)|[code](https://github.com/Namkyeong/AFGRL)]
+12. IDCRN (arXiv22, extension of DCRN): "Improved Dual Correlation Reduction Network" \[[paper](https://arxiv.org/abs/2202.12533)]
+13. SUBLIME (WWW22): "Towards Unsupervised Deep Graph Structure Learning" \[[paper](https://arxiv.org/pdf/2201.06367.pdf)|[code](https://github.com/GRAND-Lab/SUBLIME)]
 
 #### Other Related Methods
 
-8. NetVAE (IJCAI19): "Network-Specific Variational Auto-Encoder for Embedding in Attribute Networks" \[[paper](https://www.ijcai.org/proceedings/2019/370)]
-11. AGC (IJCAI19): "Attributed Graph Clustering via Adaptive Graph Convolution" \[[paper](https://www.ijcai.org/Proceedings/2019/0601.pdf)|[code](https://github.com/karenlatong/AGC-master)]
-12. GALA (ICCV19): "Symmetric Graph Convolutional Autoencoder for Unsupervised Graph Representation Learning" \[[paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Park_Symmetric_Graph_Convolutional_Autoencoder_for_Unsupervised_Graph_Representation_Learning_ICCV_2019_paper.pdf)|[code](https://github.com/sseung0703/GALA_TF2.0)]
-14. MCGC (TIP19): "Multiview Consensus Graph Clustering" \[[paper](https://ieeexplore.ieee.org/abstract/document/8501973)|[code](https://github.com/kunzhan/MCGC)]
-15. RWR-GAE (arXiv19): "RWR-GAE: Random Walk Regularization for Graph Auto Encoders" \[[paper](https://arxiv.org/pdf/1908.04003)|[code](https://github.com/MysteryVaibhav/RWR-GAE)]
-16. HAN (WWW2019): "Heterogeneous Graph Attention Network"  \[[paper](https://arxiv.org/pdf/1903.07293.pdf)|[code](https://github.com/Jhy1993/HAN)]
-17. DAG (ICCKE20): "Attributed Graph Clustering via Deep Adaptive Graph Maximization" \[[paper](https://ieeexplore-ieee-org-s.nudtproxy.yitlink.com/stamp/stamp.jsp?tp=&arnumber=9303694)]
-20. MAGCN (IJCAI20): "Multi-View Attribute Graph Convolution Networks for Clustering" \[[paper](https://www.ijcai.org/proceedings/2020/0411.pdf)|[code](https://github.com/IMKBLE/MAGCN)]
-22. Cross-Graph (ICDM20): "Cross-Graph: Robust and Unsupervised Embedding for Attributed Graphs with Corrupted Structure" \[[paper](https://ieeexplore.ieee.org/document/9338269)|[code](https://github.com/FakeTibbers/Cross-Graph)]
-23. CGCN/GMM-VGAE (AAAI20): "Collaborative Graph Convolutional Networks: Unsupervised Learning Meets Semi-Supervised Learning" \[[paper](https://ojs.aaai.org/index.php/AAAI/article/download/5843/5699)|[code](https://github.com/nairouz/R-GAE/tree/master/GMM-VGAE)]
-24. DMGI (AAAI20): "Unsupervised Attributed Multiplex Network Embedding" \[[paper](https://arxiv.org/abs/1911.06750)|[code](https://github.com/pcy1302/DMGI)]
-26. MAGNN (WWW20): "MAGNN: Metapath Aggregated Graph Neural Network for Heterogeneous Graph Embedding" \[[paper](https://arxiv.org/abs/2002.01680)|[code](https://github.com/cynricfu/MAGNN)]
-27. MinCutPool (ICML20): "Spectral Clustering with Graph Neural Networks for Graph Pooling" \[[paper](http://proceedings.mlr.press/v119/bianchi20a/bianchi20a.pdf)|[code](https://github.com/FilippoMB/Spectral-Clustering-with-Graph-Neural-Networks-for-Graph-Pooling)]
-28. GCAGC (CVPR20): "Adaptive Graph Convolutional Network with Attention Graph Clustering for Co saliency Detection" \[[paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Adaptive_Graph_Convolutional_Network_With_Attention_Graph_Clustering_for_Co-Saliency_CVPR_2020_paper.pdf)|[code](https://github.com/ltp1995/GCAGC-CVPR2020)]
-29. DBGAN (CVPR20): "Distribution-induced Bidirectional GAN for Graph Representation Learning" \[[paper](https://arxiv.org/pdf/1912.01899)|[code](https://github.com/SsGood/DBGAN)]
-30. DGVAE (NeurIPS20): "Dirichlet Graph Variational Autoencoder" \[[paper](https://proceedings.neurips.cc/paper/2020/file/38a77aa456fc813af07bb428f2363c8d-Paper.pdf)|[code](https://github.com/xiyou3368/DGVAE)]
-31. CAGNN (arXiv20): "Cluster-Aware Graph Neural Networks for Unsupervised Graph Representation Learning" \[[paper](https://arxiv.org/abs/2009.01674)]
-35. COLES (NeurIPS21): "Contrastive Laplacian Eigenmaps"  \[[paper](https://proceedings.neurips.cc/paper/2021/file/2d1b2a5ff364606ff041650887723470-Paper.pdf)|[code](https://github.com/allenhaozhu/COLES)]
-43. Graph-MVP (arXiv21): "Graph-MVP: Multi-View Prototypical Contrastive Learning for Multiplex Graphs" \[[paper](https://arxiv.org/abs/2109.03560)|[code](https://github.com/chao1224/GraphMVP)]
-44. MvAGC (IJCAI21): "Graph Filter-based Multi-view Attributed Graph Clustering" \[[paper](https://www.ijcai.org/proceedings/2021/0375.pdf)|[code](https://github.com/sckangz/MvAGC)]
-45. GIC (PAKDD21): "Graph InfoClust: Maximizing Coarse-Grain Mutual Information in Graphs" \[[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-75762-5_43)|[code](https://github.com/cmavro/Graph-InfoClust-GIC)]
-46. HDMI (WWW21): "High-order Deep Multiplex Infomax" \[[paper](https://arxiv.org/abs/2102.07810)|[code](https://github.com/baoyujing/HDMI)]
-47. SOLI (Neurocomputing21): "Deep node clustering based on mutual information maximization" \[[paper](https://www.sciencedirect.com/science/article/pii/S0925231221003842?casa_token=uAABs_vafrIAAAAA:CIVh-5I934nN2TvJIN39SRa-JW1pVn6q0JYmfqc-57bSzkVzlUkgzWTzr-P1qEEp2BviskCuYg)|[code](https://github.com/SoheilaMolaei/SOLI)]
-48. MAGC (TKDE21): "Multi-view Attributed Graph Clustering" \[[paper](https://www.researchgate.net/profile/Zhao-Kang-6/publication/353747180_Multi-view_Attributed_Graph_Clustering/links/612059cd0c2bfa282a5cd55e/Multi-view-Attributed-Graph-Clustering.pdf)|[code](https://github.com/sckangz/MAGC)]
-51. NAS-GC (TCYB21): "Smoothness Sensor: Adaptive Smoothness Transition Graph Convolutions for Attributed Graph Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9514513)|[code](https://github.com/aI-area/NASGC)]
-52. SENet (NN21): "Spectral embedding network for attributed graph clustering"  \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608021002227)]
-53. GC-VGE (PR22): "Graph Clustering via Variational Graph Embedding" \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320321005148)]
-54. DNENC (PR22): "Deep neighbor-aware embedding for node clustering in attributed graphs" \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320321004118)]
-55. SDSNE(AAAI22): "Stationary diffusion state neural estimation for multiview clustering" \[[paper](https://arxiv.org/abs/2112.01334)|[code](https://github.com/kunzhan/SDSNE)]
-59. AUTOSSL (ICLR22): "Automated Self-Supervised Learning For Graphs" \[[paper](https://openreview.net/forum?id=rFbR4Fv-D6-)|[code](https://github.com/ChandlerBang/AutoSSL)]
-60. SAGES (TKDE22): "SAGES: Scalable Attributed Graph Embedding with Sampling for Unsupervised Learning" \[[paper](https://ieeexplore.ieee.org/abstract/document/9705119)]
-61. GCC (WSDM22): "Efficient Graph Convolution for Joint Node Representation Learning and Clustering" \[[paper](https://dl.acm.org/doi/pdf/10.1145/3488560.3498533)|[code](https://github.com/chakib401/graph_convolutional_clustering)]
-63. MVGC (NN22): "Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation" \[[paper](https://www.sciencedirect.com/science/article/pii/S089360802100397X?via%3Dihub)|[code](https://github.com/xdweixia/NN-2022-MVGC)]
-64. SUBLIME (WWW22): "Towards Unsupervised Deep Graph Structure Learning" \[[paper](https://arxiv.org/pdf/2201.06367.pdf)|[code](https://github.com/GRAND-Lab/SUBLIME)]
+1. AGC (IJCAI19): "Attributed Graph Clustering via Adaptive Graph Convolution" \[[paper](https://www.ijcai.org/Proceedings/2019/0601.pdf)|[code](https://github.com/karenlatong/AGC-master)]
+2. MCGC (TIP19): "Multiview Consensus Graph Clustering" \[[paper](https://ieeexplore.ieee.org/abstract/document/8501973)|[code](https://github.com/kunzhan/MCGC)]
+3. HAN (WWW2019): "Heterogeneous Graph Attention Network"  \[[paper](https://arxiv.org/pdf/1903.07293.pdf)|[code](https://github.com/Jhy1993/HAN)]
+4. DAG (ICCKE20): "Attributed Graph Clustering via Deep Adaptive Graph Maximization" \[[paper](https://ieeexplore-ieee-org-s.nudtproxy.yitlink.com/stamp/stamp.jsp?tp=&arnumber=9303694)]
+5. MAGCN (IJCAI20): "Multi-View Attribute Graph Convolution Networks for Clustering" \[[paper](https://www.ijcai.org/proceedings/2020/0411.pdf)|[code](https://github.com/IMKBLE/MAGCN)]
+6. Cross-Graph (ICDM20): "Cross-Graph: Robust and Unsupervised Embedding for Attributed Graphs with Corrupted Structure" \[[paper](https://ieeexplore.ieee.org/document/9338269)|[code](https://github.com/FakeTibbers/Cross-Graph)]
+7. DMGI (AAAI20): "Unsupervised Attributed Multiplex Network Embedding" \[[paper](https://arxiv.org/abs/1911.06750)|[code](https://github.com/pcy1302/DMGI)]
+8. MAGNN (WWW20): "MAGNN: Metapath Aggregated Graph Neural Network for Heterogeneous Graph Embedding" \[[paper](https://arxiv.org/abs/2002.01680)|[code](https://github.com/cynricfu/MAGNN)]
+9. MinCutPool (ICML20): "Spectral Clustering with Graph Neural Networks for Graph Pooling" \[[paper](http://proceedings.mlr.press/v119/bianchi20a/bianchi20a.pdf)|[code](https://github.com/FilippoMB/Spectral-Clustering-with-Graph-Neural-Networks-for-Graph-Pooling)]
+10. GCAGC (CVPR20): "Adaptive Graph Convolutional Network with Attention Graph Clustering for Co saliency Detection" \[[paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Adaptive_Graph_Convolutional_Network_With_Attention_Graph_Clustering_for_Co-Saliency_CVPR_2020_paper.pdf)|[code](https://github.com/ltp1995/GCAGC-CVPR2020)]
+11. DBGAN (CVPR20): "Distribution-induced Bidirectional GAN for Graph Representation Learning" \[[paper](https://arxiv.org/pdf/1912.01899)|[code](https://github.com/SsGood/DBGAN)]
+12. CAGNN (arXiv20): "Cluster-Aware Graph Neural Networks for Unsupervised Graph Representation Learning" \[[paper](https://arxiv.org/abs/2009.01674)]
+13. COLES (NeurIPS21): "Contrastive Laplacian Eigenmaps"  \[[paper](https://proceedings.neurips.cc/paper/2021/file/2d1b2a5ff364606ff041650887723470-Paper.pdf)|[code](https://github.com/allenhaozhu/COLES)]
+14. Graph-MVP (arXiv21): "Graph-MVP: Multi-View Prototypical Contrastive Learning for Multiplex Graphs" \[[paper](https://arxiv.org/abs/2109.03560)|[code](https://github.com/chao1224/GraphMVP)]
+15. MvAGC (IJCAI21): "Graph Filter-based Multi-view Attributed Graph Clustering" \[[paper](https://www.ijcai.org/proceedings/2021/0375.pdf)|[code](https://github.com/sckangz/MvAGC)]
+16. GIC (PAKDD21): "Graph InfoClust: Maximizing Coarse-Grain Mutual Information in Graphs" \[[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-75762-5_43)|[code](https://github.com/cmavro/Graph-InfoClust-GIC)]
+17. HDMI (WWW21): "High-order Deep Multiplex Infomax" \[[paper](https://arxiv.org/abs/2102.07810)|[code](https://github.com/baoyujing/HDMI)]
+18. MAGC (TKDE21): "Multi-view Attributed Graph Clustering" \[[paper](https://www.researchgate.net/profile/Zhao-Kang-6/publication/353747180_Multi-view_Attributed_Graph_Clustering/links/612059cd0c2bfa282a5cd55e/Multi-view-Attributed-Graph-Clustering.pdf)|[code](https://github.com/sckangz/MAGC)]
+19. NAS-GC (TCYB21): "Smoothness Sensor: Adaptive Smoothness Transition Graph Convolutions for Attributed Graph Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9514513)|[code](https://github.com/aI-area/NASGC)]
+20. SENet (NN21): "Spectral embedding network for attributed graph clustering"  \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608021002227)]
+21. DNENC (PR22): "Deep neighbor-aware embedding for node clustering in attributed graphs" \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320321004118)]
+22. SDSNE(AAAI22): "Stationary diffusion state neural estimation for multiview clustering" \[[paper](https://arxiv.org/abs/2112.01334)|[code](https://github.com/kunzhan/SDSNE)]
+23. AUTOSSL (ICLR22): "Automated Self-Supervised Learning For Graphs" \[[paper](https://openreview.net/forum?id=rFbR4Fv-D6-)|[code](https://github.com/ChandlerBang/AutoSSL)]
+24. SAGES (TKDE22): "SAGES: Scalable Attributed Graph Embedding with Sampling for Unsupervised Learning" \[[paper](https://ieeexplore.ieee.org/abstract/document/9705119)]
+25. MVGC (NN22): "Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation" \[[paper](https://www.sciencedirect.com/science/article/pii/S089360802100397X?via%3Dihub)|[code](https://github.com/xdweixia/NN-2022-MVGC)]
 
 
 ## Benchmark Datasets
@@ -196,7 +198,7 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 
 ### Citation
 
-If you use code in this repository for your research, please cite our paper.
+If you use our code or the processed datasets in this repository for your research, please cite our paper.
 
 ```
 @inproceedings{DCRN,
