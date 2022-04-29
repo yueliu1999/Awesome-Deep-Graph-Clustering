@@ -51,7 +51,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 1. DEC (ICML 16): "Unsupervised Deep Embedding for Clustering Analysis" \[[paper](http://proceedings.mlr.press/v48/xieb16.pdf)|[code](https://github.com/piiswrong/dec)]
 2. IDEC (IJCAI 17): "Improved Deep Embedded Clustering with Local Structure Preservation" \[[paper](https://www.researchgate.net/profile/Xifeng-Guo/publication/317095655_Improved_Deep_Embedded_Clustering_with_Local_Structure_Preservation/links/59263224458515e3d4537edc/Improved-Deep-Embedded-Clustering-with-Local-Structure-Preservation.pdf)|[code](https://github.com/XifengGuo/IDEC)]
 3. DCN (ICML 17): "Towards k-means-friendly spaces: Simultaneous deep learning and clustering"  \[[paper](http://proceedings.mlr.press/v70/yang17b/yang17b.pdf)|[code](https://github.com/boyangumn/DCN)]
-4. CC (AAAI 21): "Contrastive Clustering"  \[[paper](https://arxiv.org/pdf/2009.09687.pdf)|[code](https://github.com/Yunfan-Li/Contrastive-Clustering)]
+4. CC (AAAI 21): "Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2009.09687.pdf)|[code](https://github.com/Yunfan-Li/Contrastive-Clustering)]
+5. Ada-Net (ICLR 22): "Ada-nets: Face clustering via adaptive neighbour discovery in the structure space" \[[paper](https://arxiv.org/pdf/2202.03800)|[code](https://github.com/damo-cv/Ada-NETS)]
 
 #### Generative Deep Graph Clustering
 
