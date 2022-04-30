@@ -76,6 +76,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 18. EGAE (TNNLS 22): "Embedding Graph Auto-Encoder for Graph Clustering"\[[paper](https://ieeexplore.ieee.org/document/9741755)|[code](https://github.com/hyzhang98/EGAE)]
 19. GC-VGE (PR 22): "Graph Clustering via Variational Graph Embedding" \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320321005148)]
 20. GCC (WSDM 22): "Efficient Graph Convolution for Joint Node Representation Learning and Clustering" \[[paper](https://dl.acm.org/doi/pdf/10.1145/3488560.3498533)|[code](https://github.com/chakib401/graph_convolutional_clustering)]
+21. scTAG (AAAI 22): "ZINB-based Graph Embedding Autoencoder for Single-cell RNA-seq Interpretations" \[[paper](https://www.aaai.org/AAAI22Papers/AAAI-5060.YuZ.pdf)|[code](https://github.com/Philyzh8/scTAG)]
 
 #### Adversarial Deep Graph Clustering
 
