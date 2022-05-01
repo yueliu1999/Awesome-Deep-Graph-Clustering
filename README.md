@@ -83,6 +83,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 1. AGAE (IJCAI 19): "Adversarial Graph Embedding for Ensemble Clustering" \[[paper](https://par.nsf.gov/servlets/purl/10113653)]
 2. ARGA/ARVGA (TCYB 19): "Learning Graph Embedding with Adversarial Training Methods" \[[paper](https://arxiv.org/pdf/1901.01250)|[code](https://github.com/GRAND-Lab/ARGA)]
 3. WARGA (arXiv 21): "Wasserstein Adversarially Regularized Graph Autoencoder" \[[paper](https://arxiv.org/pdf/2111.04981)|[code](https://github.com/LeonResearch/WARGA)]
+4. AGC-DRR (IJCAI 22): "Attributed Graph Clustering with Dual Redundancy Reduction" [[code](https://github.com/gongleii/AGC-DRR)]
 
 #### Contrastive Deep Graph Clustering
 
