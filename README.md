@@ -53,6 +53,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 3. DCN (ICML 17): "Towards k-means-friendly spaces: Simultaneous deep learning and clustering"  \[[paper](http://proceedings.mlr.press/v70/yang17b/yang17b.pdf)|[code](https://github.com/boyangumn/DCN)]
 4. CC (AAAI 21): "Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2009.09687.pdf)|[code](https://github.com/Yunfan-Li/Contrastive-Clustering)]
 5. Ada-Net (ICLR 22): "Ada-nets: Face clustering via adaptive neighbour discovery in the structure space" \[[paper](https://arxiv.org/pdf/2202.03800)|[code](https://github.com/damo-cv/Ada-NETS)]
+6. SAIL(AAAI 22): "SAIL: Self-Augmented Graph Contrastive Learning" \[[paper](https://arxiv.org/abs/2009.00934)]
 
 #### Generative Deep Graph Clustering
 
@@ -94,7 +95,6 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 5. MGCCN (arXiv 21): "Multilayer Graph Contrastive Clustering Network" \[[paper](https://arxiv.org/pdf/2112.14021)]
 6. GDCL (IJCAI 21): "Graph Debiased Contrastive Learning with Joint Representation Clustering" \[[paper](https://www.ijcai.org/proceedings/2021/0473.pdf)|[code](https://github.com/hzhao98/GDCL)]
 7. GCC (ICCV 21): "Graph Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2104.01429)|[code](https://github.com/mynameischaos/GCC)]
-9. SAIL(AAAI 22): "SAIL: Self-Augmented Graph Contrastive Learning" \[[paper](https://arxiv.org/abs/2009.00934)]
 10. DCRN (AAAI 22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.researchgate.net/profile/Yue-Liu-240/publication/357271184_Deep_Graph_Clustering_via_Dual_Correlation_Reduction/links/61c466e68bb20101842f9a92/Deep-Graph-Clustering-via-Dual-Correlation-Reduction.pdf)|[code](https://github.com/yueliu1999/DCRN)]
 11. AFGRL (AAAI 22): "Augmentation-Free Self-Supervised Learning on Graphs" \[[paper](https://arxiv.org/pdf/2112.02472)|[code](https://github.com/Namkyeong/AFGRL)]
 12. IDCRN (arXiv 22, extension of DCRN): "Improved Dual Correlation Reduction Network" \[[paper](https://arxiv.org/abs/2202.12533)]
