@@ -38,6 +38,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 1. "A survey of clustering with deep learning: From the perspective of network architecture" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8412085)]
 2. "A Comprehensive Survey on Community Detectionwith Deep Learning" \[[paper](https://arxiv.org/pdf/2105.12584.pdf?ref=https://githubhelp.com)]
+3. "A Comprehensive Survey on Graph Neural Networks" \[[paper](https://ieeexplore.ieee.org/abstract/document/9046288)]
 
 ## Papers
 
