@@ -124,12 +124,13 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 18. MAGC (TKDE 21): "Multi-view Attributed Graph Clustering" \[[paper](https://www.researchgate.net/profile/Zhao-Kang-6/publication/353747180_Multi-view_Attributed_Graph_Clustering/links/612059cd0c2bfa282a5cd55e/Multi-view-Attributed-Graph-Clustering.pdf)|[code](https://github.com/sckangz/MAGC)]
 19. NAS-GC (TCYB 21): "Smoothness Sensor: Adaptive Smoothness Transition Graph Convolutions for Attributed Graph Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9514513)|[code](https://github.com/aI-area/NASGC)]
 20. SENet (NN 21): "Spectral embedding network for attributed graph clustering"  \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608021002227)]
-21. DNENC (PR 22): "Deep neighbor-aware embedding for node clustering in attributed graphs" \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320321004118)]
-22. SDSNE(AAAI 22): "Stationary diffusion state neural estimation for multiview clustering" \[[paper](https://arxiv.org/abs/2112.01334)|[code](https://github.com/kunzhan/SDSNE)]
-23. AUTOSSL (ICLR 22): "Automated Self-Supervised Learning For Graphs" \[[paper](https://openreview.net/forum?id=rFbR4Fv-D6-)|[code](https://github.com/ChandlerBang/AutoSSL)]
-24. SAGES (TKDE 22): "SAGES: Scalable Attributed Graph Embedding with Sampling for Unsupervised Learning" \[[paper](https://ieeexplore.ieee.org/abstract/document/9705119)]
-25. MVGC (NN 22): "Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation" \[[paper](https://www.sciencedirect.com/science/article/pii/S089360802100397X?via%3Dihub)|[code](https://github.com/xdweixia/NN-2022-MVGC)]
-26. FGC (SDM22): "Fine-grained Attributed Graph Clustering" \[[paper](https://epubs.siam.org/doi/epdf/10.1137/1.9781611977172.42)|[code](https://github.com/sckangz/FGC)]
+21. SSGC (ICLR 21): "Simple Spectral Graph Convolution" \[[paper](https://openreview.net/pdf?id=CYO5T-YjWZV)|[code](https://github.com/allenhaozhu/SSGC)]
+22. DNENC (PR 22): "Deep neighbor-aware embedding for node clustering in attributed graphs" \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320321004118)]
+23. SDSNE(AAAI 22): "Stationary diffusion state neural estimation for multiview clustering" \[[paper](https://arxiv.org/abs/2112.01334)|[code](https://github.com/kunzhan/SDSNE)]
+24. AUTOSSL (ICLR 22): "Automated Self-Supervised Learning For Graphs" \[[paper](https://openreview.net/forum?id=rFbR4Fv-D6-)|[code](https://github.com/ChandlerBang/AutoSSL)]
+25. SAGES (TKDE 22): "SAGES: Scalable Attributed Graph Embedding with Sampling for Unsupervised Learning" \[[paper](https://ieeexplore.ieee.org/abstract/document/9705119)]
+26. MVGC (NN 22): "Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation" \[[paper](https://www.sciencedirect.com/science/article/pii/S089360802100397X?via%3Dihub)|[code](https://github.com/xdweixia/NN-2022-MVGC)]
+27. FGC (SDM22): "Fine-grained Attributed Graph Clustering" \[[paper](https://epubs.siam.org/doi/epdf/10.1137/1.9781611977172.42)|[code](https://github.com/sckangz/FGC)]
 
 ## Benchmark Datasets
 
