@@ -79,6 +79,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 20. GCC (WSDM 22): "Efficient Graph Convolution for Joint Node Representation Learning and Clustering" \[[paper](https://dl.acm.org/doi/pdf/10.1145/3488560.3498533)|[code](https://github.com/chakib401/graph_convolutional_clustering)]
 21. scTAG (AAAI 22): "ZINB-based Graph Embedding Autoencoder for Single-cell RNA-seq Interpretations" \[[paper](https://www.aaai.org/AAAI22Papers/AAAI-5060.YuZ.pdf)|[code](https://github.com/Philyzh8/scTAG)]
 22. CDRS (TNNLS 22): "Collaborative Decision-Reinforced Self-Supervision for Attributed Graph Clustering" \[[paper](https://ieeexplore.ieee.org/abstract/document/9777842)|[code](https://github.com/Jillian555/TNNLS_CDRS)]
+23. DNENC (PR 22): "Deep neighbor-aware embedding for node clustering in attributed graphs" \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320321004118)]
 
 #### Adversarial Deep Graph Clustering
 
@@ -125,7 +126,6 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 19. NAS-GC (TCYB 21): "Smoothness Sensor: Adaptive Smoothness Transition Graph Convolutions for Attributed Graph Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9514513)|[code](https://github.com/aI-area/NASGC)]
 20. SENet (NN 21): "Spectral embedding network for attributed graph clustering"  \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608021002227)]
 21. SSGC (ICLR 21): "Simple Spectral Graph Convolution" \[[paper](https://openreview.net/pdf?id=CYO5T-YjWZV)|[code](https://github.com/allenhaozhu/SSGC)]
-22. DNENC (PR 22): "Deep neighbor-aware embedding for node clustering in attributed graphs" \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320321004118)]
 23. SDSNE(AAAI 22): "Stationary diffusion state neural estimation for multiview clustering" \[[paper](https://arxiv.org/abs/2112.01334)|[code](https://github.com/kunzhan/SDSNE)]
 24. AUTOSSL (ICLR 22): "Automated Self-Supervised Learning For Graphs" \[[paper](https://openreview.net/forum?id=rFbR4Fv-D6-)|[code](https://github.com/ChandlerBang/AutoSSL)]
 25. SAGES (TKDE 22): "SAGES: Scalable Attributed Graph Embedding with Sampling for Unsupervised Learning" \[[paper](https://ieeexplore.ieee.org/abstract/document/9705119)]
