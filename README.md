@@ -101,8 +101,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 11. AGC-DRR (IJCAI 22): "Attributed Graph Clustering with Dual Redundancy Reduction" [[code](https://github.com/gongleii/AGC-DRR)]
 12. SUBLIME (WWW 22): "Towards Unsupervised Deep Graph Structure Learning" \[[paper](https://arxiv.org/pdf/2201.06367.pdf)|[code](https://github.com/GRAND-Lab/SUBLIME)]
 13. CGC (WWW 22): "CGC: Contrastive Graph Clustering for Community Detection and Tracking" \[[paper](https://arxiv.org/abs/2204.08504)]
-14. DCAGC (arXiv 22): "Dual Contrastive Attributed Graph Clustering Network" \[[paper](https://arxiv.org/abs/2206.07897)|[code](https://github.com/wangtong627/Dual-Contrastive-Attributed-Graph-Clustering-Network)]
-15. SCGC (arXiv 22): "SCGC : Self-Supervised Contrastive Graph Clustering"  \[[paper](https://arxiv.org/pdf/2204.12656)|[code](https://github.com/gayanku/SCGC)]
+14. SCGC (arXiv 22): "SCGC : Self-Supervised Contrastive Graph Clustering"  \[[paper](https://arxiv.org/pdf/2204.12656)|[code](https://github.com/gayanku/SCGC)]
+15. DCAGC (arXiv 22): "Dual Contrastive Attributed Graph Clustering Network" \[[paper](https://arxiv.org/abs/2206.07897)|[code](https://github.com/wangtong627/Dual-Contrastive-Attributed-Graph-Clustering-Network)]
 
 #### Other Related Methods
 
