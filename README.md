@@ -54,7 +54,6 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 4. CC (AAAI 21): "Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2009.09687.pdf)|[code](https://github.com/Yunfan-Li/Contrastive-Clustering)]
 5. Ada-Net (ICLR 22): "Ada-nets: Face clustering via adaptive neighbour discovery in the structure space" \[[paper](https://arxiv.org/pdf/2202.03800)|[code](https://github.com/damo-cv/Ada-NETS)]
 6. SAIL(AAAI 22): "SAIL: Self-Augmented Graph Contrastive Learning" \[[paper](https://arxiv.org/abs/2009.00934)]
-7. GRACE(TKDD 22): "GRACE: A General Graph Convolution Framework for Atributed Graph Clustering" \[[paper](https://arxiv.org/abs/2009.00934](https://dl.acm.org/doi/pdf/10.1145/3544977?casa_token=vZq9w6tCe7oAAAAA:BGS-vrA2R47UuTPfZGwlyHSU9U3TWrMqVyTQDMswEYJrVrivUPprhB9MQRIJm2BmAvvw-HNIPhU1wGI))]
 
 #### Generative Deep Graph Clustering
 
@@ -133,6 +132,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 25. SAGES (TKDE 22): "SAGES: Scalable Attributed Graph Embedding with Sampling for Unsupervised Learning" \[[paper](https://ieeexplore.ieee.org/abstract/document/9705119)]
 26. MVGC (NN 22): "Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation" \[[paper](https://www.sciencedirect.com/science/article/pii/S089360802100397X?via%3Dihub)|[code](https://github.com/xdweixia/NN-2022-MVGC)]
 27. FGC (SDM22): "Fine-grained Attributed Graph Clustering" \[[paper](https://epubs.siam.org/doi/epdf/10.1137/1.9781611977172.42)|[code](https://github.com/sckangz/FGC)]
+28. GRACE(TKDD 22): "GRACE: A General Graph Convolution Framework for Atributed Graph Clustering" \[[paper](https://dl.acm.org/doi/pdf/10.1145/3544977)]\
 
 ## Benchmark Datasets
 
