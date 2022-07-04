@@ -8,25 +8,7 @@
 
 # ADGC: Awesome Deep Graph Clustering
 
-ADGC is a collection of state-of-the-art (SOTA), novel deep graph clustering methods (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact yueliu19990731@163.com. If you find this repository useful to your research or work, it is really appreciated to star this repository. :sparkles: If you use our code or the processed datasets in this repository for your research, please cite 1-2 following papers. :heart:
-
-```
-@inproceedings{DCRN,
-  title={Deep Graph Clustering via Dual Correlation Reduction},
-  author={Liu, Yue and Tu, Wenxuan and Zhou, Sihang and Liu, Xinwang and Song, Linxuan and Yang, Xihong and Zhu, En},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={36},
-  number={7},
-  pages={7603-7611},
-  year={2022}
-}
-@article{mrabah2021rethinking,
-  title={Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering},
-  author={Mrabah, Nairouz and Bouguessa, Mohamed and Touati, Mohamed Fawzi and Ksantini, Riadh},
-  journal={arXiv preprint arXiv:2107.08562},
-  year={2021}
-}
-```
+ADGC is a collection of state-of-the-art (SOTA), novel deep graph clustering methods (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact yueliu19990731@163.com. If you find this repository useful to your research or work, it is really appreciated to star this repository. :sparkles: If you use our code or the processed datasets in this repository for your research, please cite 1-2 papers in the [citation part](# Citation). :heart:
 
 [![Made with Python][python-img]][adgc-url]
 [![GitHub stars][stars-img]][stars-url]
@@ -227,9 +209,29 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 
 
 
+## Citation
+
+```
+@inproceedings{DCRN,
+  title={Deep Graph Clustering via Dual Correlation Reduction},
+  author={Liu, Yue and Tu, Wenxuan and Zhou, Sihang and Liu, Xinwang and Song, Linxuan and Yang, Xihong and Zhu, En},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={7},
+  pages={7603-7611},
+  year={2022}
+}
+@article{mrabah2021rethinking,
+  title={Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering},
+  author={Mrabah, Nairouz and Bouguessa, Mohamed and Touati, Mohamed Fawzi and Ksantini, Riadh},
+  journal={arXiv preprint arXiv:2107.08562},
+  year={2021}
+}
+```
 
 
-### Other Related Awesome Repository
+
+## Other Related Awesome Repository
 
 [awesome-awesome-machine-learning](https://github.com/ZhiningLiu1998/awesome-awesome-machine-learning)
 
