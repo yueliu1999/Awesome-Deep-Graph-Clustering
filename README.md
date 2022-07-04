@@ -8,7 +8,25 @@
 
 # ADGC: Awesome Deep Graph Clustering
 
-ADGC is a collection of state-of-the-art (SOTA), novel deep graph clustering methods (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact yueliu19990731@163.com. If you find this repository useful to your research or work, it is really appreciated to star this repository. :heart:
+ADGC is a collection of state-of-the-art (SOTA), novel deep graph clustering methods (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact yueliu19990731@163.com. If you find this repository useful to your research or work, it is really appreciated to star this repository. :sparkles: If you use our code or the processed datasets in this repository for your research, please cite 1-2 following papers. :heart:
+
+```
+@inproceedings{DCRN,
+  title={Deep Graph Clustering via Dual Correlation Reduction},
+  author={Liu, Yue and Tu, Wenxuan and Zhou, Sihang and Liu, Xinwang and Song, Linxuan and Yang, Xihong and Zhu, En},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={7},
+  pages={7603-7611},
+  year={2022}
+}
+@article{mrabah2021rethinking,
+  title={Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering},
+  author={Mrabah, Nairouz and Bouguessa, Mohamed and Touati, Mohamed Fawzi and Ksantini, Riadh},
+  journal={arXiv preprint arXiv:2107.08562},
+  year={2021}
+}
+```
 
 [![Made with Python][python-img]][adgc-url]
 [![GitHub stars][stars-img]][stars-url]
@@ -208,25 +226,6 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
    |  REUT   |  10000  |   2000    |  Text  |    4    | [reut.zip](https://drive.google.com/file/d/12MpPWyN87bu-AQYTyjdEcofy1mgjgzi9/view?usp=sharing) |
 
 
-
-### Citation
-
-If you use our code or the processed datasets in this repository for your research, please cite our paper.
-
-```
-@inproceedings{DCRN,
-  title={Deep Graph Clustering via Dual Correlation Reduction},
-  author={Liu, Yue and Tu, Wenxuan and Zhou, Sihang and Liu, Xinwang and Song, Linxuan and Yang, Xihong and Zhu, En},
-  booktitle={AAAI Conference on Artificial Intelligence},
-  year={2022}
-}
-@article{mrabah2021rethinking,
-  title={Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering},
-  author={Mrabah, Nairouz and Bouguessa, Mohamed and Touati, Mohamed Fawzi and Ksantini, Riadh},
-  journal={arXiv preprint arXiv:2107.08562},
-  year={2021}
-}
-```
 
 
 
