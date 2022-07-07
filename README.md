@@ -53,7 +53,6 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 3. DCN (ICML 17): "Towards k-means-friendly spaces: Simultaneous deep learning and clustering"  \[[paper](http://proceedings.mlr.press/v70/yang17b/yang17b.pdf)|[code](https://github.com/boyangumn/DCN)]
 4. CC (AAAI 21): "Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2009.09687.pdf)|[code](https://github.com/Yunfan-Li/Contrastive-Clustering)]
 5. Ada-Net (ICLR 22): "Ada-nets: Face clustering via adaptive neighbour discovery in the structure space" \[[paper](https://arxiv.org/pdf/2202.03800)|[code](https://github.com/damo-cv/Ada-NETS)]
-6. SAIL(AAAI 22): "SAIL: Self-Augmented Graph Contrastive Learning" \[[paper](https://arxiv.org/abs/2009.00934)]
 
 #### Generative Deep Graph Clustering
 
@@ -97,13 +96,14 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 6. GDCL (IJCAI 21): "Graph Debiased Contrastive Learning with Joint Representation Clustering" \[[paper](https://www.ijcai.org/proceedings/2021/0473.pdf)|[code](https://github.com/hzhao98/GDCL)]
 10. DCRN (AAAI 22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.aaai.org/AAAI22Papers/AAAI-5928.LiuY.pdf)|[code](https://github.com/yueliu1999/DCRN)]
 11. AFGRL (AAAI 22): "Augmentation-Free Self-Supervised Learning on Graphs" \[[paper](https://arxiv.org/pdf/2112.02472)|[code](https://github.com/Namkyeong/AFGRL)]
-12. IDCRN (arXiv 22, extension of DCRN): "Improved Dual Correlation Reduction Network" \[[paper](https://arxiv.org/abs/2202.12533)]
+9. SAIL(AAAI 22): "SAIL: Self-Augmented Graph Contrastive Learning" \[[paper](https://arxiv.org/abs/2009.00934)]
+10. IDCRN (arXiv 22, extension of DCRN): "Improved Dual Correlation Reduction Network" \[[paper](https://arxiv.org/abs/2202.12533)]
 11. AGC-DRR (IJCAI 22): "Attributed Graph Clustering with Dual Redundancy Reduction" [[code](https://github.com/gongleii/AGC-DRR)]
 12. SUBLIME (WWW 22): "Towards Unsupervised Deep Graph Structure Learning" \[[paper](https://arxiv.org/pdf/2201.06367.pdf)|[code](https://github.com/GRAND-Lab/SUBLIME)]
 13. CGC (WWW 22): "CGC: Contrastive Graph Clustering for Community Detection and Tracking" \[[paper](https://arxiv.org/abs/2204.08504)]
-13. SCGC (arXiv 22): "Simple Contrastive Graph Clustering" \[[paper](https://arxiv.org/abs/2205.07865)]
-14. SCGC (arXiv 22): "SCGC : Self-Supervised Contrastive Graph Clustering"  \[[paper](https://arxiv.org/pdf/2204.12656)|[code](https://github.com/gayanku/SCGC)]
-15. DCAGC (arXiv 22): "Dual Contrastive Attributed Graph Clustering Network" \[[paper](https://arxiv.org/abs/2206.07897)|[code](https://github.com/wangtong627/Dual-Contrastive-Attributed-Graph-Clustering-Network)]
+14. SCGC (arXiv 22): "Simple Contrastive Graph Clustering" \[[paper](https://arxiv.org/abs/2205.07865)]
+15. SCGC (arXiv 22): "SCGC : Self-Supervised Contrastive Graph Clustering"  \[[paper](https://arxiv.org/pdf/2204.12656)|[code](https://github.com/gayanku/SCGC)]
+16. DCAGC (arXiv 22): "Dual Contrastive Attributed Graph Clustering Network" \[[paper](https://arxiv.org/abs/2206.07897)|[code](https://github.com/wangtong627/Dual-Contrastive-Attributed-Graph-Clustering-Network)]
 
 #### Other Related Methods
 
