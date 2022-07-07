@@ -133,7 +133,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 25. SAGES (TKDE 22): "SAGES: Scalable Attributed Graph Embedding with Sampling for Unsupervised Learning" \[[paper](https://ieeexplore.ieee.org/abstract/document/9705119)]
 26. MVGC (NN 22): "Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation" \[[paper](https://www.sciencedirect.com/science/article/pii/S089360802100397X?via%3Dihub)|[code](https://github.com/xdweixia/NN-2022-MVGC)]
 27. FGC (SDM22): "Fine-grained Attributed Graph Clustering" \[[paper](https://epubs.siam.org/doi/epdf/10.1137/1.9781611977172.42)|[code](https://github.com/sckangz/FGC)]
-28. GRACE(TKDD 22): "GRACE: A General Graph Convolution Framework for Atributed Graph Clustering" \[[paper](https://dl.acm.org/doi/pdf/10.1145/3544977)]
+28. GRACE (TKDD 22): "GRACE: A General Graph Convolution Framework for Atributed Graph Clustering" \[[paper](https://dl.acm.org/doi/pdf/10.1145/3544977)]
 
 ## Benchmark Datasets
 
