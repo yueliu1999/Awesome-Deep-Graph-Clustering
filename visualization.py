@@ -91,7 +91,6 @@ def similarity_plot(embedding, label, sample_num, show_fig=True):
     # cosine similarity
     norm_embedding_sample = embedding_sample / np.sqrt(np.sum(embedding_sample ** 2, axis=1)).reshape(-1, 1)
     cosine_sim = np.matmul(norm_embedding_sample, norm_embedding_sample.transpose())
-    cosine_sim[cosine_sim < 1e-5] = 0
 
     # figure
     fig = plt.figure()
