@@ -53,6 +53,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 3. DCN (ICML 17): "Towards k-means-friendly spaces: Simultaneous deep learning and clustering"  \[[paper](http://proceedings.mlr.press/v70/yang17b/yang17b.pdf)|[code](https://github.com/boyangumn/DCN)]
 4. CC (AAAI 21): "Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2009.09687.pdf)|[code](https://github.com/Yunfan-Li/Contrastive-Clustering)]
 5. Ada-Net (ICLR 22): "Ada-nets: Face clustering via adaptive neighbour discovery in the structure space" \[[paper](https://arxiv.org/pdf/2202.03800)|[code](https://github.com/damo-cv/Ada-NETS)]
+6. AdaGAE (TPAMI 21): "Adaptive Graph Auto-Encoder for General Data Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9606581)|[code](https://github.com/hyzhang98/AdaGAE)]
 
 #### Generative Deep Graph Clustering
 
@@ -71,7 +72,6 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 13. R-GAE (arXiv 21): "Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering" \[[paper](https://arxiv.org/pdf/2107.08562)|[code](https://github.com/nairouz/R-GAE)]
 14. AGCN (MM 21): "Attention-driven Graph Clustering Network" \[[paper](https://arxiv.org/pdf/2108.05499)|[code](https://github.com/ZhihaoPENG-CityU/AGCN)]
 15. DAGC (arXiv 21, extension of AGCN): ”Deep Attention-guided Graph Clustering with Dual Self-supervision“ \[[paper](https://arxiv.org/abs/2111.05548)|[code](https://github.com/ZhihaoPENG-CityU/DAGC)]
-16. AdaGAE (TPAMI 21): "Adaptive Graph Auto-Encoder for General Data Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9606581)|[code](https://github.com/hyzhang98/AdaGAE)]
 17. AHGAE (TKDE 21): "Adaptive Hypergraph Auto-Encoder for Relational Data Clustering" \[[paper](https://ieeexplore.ieee.org/iel7/69/4358933/09525190.pdf%3Fcasa_token%3DmbL8SLkmu8AAAAAA:mNPoE2n3BwaMZsYdRotHwa8Qs3uyzY53ZPVd0ixXutwqovM4vA7OSmsYWN3qXOAGW3CgH-LugHo&hl=en&sa=T&oi=ucasa&ct=ucasa&ei=_dvpYcTXCcCVy9YPgta4-AM&scisig=AAGBfm2V50SkaPV0K8x2F_mYsC15x028wA)]
 18. EGAE (TNNLS 22): "Embedding Graph Auto-Encoder for Graph Clustering"\[[paper](https://ieeexplore.ieee.org/document/9741755)|[code](https://github.com/hyzhang98/EGAE)]
 19. GC-VGE (PR 22): "Graph Clustering via Variational Graph Embedding" \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320321005148)]
