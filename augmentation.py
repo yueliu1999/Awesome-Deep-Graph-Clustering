@@ -3,6 +3,7 @@
 # @Email   : yueliu19990731@163.com
 # @Time    : 2022/7/28 14:07
 
+import copy
 import torch
 import numpy as np
 
@@ -46,6 +47,15 @@ def drop_edge(adj, drop_rate=0.2):
     :param drop_rate: drop rate
     :return drop_adj: edge dropped adj matrix
     """
+    # drop adj
+    drop_adj = copy.deepcopy(adj)
+
+    # dropping mask
+    mask = np.ones(adj.shape[0] * adj.shape[1])
+    mask[:int(len(mask) * drop_rate)] = 0
+    np.random.shuffle(mask)
+    mask = mask.reshape(adj.shape[0], adj.shape[1])
+    drop_adj *= mask
 
     return drop_adj
 
@@ -57,5 +67,34 @@ def add_edge(adj, add_rate=0.2):
     :param add_rate: drop rate
     :return add_adj: edge added adj matrix
     """
+    # add adj
+    add_adj = copy.deepcopy(adj)
+
+    # add mask
+    mask = np.zeros(adj.shape[0] * adj.shape[1])
+    mask[:int(len(mask) * add_rate)] = 1
+    np.random.shuffle(mask)
+    mask = mask.reshape(adj.shape[0], adj.shape[1])
+    add_adj += mask
 
     return add_adj
+
+
+def mask_feat(feat, mask_rate=0.2):
+    """
+    mask features randomly
+    :param feat: input feat matrix
+    :param mask_rate: mask rate
+    :return masked_feat: mask features
+    """
+    # mask feat
+    masked_feat = copy.deepcopy(feat)
+
+    # add mask
+    mask = np.ones(feat.shape[0] * feat.shape[1])
+    mask[:int(len(mask) * mask_rate)] = 0
+    np.random.shuffle(mask)
+    mask = mask.reshape(feat.shape[0], feat.shape[1])
+    masked_feat *= mask
+
+    return masked_feat

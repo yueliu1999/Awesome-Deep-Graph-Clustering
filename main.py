@@ -3,9 +3,9 @@
 # @Email   : yueliu19990731@163.com
 # @Time    : 2021/11/25 11:11
 
-from augmentation import diffusion_adj
 from clustering import setup_seed, k_means
 from visualization import t_sne, similarity_plot
+from augmentation import diffusion_adj, add_edge, drop_edge, mask_feat
 from utils import load_graph_data, load_data, construct_graph, normalize_adj
 
 if __name__ == '__main__':
@@ -29,8 +29,15 @@ if __name__ == '__main__':
     # normalize the adj
     # norm_A = normalize_adj(A, self_loop=True, symmetry=True)
 
-    # # graph diffusion
+    # augmentations on graphs
+    # 1. graph diffusion
     # diff_A = diffusion_adj(A)
+    # 2. drop edges randomly
+    # drop_A = drop_edge(A, 0.2)
+    # 3. add edges randomly
+    # add_A = add_edge(A, 0.2)
+    # 4. mask feature randomly
+    masked_X = mask_feat(X, 0.2)
 
     # # t-SNE
     # t_sne(X, y)
