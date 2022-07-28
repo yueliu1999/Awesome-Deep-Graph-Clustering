@@ -3,15 +3,16 @@
 # @Email   : yueliu19990731@163.com
 # @Time    : 2021/11/25 11:11
 
-from visualization import t_sne, similarity_plot
+from augmentation import diffusion_adj
 from clustering import setup_seed, k_means
-from utils import load_graph_data, load_data, construct_graph, normalize_adj, diffusion_adj
+from visualization import t_sne, similarity_plot
+from utils import load_graph_data, load_data, construct_graph, normalize_adj
 
 if __name__ == '__main__':
     # fix the random seed
     setup_seed(0)
 
-    dataset_name = "cora"
+    dataset_name = "dblp"
     dataset_type = "graph"
 
     # dataset_name = "hhar"
@@ -38,4 +39,4 @@ if __name__ == '__main__':
     # similarity_plot(embedding=X, label=y, sample_num=1000, show_fig=True)
 
     # clustering, k-means
-    acc, nmi, ari, f1, center = k_means(embedding=X, k=max(y), y_true=y, device="gpu")
+    # acc, nmi, ari, f1, center = k_means(embedding=X, k=max(y), y_true=y, device="gpu")

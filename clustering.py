@@ -18,7 +18,6 @@ def setup_seed(seed):
     """
     fix the random seed
     :param seed: the random seed
-    :return: None
     """
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
@@ -36,7 +35,7 @@ def evaluation(y_true, y_pred):
     evaluate the clustering performance
     :param y_true: ground truth
     :param y_pred: prediction
-    :return:
+    :returns acc, nmi, ari, f1:
     - accuracy
     - normalized mutual information
     - adjust rand index
@@ -90,7 +89,7 @@ def k_means(embedding, k, y_true, device="cpu"):
     :param k: hyper-parameter in K-means
     :param y_true: ground truth
     :param device: device
-    :return:
+    :returns acc, nmi, ari, f1, center:
     - acc
     - nmi
     - ari

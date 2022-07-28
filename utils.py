@@ -12,7 +12,7 @@ def numpy_to_torch(a, is_sparse=False):
     numpy array to torch tensor
     :param a: the numpy array
     :param is_sparse: is sparse tensor or not
-    :return: torch tensor
+    :return a: torch tensor
     """
     if is_sparse:
         a = torch.sparse.Tensor(a)
@@ -25,7 +25,7 @@ def torch_to_numpy(t):
     """
     torch tensor to numpy array
     :param t: the torch tensor
-    :return: numpy array
+    :return t: numpy array
     """
     return t.numpy()
 
@@ -42,7 +42,7 @@ def load_graph_data(dataset_name, show_details=False):
     - edge num
     - category num
     - category distribution
-    :return: the features, labels and adj
+    :returns feat, label, adj: the features, labels and adj
     """
     load_path = "dataset/" + dataset_name + "/" + dataset_name
     feat = np.load(load_path+"_feat.npy", allow_pickle=True)
@@ -57,7 +57,7 @@ def load_graph_data(dataset_name, show_details=False):
         print("feature shape:  ", feat.shape)
         print("label shape:    ", label.shape)
         print("adj shape:      ", adj.shape)
-        print("edge num:   ", int(adj.sum()/2))
+        print("edge num:   ", int(adj.sum() / 2))
         print("category num:          ", max(label)-min(label)+1)
         print("category distribution: ")
         for i in range(max(label)+1):
@@ -77,7 +77,7 @@ def load_data(dataset_name, show_details=False):
     - labels' shape
     - category num
     - category distribution
-    :return: the features and labels
+    :returns feat, label: the features and labels
     """
     load_path = "dataset/" + dataset_name + "/" + dataset_name
     feat = np.load(load_path+"_feat.npy", allow_pickle=True)
@@ -107,7 +107,7 @@ def construct_graph(feat, k=5, metric="euclidean"):
     - euclidean: euclidean distance
     - cosine: cosine distance
     - heat: heat kernel
-    :return: the constructed graph
+    :return knn_graph: the constructed graph
     """
 
     # euclidean distance, sqrt((x-y)^2)
@@ -138,8 +138,9 @@ def construct_graph(feat, k=5, metric="euclidean"):
     ones = torch.ones_like(distance_matrix)
     zeros = torch.zeros_like(distance_matrix)
     knn_graph = torch.where(torch.ge(distance_matrix, top_k_min), ones, zeros)
+    knn_graph = torch_to_numpy(knn_graph)
 
-    return torch_to_numpy(knn_graph)
+    return knn_graph
 
 
 def normalize_adj(adj, self_loop=True, symmetry=True):
@@ -148,7 +149,7 @@ def normalize_adj(adj, self_loop=True, symmetry=True):
     :param adj: input adj matrix
     :param self_loop: if add the self loop or not
     :param symmetry: symmetry normalize or not
-    :return: the normalized adj matrix
+    :return norm_adj: the normalized adj matrix
     """
     # add the self_loop
     if self_loop:
@@ -170,35 +171,3 @@ def normalize_adj(adj, self_loop=True, symmetry=True):
         norm_adj = np.matmul(d_inv, adj_tmp)
 
     return norm_adj
-
-
-def diffusion_adj(adj, self_loop=True, mode="ppr", transport_rate=0.2):
-    """
-    graph diffusion
-    :param adj: input adj matrix
-    :param self_loop: if add the self loop or not
-    :param mode: the mode of graph diffusion
-    :param transport_rate: the transport rate
-    - personalized page rank
-    -
-    :return: the graph diffusion
-    """
-    # add the self_loop
-    if self_loop:
-        adj_tmp = adj + np.eye(adj.shape[0])
-    else:
-        adj_tmp = adj
-
-    # calculate degree matrix and it's inverse matrix
-    d = np.diag(adj_tmp.sum(0))
-    d_inv = np.linalg.inv(d)
-    sqrt_d_inv = np.sqrt(d_inv)
-
-    # calculate norm adj
-    norm_adj = np.matmul(np.matmul(sqrt_d_inv, adj_tmp), sqrt_d_inv)
-
-    # calculate graph diffusion
-    if mode == "ppr":
-        diff_adj = transport_rate * np.linalg.inv((np.eye(d.shape[0]) - (1 - transport_rate) * norm_adj))
-
-    return diff_adj

@@ -8,7 +8,7 @@ def initialize(X, num_clusters):
     initialize cluster centers
     :param X: (torch.tensor) matrix
     :param num_clusters: (int) number of clusters
-    :return: (np.array) initial state
+    :return initial_state: (np.array) initial state
     """
     num_samples = len(X)
     indices = np.random.choice(num_samples, num_clusters, replace=False)
@@ -30,7 +30,7 @@ def kmeans(
     :param distance: (str) distance [options: 'euclidean', 'cosine'] [default: 'euclidean']
     :param tol: (float) threshold [default: 0.0001]
     :param device: (torch.device) device [default: cpu]
-    :return: (torch.tensor, torch.tensor) cluster ids, cluster centers
+    :returns choice_cluster, initial_state: (torch.tensor, torch.tensor) cluster ids, cluster centers
     """
     # print(f'running k-means on {device}..')
 
@@ -100,7 +100,7 @@ def kmeans_predict(
     :param cluster_centers: (torch.tensor) cluster centers
     :param distance: (str) distance [options: 'euclidean', 'cosine'] [default: 'euclidean']
     :param device: (torch.device) device [default: 'cpu']
-    :return: (torch.tensor) cluster ids
+    :return choice_cluster: (torch.tensor) cluster ids
     """
     # print(f'predicting on {device}..')
 
