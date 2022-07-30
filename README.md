@@ -54,6 +54,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 4. CC (AAAI 21): "Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2009.09687.pdf)|[code](https://github.com/Yunfan-Li/Contrastive-Clustering)]
 5. Ada-Net (ICLR 22): "Ada-nets: Face clustering via adaptive neighbour discovery in the structure space" \[[paper](https://arxiv.org/pdf/2202.03800)|[code](https://github.com/damo-cv/Ada-NETS)]
 6. AdaGAE (TPAMI 21): "Adaptive Graph Auto-Encoder for General Data Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9606581)|[code](https://github.com/hyzhang98/AdaGAE)]
+7. TCL (IJCV 22): "Twin Contrastive Learning for Online Clustering" [[paper](http://pengxi.me/wp-content/uploads/2022/07/Twin-Contrastive-Learning-for-Online-Clustering.pdf)|[code](https://github.com/Yunfan-Li/Twin-Contrastive-Learning)]
 
 #### Generative Deep Graph Clustering
 
