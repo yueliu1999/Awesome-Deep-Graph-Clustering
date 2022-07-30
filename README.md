@@ -99,7 +99,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 11. AFGRL (AAAI 22): "Augmentation-Free Self-Supervised Learning on Graphs" \[[paper](https://arxiv.org/pdf/2112.02472)|[code](https://github.com/Namkyeong/AFGRL)]
 9. SAIL(AAAI 22): "SAIL: Self-Augmented Graph Contrastive Learning" \[[paper](https://arxiv.org/abs/2009.00934)]
 10. IDCRN (arXiv 22, extension of DCRN): "Improved Dual Correlation Reduction Network" \[[paper](https://arxiv.org/abs/2202.12533)]
-11. AGC-DRR (IJCAI 22): "Attributed Graph Clustering with Dual Redundancy Reduction" [[code](https://github.com/gongleii/AGC-DRR)]
+11. AGC-DRR (IJCAI 22): "Attributed Graph Clustering with Dual Redundancy Reduction" [[paper](https://www.ijcai.org/proceedings/2022/0418.pdf)|[code](https://github.com/gongleii/AGC-DRR)]
 12. SUBLIME (WWW 22): "Towards Unsupervised Deep Graph Structure Learning" \[[paper](https://arxiv.org/pdf/2201.06367.pdf)|[code](https://github.com/GRAND-Lab/SUBLIME)]
 13. CGC (WWW 22): "CGC: Contrastive Graph Clustering for Community Detection and Tracking" \[[paper](https://arxiv.org/abs/2204.08504)]
 14. SCGC (arXiv 22): "Simple Contrastive Graph Clustering" \[[paper](https://arxiv.org/abs/2205.07865)]
