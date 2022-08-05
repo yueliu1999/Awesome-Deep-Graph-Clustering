@@ -182,6 +182,7 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
    | :------: | :-------: | :---------: | :-----: | :-------: | :----------------------------------------------------------: |
    |   CORA   |   2708    |    1433     |  5278   |     7     | [cora.zip](https://drive.google.com/file/d/1_LesghFTQ02vKOBUfDP8fmDF1JP3MPrJ/view?usp=sharing) |
    | CITESEER |   3327    |    3703     |  4552   |     6     | [citeseer.zip](https://drive.google.com/file/d/1dEsxq5z5dc35tS3E46pg6pc2LUMlF6jF/view?usp=sharing) |
+   |   CITE   |   3327    |    3703     |  4552   |     6     | [cite.zip](https://drive.google.com/file/d/1dEsxq5z5dc35tS3E46pg6pc2LUMlF6jF/view?usp=sharing) |
    |  PUBMED  |   19717   |     500     |  44324  |     3     | [pubmed.zip](https://drive.google.com/file/d/1tdr20dvvjZ9tBHXj8xl6wjO9mQzD0rzA/view?usp=sharing) |
    |   DBLP   |   4057    |     334     |  3528   |     4     | [dblp.zip](https://drive.google.com/file/d/1XWWMIDyvCQ4VJFnAmXS848ksN9MFm5ys/view?usp=sharing) |
    |   ACM    |   3025    |    1870     |  13128  |     3     | [acm.zip](https://drive.google.com/file/d/19j7zmQ-AMgzTX7yZoKzUK5wVxQwO5alx/view?usp=sharing) |
