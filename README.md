@@ -189,7 +189,7 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
    |   AMAP   |   7650    |     745     | 119081  |     8     | [amap.zip](https://drive.google.com/file/d/1qqLWPnBOPkFktHfGMrY9nu8hioyVZV31/view?usp=sharing) |
    |   AMAC   |   13752   |     767     | 245861  |    10     | [amac.zip](https://drive.google.com/file/d/1DJhSOYWXzlRDSTvaC27bSmacTbGq6Ink/view?usp=sharing) |
    | CORAFULL |   19793   |    8710     |  63421  |    70     | [corafull.zip](https://drive.google.com/file/d/1XLqs084J3xgWW9jtbBXJOmmY84goT1CE/view?usp=sharing) |
-   |   WIKI   |   2405    |    4973     |  8261   |    19     | [wiki.zip](https://drive.google.com/file/d/1vxupFQaEvw933yUuWzzgQXxIMQ_46dva/view?usp=sharing) |
+   |   WIKI   |   2405    |    4973     |  8261   |    17     | [wiki.zip](https://drive.google.com/file/d/1vxupFQaEvw933yUuWzzgQXxIMQ_46dva/view?usp=sharing) |
    |   COCS   |   18333   |    6805     |  81894  |    15     | [cocs.zip](https://drive.google.com/file/d/186twSfkDNmqh9L618iCeWq4DA7Lnpte0/view?usp=sharing) |
    | CORNELL  |    183    |    1703     |   149   |     5     | [cornell.zip](https://drive.google.com/file/d/1EjpHP26Oh0_qHl13vOfEzc4ZyzkGrR-M/view?usp=sharing) |
    |  TEXAS   |    183    |    1703     |   162   |     5     | [texas.zip](https://drive.google.com/file/d/1kpz6b9-OsEU1RsAyxWWeUgzhdd3-koI2/view?usp=sharing) |
