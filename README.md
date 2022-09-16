@@ -105,7 +105,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 13. CGC (WWW 22): "CGC: Contrastive Graph Clustering for Community Detection and Tracking" \[[paper](https://arxiv.org/abs/2204.08504)]
 14. SCGC (arXiv 22): "Simple Contrastive Graph Clustering" \[[paper](https://arxiv.org/abs/2205.07865)]
 15. SCGC (arXiv 22): "SCGC : Self-Supervised Contrastive Graph Clustering"  \[[paper](https://arxiv.org/pdf/2204.12656)|[code](https://github.com/gayanku/SCGC)]
-16. DCAGC (arXiv 22): "Dual Contrastive Attributed Graph Clustering Network" \[[paper](https://arxiv.org/abs/2206.07897)|[code](https://github.com/wangtong627/Dual-Contrastive-Attributed-Graph-Clustering-Network)]
+16. NCAGC (arXiv 22): "NCAGC: A Neighborhood Contrast Framework for Attributed Graph Clustering" \[[paper](https://arxiv.org/abs/2206.07897)|[code](https://github.com/wangtong627/Dual-Contrastive-Attributed-Graph-Clustering-Network)]
 
 #### Other Related Methods
 
