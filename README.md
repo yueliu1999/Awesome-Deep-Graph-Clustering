@@ -30,17 +30,15 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 
 
-
-
-
-
 ## Important Survey Papers
 
 | Year | Title                                                        | Venue       | Paper                                                        | Code |
 | ---- | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------ | ---- |
+| 2022 | **A Comprehensive Survey on Community Detectionwith Deep Learning** | TNNLS       | [Link](https://arxiv.org/pdf/2105.12584.pdf?ref=https://githubhelp.com) | -    |
+| 2020 | **A Comprehensive Survey on Graph Neural Networks**          | TNNLS       | [Link](https://ieeexplore.ieee.org/abstract/document/9046288) | -    |
 | 2018 | **A survey of clustering with deep learning: From the perspective of network architecture** | IEEE Access | [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8412085) | -    |
-| 2020 | **A Comprehensive Survey on Graph Neural Networks**          | TNNLS       | [link](https://ieeexplore.ieee.org/abstract/document/9046288) | -    |
-| 2022 | **A Comprehensive Survey on Community Detectionwith Deep Learning** | TNNLS       | [link](https://arxiv.org/pdf/2105.12584.pdf?ref=https://githubhelp.com) | -    |
+
+
 
 
 
@@ -87,10 +85,14 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 #### Adversarial Deep Graph Clustering
 
-1. ARGA/ARVGA (IJCAI 18) : "Adversarially Regularized Graph Autoencoder for Graph Embedding" \[[paper](https://arxiv.org/pdf/1802.04407)|[code](https://github.com/GRAND-Lab/ARGA)]
-2. AGAE (IJCAI 19): "Adversarial Graph Embedding for Ensemble Clustering" \[[paper](https://par.nsf.gov/servlets/purl/10113653)]
-3. ARGA/ARVGA (TCYB 19): "Learning Graph Embedding with Adversarial Training Methods" \[[paper](https://arxiv.org/pdf/1901.01250)|[code](https://github.com/GRAND-Lab/ARGA)]
-4. WARGA (arXiv 21): "Wasserstein Adversarially Regularized Graph Autoencoder" \[[paper](https://arxiv.org/pdf/2111.04981)|[code](https://github.com/LeonResearch/WARGA)]
+| Year | Title                                                        | Venue | Paper                                              | Code                                          |
+| ---- | ------------------------------------------------------------ | ----- | -------------------------------------------------- | --------------------------------------------- |
+| 2021 | **Wasserstein Adversarially Regularized Graph Autoencoder**  | arXiv | [Link](https://arxiv.org/pdf/2111.04981)           | [Link](https://github.com/LeonResearch/WARGA) |
+| 2019 | **Adversarial Graph Embedding for Ensemble Clustering (AGAE)** | IJCAI | [Link](https://par.nsf.gov/servlets/purl/10113653) | -                                             |
+| 2019 | **Learning Graph Embedding with Adversarial Training Methods (ARGA/ARVGA)** | TCYB  | [Link](https://arxiv.org/pdf/1901.01250)           | [Link](https://github.com/GRAND-Lab/ARGA)     |
+| 2018 | **Adversarially Regularized Graph Autoencoder for Graph Embedding (ARGA/ARVGA)** | IJCAI | [Link](https://arxiv.org/pdf/1802.04407)           | [Link](https://github.com/GRAND-Lab/ARGA)     |
+
+
 
 #### Contrastive Deep Graph Clustering
 
