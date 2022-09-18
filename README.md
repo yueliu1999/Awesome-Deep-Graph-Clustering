@@ -36,10 +36,14 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 ## Important Survey Papers
 
-1. "A survey of clustering with deep learning: From the perspective of network architecture" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8412085)]
-2. "A Comprehensive Survey on Community Detectionwith Deep Learning" \[[paper](https://arxiv.org/pdf/2105.12584.pdf?ref=https://githubhelp.com)]
-3. "A Comprehensive Survey on Graph Neural Networks" \[[paper](https://ieeexplore.ieee.org/abstract/document/9046288)]
-4. "A Survey on Graph Structure Learning: Progress and Opportunities" \[[paper](https://arxiv.org/pdf/2103.03036.pdf)]
+| Year | Title                                                        | Venue       | Paper                                                        | Code |
+| ---- | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------ | ---- |
+| 2018 | **A survey of clustering with deep learning: From the perspective of network architecture** | IEEE Access | [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8412085) | -    |
+| 2020 | **A Comprehensive Survey on Graph Neural Networks**          | TNNLS       | [link](https://ieeexplore.ieee.org/abstract/document/9046288) | -    |
+| 2022 | **A Comprehensive Survey on Community Detectionwith Deep Learning** | TNNLS       | [link](https://arxiv.org/pdf/2105.12584.pdf?ref=https://githubhelp.com) | -    |
+
+
+
 ## Papers
 
 #### Traditional Clustering
