@@ -80,22 +80,26 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 ### Contrastive Deep Graph Clustering
 
-1. MVGRL (ICML 20): "Contrastive Multi-View Representation Learning on Graphs" \[[paper](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf)|[code](https://github.com/kavehhassani/mvgrl)]
-2. AGE (SIGKDD 20): "Adaptive Graph Encoder for Attributed Graph Embedding" \[[paper](https://arxiv.org/pdf/2007.01594)|[code](https://github.com/thunlp/AGE)]
-3. MCGC (NeurIPS 21): "Multi-view Contrastive Graph Clustering" \[[paper](https://papers.nips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf)|[code](https://github.com/panern/mcgc)]
-4. SCAGC (arXiv 21): "Self-supervised Contrastive Attributed Graph Clustering" \[[paper](https://arxiv.org/abs/2110.08264)]
-5. MGCCN (arXiv 21): "Multilayer Graph Contrastive Clustering Network" \[[paper](https://arxiv.org/pdf/2112.14021)]
-6. GDCL (IJCAI 21): "Graph Debiased Contrastive Learning with Joint Representation Clustering" \[[paper](https://www.ijcai.org/proceedings/2021/0473.pdf)|[code](https://github.com/hzhao98/GDCL)]
-10. DCRN (AAAI 22): "Deep Graph Clustering via Dual Correlation Reduction" \[[paper](https://www.aaai.org/AAAI22Papers/AAAI-5928.LiuY.pdf)|[code](https://github.com/yueliu1999/DCRN)]
-11. AFGRL (AAAI 22): "Augmentation-Free Self-Supervised Learning on Graphs" \[[paper](https://arxiv.org/pdf/2112.02472)|[code](https://github.com/Namkyeong/AFGRL)]
-9. SAIL(AAAI 22): "SAIL: Self-Augmented Graph Contrastive Learning" \[[paper](https://arxiv.org/abs/2009.00934)]
-10. IDCRN (arXiv 22, extension of DCRN): "Improved Dual Correlation Reduction Network" \[[paper](https://arxiv.org/abs/2202.12533)]
-11. AGC-DRR (IJCAI 22): "Attributed Graph Clustering with Dual Redundancy Reduction" [[paper](https://www.ijcai.org/proceedings/2022/0418.pdf)|[code](https://github.com/gongleii/AGC-DRR)]
-12. SUBLIME (WWW 22): "Towards Unsupervised Deep Graph Structure Learning" \[[paper](https://arxiv.org/pdf/2201.06367.pdf)|[code](https://github.com/GRAND-Lab/SUBLIME)]
-13. CGC (WWW 22): "CGC: Contrastive Graph Clustering for Community Detection and Tracking" \[[paper](https://arxiv.org/abs/2204.08504)]
-14. SCGC (arXiv 22): "Simple Contrastive Graph Clustering" \[[paper](https://arxiv.org/abs/2205.07865)]
-15. SCGC (arXiv 22): "SCGC : Self-Supervised Contrastive Graph Clustering"  \[[paper](https://arxiv.org/pdf/2204.12656)|[code](https://github.com/gayanku/SCGC)]
-16. NCAGC (arXiv 22): "NCAGC: A Neighborhood Contrast Framework for Attributed Graph Clustering" \[[paper](https://arxiv.org/abs/2206.07897)|[code](https://github.com/wangtong627/Dual-Contrastive-Attributed-Graph-Clustering-Network)]
+
+
+| Year | Title                                                        | Venue   | Paper                                                        | Code                                                         |
+| ---- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2022 | **NCAGC: A Neighborhood Contrast Framework for Attributed Graph Clustering (NCAGC)** | arXiv   | [Link](https://arxiv.org/abs/2206.07897)                     | [Link](https://github.com/wangtong627/Dual-Contrastive-Attributed-Graph-Clustering-Network) |
+| 2022 | **Simple Contrastive Graph Clustering (SCGC)**               | arXiv   | [Link](https://arxiv.org/abs/2205.07865)                     | -                                                            |
+| 2022 | **SCGC : Self-Supervised Contrastive Graph Clustering (SCGC)** | arXiv   | [Link](https://arxiv.org/pdf/2204.12656)                     | [Link](https://github.com/gayanku/SCGC)                      |
+| 2022 | **Improved Dual Correlation Reduction Network (IDCRN)**      | arXiv   | [Link](https://arxiv.org/abs/2202.12533)                     | -                                                            |
+| 2022 | **CGC: Contrastive Graph Clustering for Community Detection and Tracking (CGC)** | WWW     | [Link](https://arxiv.org/abs/2204.08504)                     | -                                                            |
+| 2022 | **Towards Unsupervised Deep Graph Structure Learning (SUBLIME)** | WWW     | [Link](https://arxiv.org/pdf/2201.06367.pdf)                 | [Link](https://github.com/GRAND-Lab/SUBLIME)                 |
+| 2022 | **Attributed Graph Clustering with Dual Redundancy Reduction (AGC-DRR)** | IJCAI   | [Link](https://www.ijcai.org/proceedings/2022/0418.pdf)      | -                                                            |
+| 2022 | **Deep Graph Clustering via Dual Correlation Reduction (DCRN)** | AAAI    | [Link](https://www.aaai.org/AAAI22Papers/AAAI-5928.LiuY.pdf) | [Link](https://github.com/yueliu1999/DCRN)                   |
+| 2022 | **Augmentation-Free Self-Supervised Learning on Graphs (AFGRL)** | AAAI    | [Link](https://arxiv.org/pdf/2112.02472)                     | [Link](https://github.com/Namkyeong/AFGRL)                   |
+| 2022 | **SAIL: Self-Augmented Graph Contrastive Learning (SAIL)**   | AAAI    | [Link](https://arxiv.org/abs/2009.00934)                     | -                                                            |
+| 2021 | **Graph Debiased Contrastive Learning with Joint Representation Clustering (GDCL)** | IJCAI   | [Link](https://www.ijcai.org/proceedings/2021/0473.pdf)      | [Link](https://github.com/hzhao98/GDCL)                      |
+| 2021 | **Multilayer Graph Contrastive Clustering Network (MGCCN)**  | arXiv   | [Link]()                                                     | -                                                            |
+| 2021 | **Self-supervised Contrastive Attributed Graph Clustering (SCAGC)** | arXiv   | [Link](https://arxiv.org/abs/2110.08264)                     | -                                                            |
+| 2021 | **Multi-view Contrastive Graph Clustering (MCGC)**           | NeurIPS | [Link](https://papers.nips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf) | [Link](https://github.com/panern/mcgc)                       |
+| 2020 | **Adaptive Graph Encoder for Attributed Graph Embedding (AGE)** | SIGKDD  | [Link](https://arxiv.org/pdf/2007.01594)                     | [Link](https://github.com/thunlp/AGE)                        |
+| 2020 | **Contrastive Multi-View Representation Learning on Graphs (MVGRL)** | ICML    | [Link](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf) | [Link](https://github.com/kavehhassani/mvgrl)                |
 
 
 
