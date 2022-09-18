@@ -26,10 +26,6 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 </div>
 
 
-​    
-
-
-
 ## Important Survey Papers
 
 | Year | Title                                                        | Venue       | Paper                                                        | Code |
@@ -44,21 +40,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 ## Papers
 
-#### Traditional Clustering
-
-1. K-Means: "Algorithm AS 136: A k-means clustering algorithm" \[[paper](http://danida.vnu.edu.vn/cpis/files/Refs/LAD/Algorithm%20AS%20136-%20A%20K-Means%20Clustering%20Algorithm.pdf)|[code](https://github.com/src-d/kmcuda)]
-
-#### Deep Clustering
-
-1. DEC (ICML 16): "Unsupervised Deep Embedding for Clustering Analysis" \[[paper](http://proceedings.mlr.press/v48/xieb16.pdf)|[code](https://github.com/piiswrong/dec)]
-2. IDEC (IJCAI 17): "Improved Deep Embedded Clustering with Local Structure Preservation" \[[paper](https://www.researchgate.net/profile/Xifeng-Guo/publication/317095655_Improved_Deep_Embedded_Clustering_with_Local_Structure_Preservation/links/59263224458515e3d4537edc/Improved-Deep-Embedded-Clustering-with-Local-Structure-Preservation.pdf)|[code](https://github.com/XifengGuo/IDEC)]
-3. DCN (ICML 17): "Towards k-means-friendly spaces: Simultaneous deep learning and clustering"  \[[paper](http://proceedings.mlr.press/v70/yang17b/yang17b.pdf)|[code](https://github.com/boyangumn/DCN)]
-4. CC (AAAI 21): "Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2009.09687.pdf)|[code](https://github.com/Yunfan-Li/Contrastive-Clustering)]
-5. Ada-Net (ICLR 22): "Ada-nets: Face clustering via adaptive neighbour discovery in the structure space" \[[paper](https://arxiv.org/pdf/2202.03800)|[code](https://github.com/damo-cv/Ada-NETS)]
-6. AdaGAE (TPAMI 21): "Adaptive Graph Auto-Encoder for General Data Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9606581)|[code](https://github.com/hyzhang98/AdaGAE)]
-7. TCL (IJCV 22): "Twin Contrastive Learning for Online Clustering" [[paper](http://pengxi.me/wp-content/uploads/2022/07/Twin-Contrastive-Learning-for-Online-Clustering.pdf)|[code](https://github.com/Yunfan-Li/Twin-Contrastive-Learning)]
-
-#### Generative Deep Graph Clustering
+### Generative Deep Graph Clustering
 
 1. SAE (AAAI 14): "Learning Deep Representations for Graph Clustering" \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/8916/8775)|[code](https://github.com/quinngroup/deep-representations-clustering)]
 2. GAE/VGAE (NeurIPS 16): "Variational Graph Auto-Encoders" \[[paper](https://arxiv.org/pdf/1611.07308.pdf%5D)|[code](https://github.com/tkipf/gae)]
@@ -83,7 +65,9 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 22. CDRS (TNNLS 22): "Collaborative Decision-Reinforced Self-Supervision for Attributed Graph Clustering" \[[paper](https://ieeexplore.ieee.org/abstract/document/9777842)|[code](https://github.com/Jillian555/TNNLS_CDRS)]
 23. DNENC (PR 22): "Deep neighbor-aware embedding for node clustering in attributed graphs" \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320321004118)]
 
-#### Adversarial Deep Graph Clustering
+
+
+### Adversarial Deep Graph Clustering
 
 | Year | Title                                                        | Venue | Paper                                              | Code                                          |
 | ---- | ------------------------------------------------------------ | ----- | -------------------------------------------------- | --------------------------------------------- |
@@ -94,7 +78,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 
 
-#### Contrastive Deep Graph Clustering
+### Contrastive Deep Graph Clustering
 
 1. MVGRL (ICML 20): "Contrastive Multi-View Representation Learning on Graphs" \[[paper](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf)|[code](https://github.com/kavehhassani/mvgrl)]
 2. AGE (SIGKDD 20): "Adaptive Graph Encoder for Attributed Graph Embedding" \[[paper](https://arxiv.org/pdf/2007.01594)|[code](https://github.com/thunlp/AGE)]
@@ -113,7 +97,27 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 15. SCGC (arXiv 22): "SCGC : Self-Supervised Contrastive Graph Clustering"  \[[paper](https://arxiv.org/pdf/2204.12656)|[code](https://github.com/gayanku/SCGC)]
 16. NCAGC (arXiv 22): "NCAGC: A Neighborhood Contrast Framework for Attributed Graph Clustering" \[[paper](https://arxiv.org/abs/2206.07897)|[code](https://github.com/wangtong627/Dual-Contrastive-Attributed-Graph-Clustering-Network)]
 
-#### Other Related Methods
+
+
+
+
+### Traditional Clustering
+
+1. K-Means: "Algorithm AS 136: A k-means clustering algorithm" \[[paper](http://danida.vnu.edu.vn/cpis/files/Refs/LAD/Algorithm%20AS%20136-%20A%20K-Means%20Clustering%20Algorithm.pdf)|[code](https://github.com/src-d/kmcuda)]
+
+### Deep Clustering
+
+1. DEC (ICML 16): "Unsupervised Deep Embedding for Clustering Analysis" \[[paper](http://proceedings.mlr.press/v48/xieb16.pdf)|[code](https://github.com/piiswrong/dec)]
+2. IDEC (IJCAI 17): "Improved Deep Embedded Clustering with Local Structure Preservation" \[[paper](https://www.researchgate.net/profile/Xifeng-Guo/publication/317095655_Improved_Deep_Embedded_Clustering_with_Local_Structure_Preservation/links/59263224458515e3d4537edc/Improved-Deep-Embedded-Clustering-with-Local-Structure-Preservation.pdf)|[code](https://github.com/XifengGuo/IDEC)]
+3. DCN (ICML 17): "Towards k-means-friendly spaces: Simultaneous deep learning and clustering"  \[[paper](http://proceedings.mlr.press/v70/yang17b/yang17b.pdf)|[code](https://github.com/boyangumn/DCN)]
+4. CC (AAAI 21): "Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2009.09687.pdf)|[code](https://github.com/Yunfan-Li/Contrastive-Clustering)]
+5. Ada-Net (ICLR 22): "Ada-nets: Face clustering via adaptive neighbour discovery in the structure space" \[[paper](https://arxiv.org/pdf/2202.03800)|[code](https://github.com/damo-cv/Ada-NETS)]
+6. AdaGAE (TPAMI 21): "Adaptive Graph Auto-Encoder for General Data Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9606581)|[code](https://github.com/hyzhang98/AdaGAE)]
+7. TCL (IJCV 22): "Twin Contrastive Learning for Online Clustering" [[paper](http://pengxi.me/wp-content/uploads/2022/07/Twin-Contrastive-Learning-for-Online-Clustering.pdf)|[code](https://github.com/Yunfan-Li/Twin-Contrastive-Learning)]
+
+
+
+### Other Related Methods
 
 1. AGC (IJCAI 19): "Attributed Graph Clustering via Adaptive Graph Convolution" \[[paper](https://www.ijcai.org/Proceedings/2019/0601.pdf)|[code](https://github.com/karenlatong/AGC-master)]
 2. MCGC (TIP 19): "Multiview Consensus Graph Clustering" \[[paper](https://ieeexplore.ieee.org/abstract/document/8501973)|[code](https://github.com/kunzhan/MCGC)]
@@ -142,6 +146,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 26. MVGC (NN 22): "Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation" \[[paper](https://www.sciencedirect.com/science/article/pii/S089360802100397X?via%3Dihub)|[code](https://github.com/xdweixia/NN-2022-MVGC)]
 27. FGC (SDM22): "Fine-grained Attributed Graph Clustering" \[[paper](https://epubs.siam.org/doi/epdf/10.1137/1.9781611977172.42)|[code](https://github.com/sckangz/FGC)]
 28. GRACE (TKDD 22): "GRACE: A General Graph Convolution Framework for Atributed Graph Clustering" \[[paper](https://dl.acm.org/doi/pdf/10.1145/3544977)]
+
+
 
 ## Benchmark Datasets
 
@@ -247,3 +253,4 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 [Awesome Incomplete Graph Representation Learning](https://github.com/WxTu/Awesome-Incomplete-Graph-Representation-Learning)
 
 [awesome-self-supervised-gnn](https://github.com/ChandlerBang/awesome-self-supervised-gnn)
+
