@@ -28,11 +28,11 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 ## Important Survey Papers
 
-| Year | Title                                                        | Venue       | Paper                                                        | Code |
-| ---- | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------ | ---- |
-| 2022 | **A Comprehensive Survey on Community Detectionwith Deep Learning** | TNNLS       | [Link](https://arxiv.org/pdf/2105.12584.pdf?ref=https://githubhelp.com) | -    |
-| 2020 | **A Comprehensive Survey on Graph Neural Networks**          | TNNLS       | [Link](https://ieeexplore.ieee.org/abstract/document/9046288) | -    |
-| 2018 | **A survey of clustering with deep learning: From the perspective of network architecture** | IEEE Access | [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8412085) | -    |
+| Year | Title                                                        |    Venue    |                            Paper                             | Code |
+| ---- | ------------------------------------------------------------ | :---------: | :----------------------------------------------------------: | :--: |
+| 2022 | **A Comprehensive Survey on Community Detectionwith Deep Learning** |    TNNLS    | [Link](https://arxiv.org/pdf/2105.12584.pdf?ref=https://githubhelp.com) |  -   |
+| 2020 | **A Comprehensive Survey on Graph Neural Networks**          |    TNNLS    | [Link](https://ieeexplore.ieee.org/abstract/document/9046288) |  -   |
+| 2018 | **A survey of clustering with deep learning: From the perspective of network architecture** | IEEE Access | [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8412085) |  -   |
 
 
 
@@ -42,30 +42,30 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 ### Generative Deep Graph Clustering
 
-| Year | Title                                                        | Venue   | Paper                                                        | Code                                                         |
-| ---- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 2022 | **Efficient Graph Convolution for Joint Node Representation Learning and Clustering (GCC)** | WSDM    | [Link](https://dl.acm.org/doi/pdf/10.1145/3488560.3498533)   | [Link](https://github.com/chakib401/graph_convolutional_clustering) |
-| 2022 | **ZINB-based Graph Embedding Autoencoder for Single-cell RNA-seq Interpretations (scTAG)** | AAAI    | [Link](https://www.aaai.org/AAAI22Papers/AAAI-5060.YuZ.pdf)  | [Link](https://github.com/Philyzh8/scTAG)                    |
-| 2022 | **Graph Clustering via Variational Graph Embedding (GC-VAE)** | PR      | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0031320321005148) | -                                                            |
-| 2022 | **Deep neighbor-aware embedding for node clustering in attributed graphs (DNENC)** | PR      | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0031320321004118) | -                                                            |
-| 2022 | **Collaborative Decision-Reinforced Self-Supervision for Attributed Graph Clustering (CDRS)** | TNNLS   | [Link](https://ieeexplore.ieee.org/abstract/document/9777842) | [Link](https://github.com/Jillian555/TNNLS_CDRS)             |
-| 2022 | **Embedding Graph Auto-Encoder for Graph Clustering (EGAE)** | TNNLS   | [Link](https://ieeexplore.ieee.org/document/9741755)         | [Link](https://github.com/hyzhang98/EGAE)                    |
-| 2021 | **Adaptive Hypergraph Auto-Encoder for Relational Data Clustering (AHGAE)** | TKDE    | [Link](https://ieeexplore.ieee.org/iel7/69/4358933/09525190.pdf%3Fcasa_token%3DmbL8SLkmu8AAAAAA:mNPoE2n3BwaMZsYdRotHwa8Qs3uyzY53ZPVd0ixXutwqovM4vA7OSmsYWN3qXOAGW3CgH-LugHo&hl=en&sa=T&oi=ucasa&ct=ucasa&ei=_dvpYcTXCcCVy9YPgta4-AM&scisig=AAGBfm2V50SkaPV0K8x2F_mYsC15x028wA) | -                                                            |
-| 2021 | **Deep Attention-guided Graph Clustering with Dual Self-supervision (DAGC)** | arXiv   | [Link](https://arxiv.org/abs/2111.05548)                     | [Link](https://github.com/ZhihaoPENG-CityU/DAGC)             |
-| 2021 | **Attention-driven Graph Clustering Network (AGCN)**         | ACM MM  | [Link]()                                                     | [Link]()                                                     |
-| 2021 | **Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering (R-GAE)** | arXiv   | [Link](https://arxiv.org/pdf/2107.08562)                     | [Link](https://github.com/nairouz/R-GAE)                     |
-| 2021 | **Deep Fusion Clustering Network (DFCN)**                    | AAAI    | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/17198/17005) | [Link](https://github.com/WxTu/DFCN)                         |
-| 2020 | **Collaborative Graph Convolutional Networks: Unsupervised Learning Meets Semi-Supervised Learning** | AAAI    | [Link](https://ojs.aaai.org/index.php/AAAI/article/download/5843/5699) | [Link](https://github.com/nairouz/R-GAE/tree/master/GMM-VGAE) |
-| 2020 | **One2Multi Graph Autoencoder for Multi-view Graph Clustering (O2MAC)** | WWW     | [Link](http://shichuan.org/doc/83.pdf)                       | [Link](https://github.com/googlebaba/WWW2020-O2MAC)          |
-| 2020 | **Structural Deep Clustering Network (SDCN/SDCN_Q)**         | WWW     | [Link](https://arxiv.org/pdf/2002.01633)                     | [Link](https://github.com/bdy9527/SDCN)                      |
-| 2020 | **Dirichlet Graph Variational Autoencoder (DGVAE)**          | NeurIPS | [Link](https://proceedings.neurips.cc/paper/2020/file/38a77aa456fc813af07bb428f2363c8d-Paper.pdf) | [Link](https://github.com/xiyou3368/DGVAE)                   |
-| 2019 | **RWR-GAE: Random Walk Regularization for Graph Auto Encoders (RWR-GAE)** | arXiv   | [Link](https://arxiv.org/pdf/1908.04003)                     | [Link](https://github.com/MysteryVaibhav/RWR-GAE)            |
-| 2019 | **Symmetric Graph Convolutional Autoencoder for Unsupervised Graph Representation Learning (GALA)** | ICCV    | [Link](https://openaccess.thecvf.com/content_ICCV_2019/papers/Park_Symmetric_Graph_Convolutional_Autoencoder_for_Unsupervised_Graph_Representation_Learning_ICCV_2019_paper.pdf) | [Link](https://github.com/sseung0703/GALA_TF2.0)             |
-| 2019 | **Attributed Graph Clustering: A Deep Attentional Embedding Approach (DAEGC)** | IJCAI   | [Link](https://www.ijcai.org/proceedings/2019/0509.pdf)      | [Link](https://github.com/Tiger101010/DAEGC)                 |
-| 2019 | **Network-Specific Variational Auto-Encoder for Embedding in Attribute Networks (NetVAE)** | IJCAI   | [Link](https://www.ijcai.org/proceedings/2019/370)           | -                                                            |
-| 2017 | **MGAE: Marginalized Graph Autoencoder for Graph Clustering (MGAE)** | CIKM    | [Link](https://www.researchgate.net/profile/Shirui-Pan-3/publication/320882195_MGAE_Marginalized_Graph_Autoencoder_for_Graph_Clustering/links/5b76157b45851546c90a3d74/MGAE-Marginalized-Graph-Autoencoder-for-Graph-Clustering.pdf) | [Link](https://github.com/GRAND-Lab/MGAE)                    |
-| 2016 | **Variational Graph Auto-Encoders (GAE)**                    | NeurIPS | [Link](https://ieeexplore.ieee.org/abstract/document/9046288) | [Link](https://github.com/tkipf/gae)                         |
-| 2014 | **Learning Deep Representations for Graph Clustering (SAE)** | AAAI    | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/8916/8775) | [Link](https://github.com/quinngroup/deep-representations-clustering) |
+| Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
+| ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2022 | **Efficient Graph Convolution for Joint Node Representation Learning and Clustering (GCC)** |  WSDM   |  [Link](https://dl.acm.org/doi/pdf/10.1145/3488560.3498533)  | [Link](https://github.com/chakib401/graph_convolutional_clustering) |
+| 2022 | **ZINB-based Graph Embedding Autoencoder for Single-cell RNA-seq Interpretations (scTAG)** |  AAAI   | [Link](https://www.aaai.org/AAAI22Papers/AAAI-5060.YuZ.pdf)  |          [Link](https://github.com/Philyzh8/scTAG)           |
+| 2022 | **Graph Clustering via Variational Graph Embedding (GC-VAE)** |   PR    | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0031320321005148) |                              -                               |
+| 2022 | **Deep neighbor-aware embedding for node clustering in attributed graphs (DNENC)** |   PR    | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0031320321004118) |                              -                               |
+| 2022 | **Collaborative Decision-Reinforced Self-Supervision for Attributed Graph Clustering (CDRS)** |  TNNLS  | [Link](https://ieeexplore.ieee.org/abstract/document/9777842) |       [Link](https://github.com/Jillian555/TNNLS_CDRS)       |
+| 2022 | **Embedding Graph Auto-Encoder for Graph Clustering (EGAE)** |  TNNLS  |     [Link](https://ieeexplore.ieee.org/document/9741755)     |          [Link](https://github.com/hyzhang98/EGAE)           |
+| 2021 | **Adaptive Hypergraph Auto-Encoder for Relational Data Clustering (AHGAE)** |  TKDE   | [Link](https://ieeexplore.ieee.org/iel7/69/4358933/09525190.pdf%3Fcasa_token%3DmbL8SLkmu8AAAAAA:mNPoE2n3BwaMZsYdRotHwa8Qs3uyzY53ZPVd0ixXutwqovM4vA7OSmsYWN3qXOAGW3CgH-LugHo&hl=en&sa=T&oi=ucasa&ct=ucasa&ei=_dvpYcTXCcCVy9YPgta4-AM&scisig=AAGBfm2V50SkaPV0K8x2F_mYsC15x028wA) |                              -                               |
+| 2021 | **Deep Attention-guided Graph Clustering with Dual Self-supervision (DAGC)** |  arXiv  |           [Link](https://arxiv.org/abs/2111.05548)           |       [Link](https://github.com/ZhihaoPENG-CityU/DAGC)       |
+| 2021 | **Attention-driven Graph Clustering Network (AGCN)**         | ACM MM  |                           [Link]()                           |                           [Link]()                           |
+| 2021 | **Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering (R-GAE)** |  arXiv  |           [Link](https://arxiv.org/pdf/2107.08562)           |           [Link](https://github.com/nairouz/R-GAE)           |
+| 2021 | **Deep Fusion Clustering Network (DFCN)**                    |  AAAI   | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/17198/17005) |             [Link](https://github.com/WxTu/DFCN)             |
+| 2020 | **Collaborative Graph Convolutional Networks: Unsupervised Learning Meets Semi-Supervised Learning** |  AAAI   | [Link](https://ojs.aaai.org/index.php/AAAI/article/download/5843/5699) | [Link](https://github.com/nairouz/R-GAE/tree/master/GMM-VGAE) |
+| 2020 | **One2Multi Graph Autoencoder for Multi-view Graph Clustering (O2MAC)** |   WWW   |            [Link](http://shichuan.org/doc/83.pdf)            |     [Link](https://github.com/googlebaba/WWW2020-O2MAC)      |
+| 2020 | **Structural Deep Clustering Network (SDCN/SDCN_Q)**         |   WWW   |           [Link](https://arxiv.org/pdf/2002.01633)           |           [Link](https://github.com/bdy9527/SDCN)            |
+| 2020 | **Dirichlet Graph Variational Autoencoder (DGVAE)**          | NeurIPS | [Link](https://proceedings.neurips.cc/paper/2020/file/38a77aa456fc813af07bb428f2363c8d-Paper.pdf) |          [Link](https://github.com/xiyou3368/DGVAE)          |
+| 2019 | **RWR-GAE: Random Walk Regularization for Graph Auto Encoders (RWR-GAE)** |  arXiv  |           [Link](https://arxiv.org/pdf/1908.04003)           |      [Link](https://github.com/MysteryVaibhav/RWR-GAE)       |
+| 2019 | **Symmetric Graph Convolutional Autoencoder for Unsupervised Graph Representation Learning (GALA)** |  ICCV   | [Link](https://openaccess.thecvf.com/content_ICCV_2019/papers/Park_Symmetric_Graph_Convolutional_Autoencoder_for_Unsupervised_Graph_Representation_Learning_ICCV_2019_paper.pdf) |       [Link](https://github.com/sseung0703/GALA_TF2.0)       |
+| 2019 | **Attributed Graph Clustering: A Deep Attentional Embedding Approach (DAEGC)** |  IJCAI  |   [Link](https://www.ijcai.org/proceedings/2019/0509.pdf)    |         [Link](https://github.com/Tiger101010/DAEGC)         |
+| 2019 | **Network-Specific Variational Auto-Encoder for Embedding in Attribute Networks (NetVAE)** |  IJCAI  |      [Link](https://www.ijcai.org/proceedings/2019/370)      |                              -                               |
+| 2017 | **MGAE: Marginalized Graph Autoencoder for Graph Clustering (MGAE)** |  CIKM   | [Link](https://www.researchgate.net/profile/Shirui-Pan-3/publication/320882195_MGAE_Marginalized_Graph_Autoencoder_for_Graph_Clustering/links/5b76157b45851546c90a3d74/MGAE-Marginalized-Graph-Autoencoder-for-Graph-Clustering.pdf) |          [Link](https://github.com/GRAND-Lab/MGAE)           |
+| 2016 | **Variational Graph Auto-Encoders (GAE)**                    | NeurIPS | [Link](https://ieeexplore.ieee.org/abstract/document/9046288) |             [Link](https://github.com/tkipf/gae)             |
+| 2014 | **Learning Deep Representations for Graph Clustering (SAE)** |  AAAI   | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/8916/8775) | [Link](https://github.com/quinngroup/deep-representations-clustering) |
 
 
 
@@ -75,35 +75,35 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 ### Adversarial Deep Graph Clustering
 
-| Year | Title                                                        | Venue | Paper                                              | Code                                          |
-| ---- | ------------------------------------------------------------ | ----- | -------------------------------------------------- | --------------------------------------------- |
-| 2021 | **Wasserstein Adversarially Regularized Graph Autoencoder**  | arXiv | [Link](https://arxiv.org/pdf/2111.04981)           | [Link](https://github.com/LeonResearch/WARGA) |
-| 2019 | **Adversarial Graph Embedding for Ensemble Clustering (AGAE)** | IJCAI | [Link](https://par.nsf.gov/servlets/purl/10113653) | -                                             |
-| 2019 | **Learning Graph Embedding with Adversarial Training Methods (ARGA/ARVGA)** | TCYB  | [Link](https://arxiv.org/pdf/1901.01250)           | [Link](https://github.com/GRAND-Lab/ARGA)     |
-| 2018 | **Adversarially Regularized Graph Autoencoder for Graph Embedding (ARGA/ARVGA)** | IJCAI | [Link](https://arxiv.org/pdf/1802.04407)           | [Link](https://github.com/GRAND-Lab/ARGA)     |
+| Year | Title                                                        | Venue |                       Paper                        |                     Code                      |
+| ---- | ------------------------------------------------------------ | :---: | :------------------------------------------------: | :-------------------------------------------: |
+| 2021 | **Wasserstein Adversarially Regularized Graph Autoencoder**  | arXiv |      [Link](https://arxiv.org/pdf/2111.04981)      | [Link](https://github.com/LeonResearch/WARGA) |
+| 2019 | **Adversarial Graph Embedding for Ensemble Clustering (AGAE)** | IJCAI | [Link](https://par.nsf.gov/servlets/purl/10113653) |                       -                       |
+| 2019 | **Learning Graph Embedding with Adversarial Training Methods (ARGA/ARVGA)** | TCYB  |      [Link](https://arxiv.org/pdf/1901.01250)      |   [Link](https://github.com/GRAND-Lab/ARGA)   |
+| 2018 | **Adversarially Regularized Graph Autoencoder for Graph Embedding (ARGA/ARVGA)** | IJCAI |      [Link](https://arxiv.org/pdf/1802.04407)      |   [Link](https://github.com/GRAND-Lab/ARGA)   |
 
 
 
 ### Contrastive Deep Graph Clustering
 
-| Year | Title                                                        | Venue   | Paper                                                        | Code                                                         |
-| ---- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 2022 | **NCAGC: A Neighborhood Contrast Framework for Attributed Graph Clustering (NCAGC)** | arXiv   | [Link](https://arxiv.org/abs/2206.07897)                     | [Link](https://github.com/wangtong627/Dual-Contrastive-Attributed-Graph-Clustering-Network) |
-| 2022 | **Simple Contrastive Graph Clustering (SCGC)**               | arXiv   | [Link](https://arxiv.org/abs/2205.07865)                     | -                                                            |
-| 2022 | **SCGC : Self-Supervised Contrastive Graph Clustering (SCGC)** | arXiv   | [Link](https://arxiv.org/pdf/2204.12656)                     | [Link](https://github.com/gayanku/SCGC)                      |
-| 2022 | **Improved Dual Correlation Reduction Network (IDCRN)**      | arXiv   | [Link](https://arxiv.org/abs/2202.12533)                     | -                                                            |
-| 2022 | **CGC: Contrastive Graph Clustering for Community Detection and Tracking (CGC)** | WWW     | [Link](https://arxiv.org/abs/2204.08504)                     | -                                                            |
-| 2022 | **Towards Unsupervised Deep Graph Structure Learning (SUBLIME)** | WWW     | [Link](https://arxiv.org/pdf/2201.06367.pdf)                 | [Link](https://github.com/GRAND-Lab/SUBLIME)                 |
-| 2022 | **Attributed Graph Clustering with Dual Redundancy Reduction (AGC-DRR)** | IJCAI   | [Link](https://www.ijcai.org/proceedings/2022/0418.pdf)      | -                                                            |
-| 2022 | **Deep Graph Clustering via Dual Correlation Reduction (DCRN)** | AAAI    | [Link](https://www.aaai.org/AAAI22Papers/AAAI-5928.LiuY.pdf) | [Link](https://github.com/yueliu1999/DCRN)                   |
-| 2022 | **Augmentation-Free Self-Supervised Learning on Graphs (AFGRL)** | AAAI    | [Link](https://arxiv.org/pdf/2112.02472)                     | [Link](https://github.com/Namkyeong/AFGRL)                   |
-| 2022 | **SAIL: Self-Augmented Graph Contrastive Learning (SAIL)**   | AAAI    | [Link](https://arxiv.org/abs/2009.00934)                     | -                                                            |
-| 2021 | **Graph Debiased Contrastive Learning with Joint Representation Clustering (GDCL)** | IJCAI   | [Link](https://www.ijcai.org/proceedings/2021/0473.pdf)      | [Link](https://github.com/hzhao98/GDCL)                      |
-| 2021 | **Multilayer Graph Contrastive Clustering Network (MGCCN)**  | arXiv   | [Link]()                                                     | -                                                            |
-| 2021 | **Self-supervised Contrastive Attributed Graph Clustering (SCAGC)** | arXiv   | [Link](https://arxiv.org/abs/2110.08264)                     | -                                                            |
-| 2021 | **Multi-view Contrastive Graph Clustering (MCGC)**           | NeurIPS | [Link](https://papers.nips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf) | [Link](https://github.com/panern/mcgc)                       |
-| 2020 | **Adaptive Graph Encoder for Attributed Graph Embedding (AGE)** | SIGKDD  | [Link](https://arxiv.org/pdf/2007.01594)                     | [Link](https://github.com/thunlp/AGE)                        |
-| 2020 | **Contrastive Multi-View Representation Learning on Graphs (MVGRL)** | ICML    | [Link](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf) | [Link](https://github.com/kavehhassani/mvgrl)                |
+| Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
+| ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2022 | **NCAGC: A Neighborhood Contrast Framework for Attributed Graph Clustering (NCAGC)** |  arXiv  |           [Link](https://arxiv.org/abs/2206.07897)           | [Link](https://github.com/wangtong627/Dual-Contrastive-Attributed-Graph-Clustering-Network) |
+| 2022 | **Simple Contrastive Graph Clustering (SCGC)**               |  arXiv  |           [Link](https://arxiv.org/abs/2205.07865)           |                              -                               |
+| 2022 | **SCGC : Self-Supervised Contrastive Graph Clustering (SCGC)** |  arXiv  |           [Link](https://arxiv.org/pdf/2204.12656)           |           [Link](https://github.com/gayanku/SCGC)            |
+| 2022 | **Improved Dual Correlation Reduction Network (IDCRN)**      |  arXiv  |           [Link](https://arxiv.org/abs/2202.12533)           |                              -                               |
+| 2022 | **CGC: Contrastive Graph Clustering for Community Detection and Tracking (CGC)** |   WWW   |           [Link](https://arxiv.org/abs/2204.08504)           |                              -                               |
+| 2022 | **Towards Unsupervised Deep Graph Structure Learning (SUBLIME)** |   WWW   |         [Link](https://arxiv.org/pdf/2201.06367.pdf)         |         [Link](https://github.com/GRAND-Lab/SUBLIME)         |
+| 2022 | **Attributed Graph Clustering with Dual Redundancy Reduction (AGC-DRR)** |  IJCAI  |   [Link](https://www.ijcai.org/proceedings/2022/0418.pdf)    |                              -                               |
+| 2022 | **Deep Graph Clustering via Dual Correlation Reduction (DCRN)** |  AAAI   | [Link](https://www.aaai.org/AAAI22Papers/AAAI-5928.LiuY.pdf) |          [Link](https://github.com/yueliu1999/DCRN)          |
+| 2022 | **Augmentation-Free Self-Supervised Learning on Graphs (AFGRL)** |  AAAI   |           [Link](https://arxiv.org/pdf/2112.02472)           |          [Link](https://github.com/Namkyeong/AFGRL)          |
+| 2022 | **SAIL: Self-Augmented Graph Contrastive Learning (SAIL)**   |  AAAI   |           [Link](https://arxiv.org/abs/2009.00934)           |                              -                               |
+| 2021 | **Graph Debiased Contrastive Learning with Joint Representation Clustering (GDCL)** |  IJCAI  |   [Link](https://www.ijcai.org/proceedings/2021/0473.pdf)    |           [Link](https://github.com/hzhao98/GDCL)            |
+| 2021 | **Multilayer Graph Contrastive Clustering Network (MGCCN)**  |  arXiv  |                           [Link]()                           |                              -                               |
+| 2021 | **Self-supervised Contrastive Attributed Graph Clustering (SCAGC)** |  arXiv  |           [Link](https://arxiv.org/abs/2110.08264)           |                              -                               |
+| 2021 | **Multi-view Contrastive Graph Clustering (MCGC)**           | NeurIPS | [Link](https://papers.nips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf) |            [Link](https://github.com/panern/mcgc)            |
+| 2020 | **Adaptive Graph Encoder for Attributed Graph Embedding (AGE)** | SIGKDD  |           [Link](https://arxiv.org/pdf/2007.01594)           |            [Link](https://github.com/thunlp/AGE)             |
+| 2020 | **Contrastive Multi-View Representation Learning on Graphs (MVGRL)** |  ICML   | [Link](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf) |        [Link](https://github.com/kavehhassani/mvgrl)         |
 
 
 
