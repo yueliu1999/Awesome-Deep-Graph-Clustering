@@ -107,53 +107,49 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 
 
-
-
-### Traditional Clustering
-
-1. K-Means: "Algorithm AS 136: A k-means clustering algorithm" \[[paper](http://danida.vnu.edu.vn/cpis/files/Refs/LAD/Algorithm%20AS%20136-%20A%20K-Means%20Clustering%20Algorithm.pdf)|[code](https://github.com/src-d/kmcuda)]
-
 ### Deep Clustering
 
-1. DEC (ICML 16): "Unsupervised Deep Embedding for Clustering Analysis" \[[paper](http://proceedings.mlr.press/v48/xieb16.pdf)|[code](https://github.com/piiswrong/dec)]
-2. IDEC (IJCAI 17): "Improved Deep Embedded Clustering with Local Structure Preservation" \[[paper](https://www.researchgate.net/profile/Xifeng-Guo/publication/317095655_Improved_Deep_Embedded_Clustering_with_Local_Structure_Preservation/links/59263224458515e3d4537edc/Improved-Deep-Embedded-Clustering-with-Local-Structure-Preservation.pdf)|[code](https://github.com/XifengGuo/IDEC)]
-3. DCN (ICML 17): "Towards k-means-friendly spaces: Simultaneous deep learning and clustering"  \[[paper](http://proceedings.mlr.press/v70/yang17b/yang17b.pdf)|[code](https://github.com/boyangumn/DCN)]
-4. CC (AAAI 21): "Contrastive Clustering" \[[paper](https://arxiv.org/pdf/2009.09687.pdf)|[code](https://github.com/Yunfan-Li/Contrastive-Clustering)]
-5. Ada-Net (ICLR 22): "Ada-nets: Face clustering via adaptive neighbour discovery in the structure space" \[[paper](https://arxiv.org/pdf/2202.03800)|[code](https://github.com/damo-cv/Ada-NETS)]
-6. AdaGAE (TPAMI 21): "Adaptive Graph Auto-Encoder for General Data Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9606581)|[code](https://github.com/hyzhang98/AdaGAE)]
-7. TCL (IJCV 22): "Twin Contrastive Learning for Online Clustering" [[paper](http://pengxi.me/wp-content/uploads/2022/07/Twin-Contrastive-Learning-for-Online-Clustering.pdf)|[code](https://github.com/Yunfan-Li/Twin-Contrastive-Learning)]
-
-
+| Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
+| :--: | :----------------------------------------------------------- | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2022 | **Twin Contrastive Learning for Online Clustering**          |   IJCV    | [Link](http://pengxi.me/wp-content/uploads/2022/07/Twin-Contrastive-Learning-for-Online-Clustering.pdf) | [Link](https://github.com/Yunfan-Li/Twin-Contrastive-Learning) |
+| 2022 | **Ada-nets: Face clustering via adaptive neighbor discovery in the structure space** |   ICLR    |           [Link](https://arxiv.org/pdf/2202.03800)           |         [Link](https://github.com/damo-cv/Ada-NETS)          |
+| 2021 | **Adaptive Graph Auto-Encoder for General Data Clustering**  |   TPAMI   | [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9606581) |         [Link](https://github.com/hyzhang98/AdaGAE)          |
+| 2021 | **Contrastive Clustering**                                   |   AAAI    |         [Link](https://arxiv.org/pdf/2009.09687.pdf)         | [Link](https://github.com/Yunfan-Li/Contrastive-Clustering)  |
+| 2017 | **Towards k-means-friendly spaces: Simultaneous deep learning and clustering** |   ICML    | [Link](http://proceedings.mlr.press/v70/yang17b/yang17b.pdf) |           [Link](https://github.com/boyangumn/DCN)           |
+| 2017 | **Improved Deep Embedded Clustering with Local Structure Preservation** |   IJCAI   | [Link](https://www.researchgate.net/profile/Xifeng-Guo/publication/317095655_Improved_Deep_Embedded_Clustering_with_Local_Structure_Preservation/links/59263224458515e3d4537edc/Improved-Deep-Embedded-Clustering-with-Local-Structure-Preservation.pdf) |          [Link](https://github.com/XifengGuo/IDEC)           |
+| 2016 | **Unsupervised Deep Embedding for Clustering Analysis**      |   ICML    |     [Link](http://proceedings.mlr.press/v48/xieb16.pdf)      |           [Link](https://github.com/piiswrong/dec)           |
 
 ### Other Related Methods
 
-1. AGC (IJCAI 19): "Attributed Graph Clustering via Adaptive Graph Convolution" \[[paper](https://www.ijcai.org/Proceedings/2019/0601.pdf)|[code](https://github.com/karenlatong/AGC-master)]
-2. MCGC (TIP 19): "Multiview Consensus Graph Clustering" \[[paper](https://ieeexplore.ieee.org/abstract/document/8501973)|[code](https://github.com/kunzhan/MCGC)]
-3. HAN (WWW 19): "Heterogeneous Graph Attention Network"  \[[paper](https://arxiv.org/pdf/1903.07293.pdf)|[code](https://github.com/Jhy1993/HAN)]
-4. DAG (ICCKE 20): "Attributed Graph Clustering via Deep Adaptive Graph Maximization" \[[paper](https://ieeexplore-ieee-org-s.nudtproxy.yitlink.com/stamp/stamp.jsp?tp=&arnumber=9303694)]
-5. MAGCN (IJCAI 20): "Multi-View Attribute Graph Convolution Networks for Clustering" \[[paper](https://www.ijcai.org/proceedings/2020/0411.pdf)|[code](https://github.com/IMKBLE/MAGCN)]
-6. Cross-Graph (ICDM 20): "Cross-Graph: Robust and Unsupervised Embedding for Attributed Graphs with Corrupted Structure" \[[paper](https://ieeexplore.ieee.org/document/9338269)|[code](https://github.com/FakeTibbers/Cross-Graph)]
-7. DMGI (AAAI 20): "Unsupervised Attributed Multiplex Network Embedding" \[[paper](https://arxiv.org/abs/1911.06750)|[code](https://github.com/pcy1302/DMGI)]
-8. MAGNN (WWW 20): "MAGNN: Metapath Aggregated Graph Neural Network for Heterogeneous Graph Embedding" \[[paper](https://arxiv.org/abs/2002.01680)|[code](https://github.com/cynricfu/MAGNN)]
-9. MinCutPool (ICML 20): "Spectral Clustering with Graph Neural Networks for Graph Pooling" \[[paper](http://proceedings.mlr.press/v119/bianchi20a/bianchi20a.pdf)|[code](https://github.com/FilippoMB/Spectral-Clustering-with-Graph-Neural-Networks-for-Graph-Pooling)]
-10. GCAGC (CVPR 20): "Adaptive Graph Convolutional Network with Attention Graph Clustering for Co saliency Detection" \[[paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Adaptive_Graph_Convolutional_Network_With_Attention_Graph_Clustering_for_Co-Saliency_CVPR_2020_paper.pdf)|[code](https://github.com/ltp1995/GCAGC-CVPR2020)]
-11. DBGAN (CVPR 20): "Distribution-induced Bidirectional GAN for Graph Representation Learning" \[[paper](https://arxiv.org/pdf/1912.01899)|[code](https://github.com/SsGood/DBGAN)]
-12. CAGNN (arXiv 20): "Cluster-Aware Graph Neural Networks for Unsupervised Graph Representation Learning" \[[paper](https://arxiv.org/abs/2009.01674)]
-13. COLES (NeurIPS 21): "Contrastive Laplacian Eigenmaps"  \[[paper](https://proceedings.neurips.cc/paper/2021/file/2d1b2a5ff364606ff041650887723470-Paper.pdf)|[code](https://github.com/allenhaozhu/COLES)]
-14. Graph-MVP (arXiv 21): "Graph-MVP: Multi-View Prototypical Contrastive Learning for Multiplex Graphs" \[[paper](https://arxiv.org/abs/2109.03560)|[code](https://github.com/chao1224/GraphMVP)]
-15. MvAGC (IJCAI 21): "Graph Filter-based Multi-view Attributed Graph Clustering" \[[paper](https://www.ijcai.org/proceedings/2021/0375.pdf)|[code](https://github.com/sckangz/MvAGC)]
-16. GIC (PAKDD 21): "Graph InfoClust: Maximizing Coarse-Grain Mutual Information in Graphs" \[[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-75762-5_43)|[code](https://github.com/cmavro/Graph-InfoClust-GIC)]
-17. HDMI (WWW 21): "High-order Deep Multiplex Infomax" \[[paper](https://arxiv.org/abs/2102.07810)|[code](https://github.com/baoyujing/HDMI)]
-18. MAGC (TKDE 21): "Multi-view Attributed Graph Clustering" \[[paper](https://www.researchgate.net/profile/Zhao-Kang-6/publication/353747180_Multi-view_Attributed_Graph_Clustering/links/612059cd0c2bfa282a5cd55e/Multi-view-Attributed-Graph-Clustering.pdf)|[code](https://github.com/sckangz/MAGC)]
-19. NAS-GC (TCYB 21): "Smoothness Sensor: Adaptive Smoothness Transition Graph Convolutions for Attributed Graph Clustering" \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9514513)|[code](https://github.com/aI-area/NASGC)]
-20. SENet (NN 21): "Spectral embedding network for attributed graph clustering"  \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608021002227)]
-21. SSGC (ICLR 21): "Simple Spectral Graph Convolution" \[[paper](https://openreview.net/pdf?id=CYO5T-YjWZV)|[code](https://github.com/allenhaozhu/SSGC)]
-23. SDSNE(AAAI 22): "Stationary diffusion state neural estimation for multiview clustering" \[[paper](https://arxiv.org/abs/2112.01334)|[code](https://github.com/kunzhan/SDSNE)]
-24. AUTOSSL (ICLR 22): "Automated Self-Supervised Learning For Graphs" \[[paper](https://openreview.net/forum?id=rFbR4Fv-D6-)|[code](https://github.com/ChandlerBang/AutoSSL)]
-25. SAGES (TKDE 22): "SAGES: Scalable Attributed Graph Embedding with Sampling for Unsupervised Learning" \[[paper](https://ieeexplore.ieee.org/abstract/document/9705119)]
-26. MVGC (NN 22): "Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation" \[[paper](https://www.sciencedirect.com/science/article/pii/S089360802100397X?via%3Dihub)|[code](https://github.com/xdweixia/NN-2022-MVGC)]
-27. FGC (SDM22): "Fine-grained Attributed Graph Clustering" \[[paper](https://epubs.siam.org/doi/epdf/10.1137/1.9781611977172.42)|[code](https://github.com/sckangz/FGC)]
-28. GRACE (TKDD 22): "GRACE: A General Graph Convolution Framework for Atributed Graph Clustering" \[[paper](https://dl.acm.org/doi/pdf/10.1145/3544977)]
+| Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
+| :--: | :----------------------------------------------------------- | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2022 | **GRACE: A General Graph Convolution Framework for Attributed Graph Clustering** |   TKDD    |      [Link](https://dl.acm.org/doi/pdf/10.1145/3544977)      |                              -                               |
+| 2022 | **Fine-grained Attributed Graph Clustering**                 |    SDM    | [Link](https://epubs.siam.org/doi/epdf/10.1137/1.9781611977172.42) |            [Link](https://github.com/sckangz/FGC)            |
+| 2022 | **Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation** |    NN     | [Link](https://www.sciencedirect.com/science/article/pii/S089360802100397X?via%3Dihub) |       [Link](https://github.com/xdweixia/NN-2022-MVGC)       |
+| 2022 | **SAGES: Scalable Attributed Graph Embedding with Sampling for Unsupervised Learning** |   TKDE    | [Link](https://ieeexplore.ieee.org/abstract/document/9705119) |                              -                               |
+| 2022 | **Automated Self-Supervised Learning For Graphs**            |   ICLR    |     [Link](https://openreview.net/forum?id=rFbR4Fv-D6-)      |       [Link](https://github.com/ChandlerBang/AutoSSL)        |
+| 2022 | **Stationary diffusion state neural estimation for multi-view clustering** |   AAAI    |           [Link](https://arxiv.org/abs/2112.01334)           |           [Link](https://github.com/kunzhan/SDSNE)           |
+| 2021 | **Simple Spectral Graph Convolution**                        |   ICLR    |      [Link](https://openreview.net/pdf?id=CYO5T-YjWZV)       |         [Link](https://github.com/allenhaozhu/SSGC)          |
+| 2021 | **Spectral embedding network for attributed graph clustering** |    NN     | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0893608021002227) |                              -                               |
+| 2021 | **Smoothness Sensor: Adaptive Smoothness Transition Graph Convolutions for Attributed Graph Clustering** |   TCYB    | [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9514513) |           [Link](https://github.com/aI-area/NASGC)           |
+| 2021 | **Multi-view Attributed Graph Clustering**                   |   TKDE    | [Link](https://www.researchgate.net/profile/Zhao-Kang-6/publication/353747180_Multi-view_Attributed_Graph_Clustering/links/612059cd0c2bfa282a5cd55e/Multi-view-Attributed-Graph-Clustering.pdf) |           [Link](https://github.com/sckangz/MAGC)            |
+| 2021 | **High-order Deep Multiplex Infomax**                        |    WWW    |           [Link](https://arxiv.org/abs/2102.07810)           |          [Link](https://github.com/baoyujing/HDMI)           |
+| 2021 | **Graph InfoClust: Maximizing Coarse-Grain Mutual Information in Graphs** |   PAKDD   | [Link](https://link.springer.com/chapter/10.1007%2F978-3-030-75762-5_43) |    [Link](https://github.com/cmavro/Graph-InfoClust-GIC)     |
+| 2021 | **Graph Filter-based Multi-view Attributed Graph Clustering** |   IJCAI   |   [Link](https://www.ijcai.org/proceedings/2021/0375.pdf)    |           [Link](https://github.com/sckangz/MvAGC)           |
+| 2021 | **Graph-MVP: Multi-View Prototypical Contrastive Learning for Multiplex Graphs** |   arXiv   |           [Link](https://arxiv.org/abs/2109.03560)           |         [Link](https://github.com/chao1224/GraphMVP)         |
+| 2021 | **Contrastive Laplacian Eigenmaps**                          |  NeurIPS  | [Link](https://proceedings.neurips.cc/paper/2021/file/2d1b2a5ff364606ff041650887723470-Paper.pdf) |         [Link](https://github.com/allenhaozhu/COLES)         |
+| 2020 | **Cluster-Aware Graph Neural Networks for Unsupervised Graph Representation Learning** |   arXiv   |           [Link](https://arxiv.org/abs/2009.01674)           |                                                              |
+| 2020 | **Distribution-induced Bidirectional GAN for Graph Representation Learning** |   CVPR    |           [Link](https://arxiv.org/pdf/1912.01899)           |           [Link](https://github.com/SsGood/DBGAN)            |
+| 2020 | **Adaptive Graph Converlutional Network with Attention Graph Clustering for Co saliency Detection** |   CVPR    | [Link](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Adaptive_Graph_Convolutional_Network_With_Attention_Graph_Clustering_for_Co-Saliency_CVPR_2020_paper.pdf) |      [Link](https://github.com/ltp1995/GCAGC-CVPR2020)       |
+| 2020 | **Spectral Clustering with Graph Neural Networks for Graph Pooling** |   ICML    | [Link](http://proceedings.mlr.press/v119/bianchi20a/bianchi20a.pdf) | [Link](https://github.com/FilippoMB/Spectral-Clustering-with-Graph-Neural-Networks-for-Graph-Pooling) |
+| 2020 | **MAGNN: Metapath Aggregated Graph Neural Network for Heterogeneous Graph Embedding** |    WWW    |           [Link](https://arxiv.org/abs/2002.01680)           |          [Link](https://github.com/cynricfu/MAGNN)           |
+| 2020 | **Unsupervised Attributed Multiplex Network Embedding**      |   AAAI    |           [Link](https://arxiv.org/abs/1911.06750)           |           [Link](https://github.com/pcy1302/DMGI)            |
+| 2020 | **Cross-Graph: Robust and Unsupervised Embedding for Attributed Graphs with Corrupted Structure** |   ICDM    |     [Link](https://ieeexplore.ieee.org/document/9338269)     |      [Link](https://github.com/FakeTibbers/Cross-Graph)      |
+| 2020 | **Multi-View Attribute Graph Convolution Networks for Clustering** |   IJCAI   |   [Link](https://www.ijcai.org/proceedings/2020/0411.pdf)    |           [Link](https://github.com/IMKBLE/MAGCN)            |
+| 2020 | **Attributed Graph Clustering via Deep Adaptive Graph Maximization** |   ICCKE   | [Link](https://ieeexplore-ieee-org-s.nudtproxy.yitlink.com/stamp/stamp.jsp?tp=&arnumber=9303694) |                              -                               |
+| 2019 | **Heterogeneous Graph Attention Network**                    |    WWW    |         [Link](https://arxiv.org/pdf/1903.07293.pdf)         |            [Link](https://github.com/Jhy1993/HAN)            |
+| 2019 | **Multi-view Consensus Graph Clustering**                    |    TIP    | [Link](https://ieeexplore.ieee.org/abstract/document/8501973) |           [Link](https://github.com/kunzhan/MCGC)            |
+| 2019 | **Attributed Graph Clustering via Adaptive Graph Convolution** |   IJCAI   |   [Link](https://www.ijcai.org/Proceedings/2019/0601.pdf)    |      [Link](https://github.com/karenlatong/AGC-master)       |
 
 
 
