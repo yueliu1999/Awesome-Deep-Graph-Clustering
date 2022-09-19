@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="adgc",
-    version="1.0",
+    version="1.0.0",
     author="Yue Liu",
     author_email="yueliu1999@163.com",
     description="Awesome Deep Graph Clustering",
@@ -22,6 +22,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[''],
-    py_requires=["./"],
-    python_requires='>=3.6',
+    py_requires=["./adgc"],
+    python_requires='>=3.8.5',
 )
