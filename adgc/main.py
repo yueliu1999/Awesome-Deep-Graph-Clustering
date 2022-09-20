@@ -4,8 +4,8 @@
 # @Time    : 2021/11/25 11:11
 
 from clustering import setup_seed, k_means
-from visualization import t_sne, similarity_plot
-from augmentation import diffusion_adj, add_edge, drop_edge, mask_feat
+from adgc.utils.visualization import t_sne, similarity_plot
+from adgc.utils.augmentation import diffusion_adj, add_edge, drop_edge, mask_feat
 from utils import load_graph_data, load_data, construct_graph, normalize_adj
 
 if __name__ == '__main__':

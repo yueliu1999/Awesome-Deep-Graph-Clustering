@@ -1,33 +1,11 @@
 # -*- coding: utf-8 -*-
 # @Author  : Yue Liu
 # @Email   : yueliu19990731@163.com
-# @Time    : 2021/11/25 11:11
-
-import torch
-import random
-import numpy as np
+# @Time    : 2022/9/21 0:56
 from munkres import Munkres
-from kmeans_gpu import kmeans
-from sklearn.cluster import KMeans
 from sklearn.metrics import accuracy_score, f1_score
 from sklearn.metrics import adjusted_rand_score as ari_score
 from sklearn.metrics.cluster import normalized_mutual_info_score as nmi_score
-
-
-def setup_seed(seed):
-    """
-    fix the random seed
-    :param seed: the random seed
-    """
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
-    np.random.seed(seed)
-    random.seed(seed)
-    torch.manual_seed(seed)
-    torch.backends.cudnn.benchmark = False
-    torch.backends.cudnn.deterministic = True
-    return None
 
 
 def evaluation(y_true, y_pred):
@@ -80,28 +58,3 @@ def evaluation(y_true, y_pred):
     f1 = f1_score(y_true, new_predict, average='macro')
 
     return acc, nmi, ari, f1
-
-
-def k_means(embedding, k, y_true, device="cpu"):
-    """
-    K-means algorithm
-    :param embedding: embedding of clustering
-    :param k: hyper-parameter in K-means
-    :param y_true: ground truth
-    :param device: device
-    :returns acc, nmi, ari, f1, center:
-    - acc
-    - nmi
-    - ari
-    - f1
-    - cluster centers
-    """
-    if device == "cpu":
-        model = KMeans(n_clusters=k, n_init=20)
-        cluster_id = model.fit_predict(embedding)
-        center = model.cluster_centers_
-    if device == "gpu":
-        cluster_id, center = kmeans(X=torch.tensor(embedding), num_clusters=k, distance="euclidean", device="cuda")
-        cluster_id = cluster_id.numpy()
-    acc, nmi, ari, f1 = evaluation(y_true, cluster_id)
-    return acc, nmi, ari, f1, center
