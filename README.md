@@ -105,7 +105,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2021 | **Self-supervised Contrastive Attributed Graph Clustering (SCAGC)** |  arXiv  |           [Link](https://arxiv.org/abs/2110.08264)           |                              -                               |
 | 2021 | **Multi-view Contrastive Graph Clustering (MCGC)**           | NeurIPS | [Link](https://papers.nips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf) |            [Link](https://github.com/panern/mcgc)            |
 | 2020 | **Adaptive Graph Encoder for Attributed Graph Embedding (AGE)** | SIGKDD  |           [Link](https://arxiv.org/pdf/2007.01594)           |            [Link](https://github.com/thunlp/AGE)             |
-| 2020 | **CommDGI: Community Detection Oriented Deep Graph Infomax (CommDGI)** |  CIKM   |  [Link](https://dl.acm.org/doi/abs/10.1145/3340531.3412042)  |                              -                               |
+| 2020 | **CommDGI: Community Detection Oriented Deep Graph Infomax (CommDGI)** |  CIKM   |  [Link](https://dl.acm.org/doi/abs/10.1145/3340531.3412042)  |          [Link](https://github.com/FDUDSDE/CommDGI)          |
 | 2020 | **Contrastive Multi-View Representation Learning on Graphs (MVGRL)** |  ICML   | [Link](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf) |        [Link](https://github.com/kavehhassani/mvgrl)         |
 
 
