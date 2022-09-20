@@ -56,6 +56,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2021 | **Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering (R-GAE)** |  arXiv  |           [Link](https://arxiv.org/pdf/2107.08562)           |           [Link](https://github.com/nairouz/R-GAE)           |
 | 2021 | **Deep Fusion Clustering Network (DFCN)**                    |  AAAI   | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/17198/17005) |             [Link](https://github.com/WxTu/DFCN)             |
 | 2020 | **Collaborative Graph Convolutional Networks: Unsupervised Learning Meets Semi-Supervised Learning** |  AAAI   | [Link](https://ojs.aaai.org/index.php/AAAI/article/download/5843/5699) | [Link](https://github.com/nairouz/R-GAE/tree/master/GMM-VGAE) |
+| 2020 | **Going Deep: Graph Convolutional Ladder-Shape Networks (GCLN)** |  AAAI   | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/5673/5529) |                              -                               |
 | 2020 | **One2Multi Graph Autoencoder for Multi-view Graph Clustering (O2MAC)** |   WWW   |            [Link](http://shichuan.org/doc/83.pdf)            |     [Link](https://github.com/googlebaba/WWW2020-O2MAC)      |
 | 2020 | **Structural Deep Clustering Network (SDCN/SDCN_Q)**         |   WWW   |           [Link](https://arxiv.org/pdf/2002.01633)           |           [Link](https://github.com/bdy9527/SDCN)            |
 | 2020 | **Dirichlet Graph Variational Autoencoder (DGVAE)**          | NeurIPS | [Link](https://proceedings.neurips.cc/paper/2020/file/38a77aa456fc813af07bb428f2363c8d-Paper.pdf) |          [Link](https://github.com/xiyou3368/DGVAE)          |
@@ -155,7 +156,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2020 | **Attributed Graph Clustering via Deep Adaptive Graph Maximization** |   ICCKE   | [Link](https://ieeexplore-ieee-org-s.nudtproxy.yitlink.com/stamp/stamp.jsp?tp=&arnumber=9303694) |                              -                               |
 | 2019 | **Heterogeneous Graph Attention Network**                    |    WWW    |         [Link](https://arxiv.org/pdf/1903.07293.pdf)         |            [Link](https://github.com/Jhy1993/HAN)            |
 | 2019 | **Multi-view Consensus Graph Clustering**                    |    TIP    | [Link](https://ieeexplore.ieee.org/abstract/document/8501973) |           [Link](https://github.com/kunzhan/MCGC)            |
-| 2019 | **Attributed Graph Clustering via Adaptive Graph Convolution** |   IJCAI   |   [Link](https://www.ijcai.org/Proceedings/2019/0601.pdf)    |      [Link](https://github.com/karenlatong/AGC-master)       |
+| 2019 | **Attributed Graph Clustering via Adaptive Graph Convolution (AGC)** |   IJCAI   |   [Link](https://www.ijcai.org/Proceedings/2019/0601.pdf)    |      [Link](https://github.com/karenlatong/AGC-master)       |
 
 
 
