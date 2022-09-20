@@ -44,6 +44,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2022 | **Self-Supervised Graph Convolutional Network for Multi-View Clustering (SGCMC)** |   TMM   | [Link](https://ieeexplore.ieee.org/abstract/document/9472979/) |          [Link](https://github.com/xdweixia/SGCMC)           |
 | 2022 | **Efficient Graph Convolution for Joint Node Representation Learning and Clustering (GCC)** |  WSDM   |  [Link](https://dl.acm.org/doi/pdf/10.1145/3488560.3498533)  | [Link](https://github.com/chakib401/graph_convolutional_clustering) |
 | 2022 | **ZINB-based Graph Embedding Autoencoder for Single-cell RNA-seq Interpretations (scTAG)** |  AAAI   | [Link](https://www.aaai.org/AAAI22Papers/AAAI-5060.YuZ.pdf)  |          [Link](https://github.com/Philyzh8/scTAG)           |
 | 2022 | **Graph Clustering via Variational Graph Embedding (GC-VAE)** |   PR    | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0031320321005148) |                              -                               |
