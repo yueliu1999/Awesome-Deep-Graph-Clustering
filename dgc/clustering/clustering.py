@@ -6,7 +6,7 @@
 import torch
 import random
 import numpy as np
-from kmeans_gpu import kmeans
+from .kmeans_gpu import kmeans
 from sklearn.cluster import KMeans
 from .evaluation import evaluation
 

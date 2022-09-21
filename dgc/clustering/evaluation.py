@@ -2,6 +2,7 @@
 # @Author  : Yue Liu
 # @Email   : yueliu19990731@163.com
 # @Time    : 2022/9/21 0:56
+import numpy as np
 from munkres import Munkres
 from sklearn.metrics import accuracy_score, f1_score
 from sklearn.metrics import adjusted_rand_score as ari_score
