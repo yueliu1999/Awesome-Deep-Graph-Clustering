@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="adgc",
-    version="1.0.2",
+    version="1.0.3",
     author="Yue Liu",
     author_email="yueliu1999@163.com",
     description="Awesome Deep Graph Clustering",
@@ -27,6 +27,6 @@ setuptools.setup(
         'scikit_learn',
         'tqdm',
     ],
-    py_requires=["./adgc"],
+    py_requires=["adgc"],
     python_requires='>=3.0.0',
 )
