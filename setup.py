@@ -28,5 +28,5 @@ setuptools.setup(
         'tqdm',
     ],
     py_requires=["./adgc"],
-    python_requires='>=3.8.5',
+    python_requires='>=3.0.0',
 )
