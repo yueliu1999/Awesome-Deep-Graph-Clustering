@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="adgc",
-    version="1.0.0",
+    version="1.0.2",
     author="Yue Liu",
     author_email="yueliu1999@163.com",
     description="Awesome Deep Graph Clustering",
