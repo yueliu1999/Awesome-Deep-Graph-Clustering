@@ -3,12 +3,28 @@ import torch
 from tqdm import tqdm
 
 
-def initialize(X, num_clusters):
+def setup_seed(seed):
+    """
+    setup random seed to fix the result
+    Args:
+        seed: random seed
+    Returns: None
+    """
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.backends.cudnn.benchmark = False
+    torch.backends.cudnn.deterministic = True
+
+
+def random_init(X, num_clusters):
     """
     initialize cluster centers
     :param X: (torch.tensor) matrix
     :param num_clusters: (int) number of clusters
-    :return initial_state: (np.array) initial state
+    :return: (np.array) initial state
     """
     num_samples = len(X)
     indices = np.random.choice(num_samples, num_clusters, replace=False)
@@ -16,11 +32,58 @@ def initialize(X, num_clusters):
     return initial_state
 
 
+def kmeans_plusplus_init(X, num_clusters, device):
+    """
+    initialize cluster centers
+    :param X: (torch.tensor) matrix
+    :param num_clusters: (int) number of clusters
+    :return: (np.array) initial state
+    """
+    n_samples, n_features = X.shape
+    centers = torch.empty((num_clusters, n_features), dtype=X.dtype).to(device)
+    center_id = np.random.choice(n_samples, 1, replace=False)[0]
+    n_local_trials = 2 + int(np.log(num_clusters))
+
+    indices = np.full(num_clusters, -1, dtype=int)
+    centers[0] = X[center_id]
+    indices[0] = center_id
+
+    closest_dist_sq = pairwise_distance(centers[0, np.newaxis], X, device=device)
+    current_pot = closest_dist_sq.sum().item()
+    for c in range(1, num_clusters):
+        # Choose center candidates by sampling with probability proportional
+        # to the squared distance to the closest existing center
+        rand_vals = torch.rand(n_local_trials).to(device) * current_pot
+        candidate_ids = torch.searchsorted(torch.cumsum(closest_dist_sq, dim=0), rand_vals)
+        # XXX: numerical imprecision can result in a candidate_id out of range
+        torch.clip(candidate_ids, None, len(closest_dist_sq) - 1, out=candidate_ids)
+
+        # Compute distances to center candidates
+        distance_to_candidates = pairwise_distance(X[candidate_ids], X, device=device)
+
+        # update closest distances squared and potential for each candidate
+        torch.minimum(closest_dist_sq, distance_to_candidates, out=distance_to_candidates)
+        candidates_pot = distance_to_candidates.sum(axis=1)
+
+        # Decide which candidate is the best
+        best_candidate = torch.argmin(candidates_pot)
+        current_pot = candidates_pot[best_candidate].item()
+        closest_dist_sq = distance_to_candidates[best_candidate]
+        best_candidate = candidate_ids[best_candidate]
+
+        # Permanently add best center candidate found in local tries
+        centers[c] = X[best_candidate]
+        indices[c] = best_candidate
+    return centers, indices
+
+
 def kmeans(
         X,
         num_clusters,
         distance='euclidean',
         tol=1e-4,
+        init_mode="kmeans++",
+        init_time=20,
         device=torch.device('cuda')
 ):
     """
@@ -29,11 +92,11 @@ def kmeans(
     :param num_clusters: (int) number of clusters
     :param distance: (str) distance [options: 'euclidean', 'cosine'] [default: 'euclidean']
     :param tol: (float) threshold [default: 0.0001]
+    :param init_mode: (str) initialization mode [default: kmeans++]
     :param device: (torch.device) device [default: cpu]
-    :returns choice_cluster, initial_state: (torch.tensor, torch.tensor) cluster ids, cluster centers
+    :return: (torch.tensor, torch.tensor) cluster ids, cluster centers
     """
     # print(f'running k-means on {device}..')
-
     if distance == 'euclidean':
         pairwise_distance_function = pairwise_distance
     elif distance == 'cosine':
@@ -50,9 +113,13 @@ def kmeans(
     # initialize
     dis_min = float('inf')
     initial_state_best = None
-    for i in range(20):
-        initial_state = initialize(X, num_clusters)
-        dis = pairwise_distance_function(X, initial_state).sum()
+    for i in range(init_time):
+        if init_mode == "kmeans++":
+            initial_state, _ = kmeans_plusplus_init(X, num_clusters, device=device)
+        elif init_mode == "random":
+            initial_state = random_init(X, num_clusters)
+
+        dis = pairwise_distance_function(X, initial_state, device=device).sum()
         if dis < dis_min:
             dis_min = dis
             initial_state_best = initial_state
@@ -60,7 +127,7 @@ def kmeans(
     initial_state = initial_state_best
     iteration = 0
     while True:
-        dis = pairwise_distance_function(X, initial_state)
+        dis = pairwise_distance_function(X, initial_state, device=device)
 
         choice_cluster = torch.argmin(dis, dim=1)
 
@@ -80,12 +147,11 @@ def kmeans(
         # increment iteration
         iteration = iteration + 1
 
-        if iteration > 300:
+        if iteration > 500:
             break
         if center_shift ** 2 < tol:
             break
-
-    return choice_cluster.cpu(), initial_state.cpu()
+    return choice_cluster.cpu(), initial_state, dis
 
 
 def kmeans_predict(
@@ -100,7 +166,7 @@ def kmeans_predict(
     :param cluster_centers: (torch.tensor) cluster centers
     :param distance: (str) distance [options: 'euclidean', 'cosine'] [default: 'euclidean']
     :param device: (torch.device) device [default: 'cpu']
-    :return choice_cluster: (torch.tensor) cluster ids
+    :return: (torch.tensor) cluster ids
     """
     # print(f'predicting on {device}..')
 
@@ -117,7 +183,7 @@ def kmeans_predict(
     # transfer to device
     X = X.to(device)
 
-    dis = pairwise_distance_function(X, cluster_centers)
+    dis = pairwise_distance_function(X, cluster_centers, device=device)
     choice_cluster = torch.argmin(dis, dim=1)
 
     return choice_cluster.cpu()
