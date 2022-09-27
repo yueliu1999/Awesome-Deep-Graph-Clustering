@@ -85,16 +85,16 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 ### Adversarial Deep Graph Clustering
 
-| Year | Title                                                        | Venue |                           Paper                            |                      Code                      |
-| ---- | ------------------------------------------------------------ | :---: | :--------------------------------------------------------: | :--------------------------------------------: |
-| 2021 | **Wasserstein Adversarially Regularized Graph Autoencoder**  | arXiv |          [Link](https://arxiv.org/pdf/2111.04981)          | [Link](https://github.com/LeonResearch/WARGA)  |
-| 2020 | **JANE: Jointly adversarial network embedding**              | IJCAI |  [Link](https://www.ijcai.org/Proceedings/2020/0192.pdf)   |                       -                        |
-| 2020 | **Multi-class imbalanced graph convolutional network learning** | IJCAI |  [Link](https://www.ijcai.org/proceedings/2020/0398.pdf)   |                       -                        |
-| 2019 | **Adversarial Graph Embedding for Ensemble Clustering (AGAE)** | IJCAI |     [Link](https://par.nsf.gov/servlets/purl/10113653)     |                       -                        |
-| 2019 | **CommunityGAN: Community detection with generative adversarial nets** |  WWW  | [Link](https://dl.acm.org/doi/abs/10.1145/3308558.3313564) | [Link](https://github.com/SamJia/CommunityGAN) |
-| 2019 | **ProGAN: Network embedding via proximity generative adversarial network** |  KDD  | [Link](https://dl.acm.org/doi/pdf/10.1145/3292500.3330866) |                       -                        |
-| 2019 | **Learning Graph Embedding with Adversarial Training Methods (ARGA/ARVGA)** | TCYB  |          [Link](https://arxiv.org/pdf/1901.01250)          |   [Link](https://github.com/GRAND-Lab/ARGA)    |
-| 2018 | **Adversarially Regularized Graph Autoencoder for Graph Embedding (ARGA/ARVGA)** | IJCAI |          [Link](https://arxiv.org/pdf/1802.04407)          |   [Link](https://github.com/GRAND-Lab/ARGA)    |
+| Year | Title                                                        | Venue  |                           Paper                            |                      Code                      |
+| ---- | ------------------------------------------------------------ | :----: | :--------------------------------------------------------: | :--------------------------------------------: |
+| 2021 | **Wasserstein Adversarially Regularized Graph Autoencoder**  | arXiv  |          [Link](https://arxiv.org/pdf/2111.04981)          | [Link](https://github.com/LeonResearch/WARGA)  |
+| 2020 | **JANE: Jointly adversarial network embedding**              | IJCAI  |  [Link](https://www.ijcai.org/Proceedings/2020/0192.pdf)   |                       -                        |
+| 2020 | **Multi-class imbalanced graph convolutional network learning** | IJCAI  |  [Link](https://www.ijcai.org/proceedings/2020/0398.pdf)   |                       -                        |
+| 2019 | **Adversarial Graph Embedding for Ensemble Clustering (AGAE)** | IJCAI  |     [Link](https://par.nsf.gov/servlets/purl/10113653)     |                       -                        |
+| 2019 | **CommunityGAN: Community detection with generative adversarial nets** |  WWW   | [Link](https://dl.acm.org/doi/abs/10.1145/3308558.3313564) | [Link](https://github.com/SamJia/CommunityGAN) |
+| 2019 | **ProGAN: Network embedding via proximity generative adversarial network** | SIGKDD | [Link](https://dl.acm.org/doi/pdf/10.1145/3292500.3330866) |                       -                        |
+| 2019 | **Learning Graph Embedding with Adversarial Training Methods (ARGA/ARVGA)** |  TCYB  |          [Link](https://arxiv.org/pdf/1901.01250)          |   [Link](https://github.com/GRAND-Lab/ARGA)    |
+| 2018 | **Adversarially Regularized Graph Autoencoder for Graph Embedding (ARGA/ARVGA)** | IJCAI  |          [Link](https://arxiv.org/pdf/1802.04407)          |   [Link](https://github.com/GRAND-Lab/ARGA)    |
 
 
 
@@ -117,7 +117,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2021 | **Multilayer Graph Contrastive Clustering Network (MGCCN)**  |  arXiv  |                           [Link]()                           |                              -                               |
 | 2021 | **Self-supervised Contrastive Attributed Graph Clustering (SCAGC)** |  arXiv  |           [Link](https://arxiv.org/abs/2110.08264)           |                              -                               |
 | 2021 | **Multi-view Contrastive Graph Clustering (MCGC)**           | NeurIPS | [Link](https://papers.nips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf) |            [Link](https://github.com/panern/mcgc)            |
-| 2021 | **Self-supervised heterogeneous graph neural network with co-contrastive learning** |   KDD   |    [Link](https://dl.acm.org/doi/10.1145/3447548.3467415)    |         [Link](https://github.com/liun-online/HeCo)          |
+| 2021 | **Self-supervised heterogeneous graph neural network with co-contrastive learning** | SIGKDD  |    [Link](https://dl.acm.org/doi/10.1145/3447548.3467415)    |         [Link](https://github.com/liun-online/HeCo)          |
 | 2020 | **Adaptive Graph Encoder for Attributed Graph Embedding (AGE)** | SIGKDD  |           [Link](https://arxiv.org/pdf/2007.01594)           |            [Link](https://github.com/thunlp/AGE)             |
 | 2020 | **CommDGI: Community Detection Oriented Deep Graph Infomax (CommDGI)** |  CIKM   |  [Link](https://dl.acm.org/doi/abs/10.1145/3340531.3412042)  |          [Link](https://github.com/FDUDSDE/CommDGI)          |
 | 2020 | **Contrastive Multi-View Representation Learning on Graphs (MVGRL)** |  ICML   | [Link](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf) |        [Link](https://github.com/kavehhassani/mvgrl)         |
