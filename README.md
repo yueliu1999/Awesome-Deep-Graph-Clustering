@@ -78,7 +78,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2019 | **Network-Specific Variational Auto-Encoder for Embedding in Attribute Networks (NetVAE)** |        IJCAI         |      [Link](https://www.ijcai.org/proceedings/2019/370)      |                              -                               |
 | 2017 | **MGAE: Marginalized Graph Autoencoder for Graph Clustering (MGAE)** |         CIKM         | [Link](https://www.researchgate.net/profile/Shirui-Pan-3/publication/320882195_MGAE_Marginalized_Graph_Autoencoder_for_Graph_Clustering/links/5b76157b45851546c90a3d74/MGAE-Marginalized-Graph-Autoencoder-for-Graph-Clustering.pdf) |          [Link](https://github.com/GRAND-Lab/MGAE)           |
 | 2016 | **Variational Graph Auto-Encoders (GAE)**                    |       NeurIPS        | [Link](https://ieeexplore.ieee.org/abstract/document/9046288) |             [Link](https://github.com/tkipf/gae)             |
-| 2014 | **Learning Deep Representations for Graph Clustering (SAE)** |         AAAI         | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/8916/8775) | [Link](https://github.com/quinngroup/deep-representations-clustering) |
+| 2014 | **Learning Deep Representations for Graph Clustering (GraphEncoder)** |         AAAI         | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/8916/8775) | [Link](https://github.com/quinngroup/deep-representations-clustering) |
 
 
 
