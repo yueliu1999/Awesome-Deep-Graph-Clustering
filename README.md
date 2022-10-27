@@ -177,6 +177,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2019 | **Heterogeneous Graph Attention Network**                    |    WWW    |         [Link](https://arxiv.org/pdf/1903.07293.pdf)         |            [Link](https://github.com/Jhy1993/HAN)            |
 | 2019 | **Multi-view Consensus Graph Clustering**                    |    TIP    | [Link](https://ieeexplore.ieee.org/abstract/document/8501973) |           [Link](https://github.com/kunzhan/MCGC)            |
 | 2019 | **Attributed Graph Clustering via Adaptive Graph Convolution (AGC)** |   IJCAI   |   [Link](https://www.ijcai.org/Proceedings/2019/0601.pdf)    |      [Link](https://github.com/karenlatong/AGC-master)       |
+| 2016 | **Deep Neural Networks for Learning Graph Representations** |   AAAI   |   [Link](https://ojs.aaai.org/index.php/AAAI/article/download/10179/10038)    |      -       |
 
 
 
