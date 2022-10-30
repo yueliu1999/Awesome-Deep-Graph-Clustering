@@ -77,7 +77,6 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2019 | **Attributed Graph Clustering: A Deep Attentional Embedding Approach (DAEGC)** |        IJCAI         |   [Link](https://www.ijcai.org/proceedings/2019/0509.pdf)    |         [Link](https://github.com/Tiger101010/DAEGC)         |
 | 2019 | **Network-Specific Variational Auto-Encoder for Embedding in Attribute Networks (NetVAE)** |        IJCAI         |      [Link](https://www.ijcai.org/proceedings/2019/370)      |                              -                               |
 | 2017 | **MGAE: Marginalized Graph Autoencoder for Graph Clustering (MGAE)** |         CIKM         | [Link](https://www.researchgate.net/profile/Shirui-Pan-3/publication/320882195_MGAE_Marginalized_Graph_Autoencoder_for_Graph_Clustering/links/5b76157b45851546c90a3d74/MGAE-Marginalized-Graph-Autoencoder-for-Graph-Clustering.pdf) |          [Link](https://github.com/GRAND-Lab/MGAE)           |
-| 2016 | **Variational Graph Auto-Encoders (GAE)**                    |       NeurIPS        | [Link](https://ieeexplore.ieee.org/abstract/document/9046288) |             [Link](https://github.com/tkipf/gae)             |
 | 2016 | **Deep Neural Networks for Learning Graph Representations (DNGR)** |         AAAI         | [Link](https://ojs.aaai.org/index.php/AAAI/article/download/10179/10038) |          [Link](https://github.com/ShelsonCao/DNGR)          |
 | 2014 | **Learning Deep Representations for Graph Clustering (GraphEncoder)** |         AAAI         | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/8916/8775) | [Link](https://github.com/quinngroup/deep-representations-clustering) |
 
@@ -178,6 +177,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2019 | **Heterogeneous Graph Attention Network**                    |    WWW    |         [Link](https://arxiv.org/pdf/1903.07293.pdf)         |            [Link](https://github.com/Jhy1993/HAN)            |
 | 2019 | **Multi-view Consensus Graph Clustering**                    |    TIP    | [Link](https://ieeexplore.ieee.org/abstract/document/8501973) |           [Link](https://github.com/kunzhan/MCGC)            |
 | 2019 | **Attributed Graph Clustering via Adaptive Graph Convolution (AGC)** |   IJCAI   |   [Link](https://www.ijcai.org/Proceedings/2019/0601.pdf)    |      [Link](https://github.com/karenlatong/AGC-master)       |
+| 2016 | **Variational Graph Auto-Encoders (GAE)** | NeurIPS Workshop | [Link](https://ieeexplore.ieee.org/abstract/document/9046288) | [Link](https://github.com/tkipf/gae) |
 
 
 
