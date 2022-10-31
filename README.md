@@ -174,7 +174,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2020 | **Multi-class imbalanced graph convolutional network learning** | IJCAI | [Link](https://www.ijcai.org/proceedings/2020/0398.pdf) | - |
 | 2020 | **CAGNN: Cluster-Aware Graph Neural Networks for Unsupervised Graph Representation Learning** |   arXiv   |   [Link](http://arxiv.org/abs/2009.01674)    |           -            |
 | 2020 | **Attributed Graph Clustering via Deep Adaptive Graph Maximization** |   ICCKE   | [Link](https://ieeexplore-ieee-org-s.nudtproxy.yitlink.com/stamp/stamp.jsp?tp=&arnumber=9303694) |                              -                               |
-| 2019 | **Heterogeneous Graph Attention Network**                    |    WWW    |         [Link](https://arxiv.org/pdf/1903.07293.pdf)         |            [Link](https://github.com/Jhy1993/HAN)            |
+| 2019 | **Heterogeneous Graph Attention Network (HAN)**           |    WWW    |         [Link](https://arxiv.org/pdf/1903.07293.pdf)         |            [Link](https://github.com/Jhy1993/HAN)            |
 | 2019 | **Multi-view Consensus Graph Clustering**                    |    TIP    | [Link](https://ieeexplore.ieee.org/abstract/document/8501973) |           [Link](https://github.com/kunzhan/MCGC)            |
 | 2019 | **Attributed Graph Clustering via Adaptive Graph Convolution (AGC)** |   IJCAI   |   [Link](https://www.ijcai.org/Proceedings/2019/0601.pdf)    |      [Link](https://github.com/karenlatong/AGC-master)       |
 | 2016 | **Variational Graph Auto-Encoders (GAE)** | NeurIPS Workshop | [Link](https://ieeexplore.ieee.org/abstract/document/9046288) | [Link](https://github.com/tkipf/gae) |
