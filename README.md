@@ -91,7 +91,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | Year | Title                                                        | Venue  |                           Paper                            |                      Code                      |
 | ---- | ------------------------------------------------------------ | :----: | :--------------------------------------------------------: | :--------------------------------------------: |
 | 2021 | **Wasserstein Adversarially Regularized Graph Autoencoder**  | arXiv  |          [Link](https://arxiv.org/pdf/2111.04981)          | [Link](https://github.com/LeonResearch/WARGA)  |
-| 2020 | **JANE: Jointly adversarial network embedding**              | IJCAI  |  [Link](https://www.ijcai.org/Proceedings/2020/0192.pdf)   |                       -                        |
+| 2020 | **JANE: Jointly adversarial network embedding (JANE)**              | IJCAI  |  [Link](https://www.ijcai.org/Proceedings/2020/0192.pdf)   |                       -                        |
 | 2019 | **Adversarial Graph Embedding for Ensemble Clustering (AGAE)** | IJCAI  |     [Link](https://par.nsf.gov/servlets/purl/10113653)     |                       -                        |
 | 2019 | **CommunityGAN: Community Detection with Generative Adversarial Nets (CommunityGAN)** |  WWW   | [Link](https://dl.acm.org/doi/abs/10.1145/3308558.3313564) | [Link](https://github.com/SamJia/CommunityGAN) |
 | 2019 | **ProGAN: Network embedding via proximity generative adversarial network (ProGAN)** | SIGKDD | [Link](https://dl.acm.org/doi/pdf/10.1145/3292500.3330866) |                       -                        |
