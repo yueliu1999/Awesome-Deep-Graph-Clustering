@@ -273,8 +273,8 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 @article{mrabah2021rethinking,
   title={Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering},
   author={Mrabah, Nairouz and Bouguessa, Mohamed and Touati, Mohamed Fawzi and Ksantini, Riadh},
-  journal={arXiv preprint arXiv:2107.08562},
-  year={2021}
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2022}
 }
 ```
 
