@@ -45,6 +45,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2022 | **Escaping Feature Twist: A Variational Graph Auto-Encoder for Node Clustering** |   IJCAI    | [Link](https://www.ijcai.org/proceedings/2022/465) |          [Link](https://github.com/nairouz/FT-VGAE)      
 | 2022 | **Graph embedding clustering: Graph attention auto-encoder with cluster-specificity distribution (GEC-CSD)** |   NN    | [Link](https://www.sciencedirect.com/science/article/pii/S0893608021002008) |          [Link](https://github.com/xdweixia/SGCMC)           |
 | 2022 | **Exploring temporal community structure via network embedding (VGRGMM)** |  TCYB   | [Link](https://ieeexplore.ieee.org/abstract/document/9768181) |                              -                               |
 | 2022 | **Cluster-Aware Heterogeneous Information Network Embedding (VaCA-HINE)** |  WSDM   |  [Link](https://dl.acm.org/doi/abs/10.1145/3488560.3498385)  |                              -                               |
