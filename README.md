@@ -262,6 +262,12 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 ## Citation
 
 ```
+@article{deep_graph_clustering_survey,
+  title={A Survey of Deep Graph Clustering: Taxonomy, Challenge, and Application},
+  author={Liu, Yue and Xia, Jun and Zhou, Sihang and Wang, Siwei and Guo, Xifeng and Yang, Xihong and Liang, Ke and Tu, Wenxuan and Li, Z. Stan and Liu, Xinwang},
+  journal={arXiv preprint arXiv:2211.12875},
+  year={2022}
+}
 @inproceedings{DCRN,
   title={Deep Graph Clustering via Dual Correlation Reduction},
   author={Liu, Yue and Tu, Wenxuan and Zhou, Sihang and Liu, Xinwang and Song, Linxuan and Yang, Xihong and Zhu, En},
