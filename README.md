@@ -294,4 +294,3 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 [Awesome Incomplete Graph Representation Learning](https://github.com/WxTu/Awesome-Incomplete-Graph-Representation-Learning)
 
 [awesome-self-supervised-gnn](https://github.com/ChandlerBang/awesome-self-supervised-gnn)
-
