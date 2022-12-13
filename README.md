@@ -290,8 +290,7 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 
 ## Other Related Awesome Repository
 
-[awesome-awesome-machine-learning](https://github.com/ZhiningLiu1998/awesome-awesome-machine-learning)
-
 [Awesome Incomplete Graph Representation Learning](https://github.com/WxTu/Awesome-Incomplete-Graph-Representation-Learning)
 
-[awesome-self-supervised-gnn](https://github.com/ChandlerBang/awesome-self-supervised-gnn)
+[Awesome Knowledge Graph Reasoning](https://github.com/LIANGKE23/Awesome-Knowledge-Graph-Reasoning)
+
