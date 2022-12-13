@@ -8,7 +8,7 @@
 
 # ADGC: Awesome Deep Graph Clustering
 
-ADGC is a collection of state-of-the-art (SOTA), novel deep graph clustering methods (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact yueliu19990731@163.com. If you find this repository useful to your research or work, it is really appreciated to star this repository. :sparkles: If you use our code or the processed datasets in this repository for your research, please cite 1-2 papers in the citation part. :heart:
+ADGC is a collection of state-of-the-art (SOTA), novel deep graph clustering methods (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact yueliu19990731@163.com. If you find this repository useful to your research or work, it is really appreciated to star this repository. :sparkles: If you use our code or the processed datasets in this repository for your research, please cite 1-2 papers in the citation part [here](https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering#citation). :heart:
 
 [![Made with Python][python-img]][adgc-url]
 [![GitHub stars][stars-img]][stars-url]
@@ -46,8 +46,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 2022 | **Escaping Feature Twist: A Variational Graph Auto-Encoder for Node Clustering (FT-VGAE)** |   IJCAI    | [Link](https://www.ijcai.org/proceedings/2022/465) |          [Link](https://github.com/nairouz/FT-VGAE) |   
-| 2022 | **Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering (R-GAE)** |  TKDE  | [Link](https://arxiv.org/pdf/2107.08562)  |           [Link](https://github.com/nairouz/R-GAE)   |  
+| 2022 | **Escaping Feature Twist: A Variational Graph Auto-Encoder for Node Clustering (FT-VGAE)** |   IJCAI    | [Link](https://www.ijcai.org/proceedings/2022/465) |          [Link](https://github.com/nairouz/FT-VGAE) |
+| 2022 | **Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering (R-GAE)** |  TKDE  | [Link](https://arxiv.org/pdf/2107.08562)  |           [Link](https://github.com/nairouz/R-GAE)   |
 | 2022 | **Graph embedding clustering: Graph attention auto-encoder with cluster-specificity distribution (GEC-CSD)** |   NN    | [Link](https://www.sciencedirect.com/science/article/pii/S0893608021002008) |          [Link](https://github.com/xdweixia/SGCMC)           |
 | 2022 | **Exploring temporal community structure via network embedding (VGRGMM)** |  TCYB   | [Link](https://ieeexplore.ieee.org/abstract/document/9768181) |                              -                               |
 | 2022 | **Cluster-Aware Heterogeneous Information Network Embedding (VaCA-HINE)** |  WSDM   |  [Link](https://dl.acm.org/doi/abs/10.1145/3488560.3498385)  |                              -                               |
@@ -58,7 +58,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2022 | **Graph Clustering via Variational Graph Embedding (GC-VAE)** |   PR    | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0031320321005148) |                              -                               |
 | 2022 | **Deep neighbor-aware embedding for node clustering in attributed graphs (DNENC)** |   PR    | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0031320321004118) |                              -                               |
 | 2022 | **Collaborative Decision-Reinforced Self-Supervision for Attributed Graph Clustering (CDRS)** |  TNNLS  | [Link](https://ieeexplore.ieee.org/abstract/document/9777842) |       [Link](https://github.com/Jillian555/TNNLS_CDRS)       |
-| 2022 | **Embedding Graph Auto-Encoder for Graph Clustering (EGAE)** |  TNNLS  |     [Link](https://ieeexplore.ieee.org/document/9741755)     |          [Link](https://github.com/hyzhang98/EGAE)   |    
+| 2022 | **Embedding Graph Auto-Encoder for Graph Clustering (EGAE)** |  TNNLS  |     [Link](https://ieeexplore.ieee.org/document/9741755)     |          [Link](https://github.com/hyzhang98/EGAE)   |
 | 2021 | **Self-Supervised Graph Convolutional Network for Multi-View Clustering (SGCMC)** |   TMM   | [Link](https://ieeexplore.ieee.org/abstract/document/9472979/) |          [Link](https://github.com/xdweixia/SGCMC)           |
 | 2021 | **Adaptive Hypergraph Auto-Encoder for Relational Data Clustering (AHGAE)** |  TKDE   | [Link](https://ieeexplore.ieee.org/iel7/69/4358933/09525190.pdf%3Fcasa_token%3DmbL8SLkmu8AAAAAA:mNPoE2n3BwaMZsYdRotHwa8Qs3uyzY53ZPVd0ixXutwqovM4vA7OSmsYWN3qXOAGW3CgH-LugHo&hl=en&sa=T&oi=ucasa&ct=ucasa&ei=_dvpYcTXCcCVy9YPgta4-AM&scisig=AAGBfm2V50SkaPV0K8x2F_mYsC15x028wA) |                              -                             
 | 2021 | **Deep Attention-guided Graph Clustering with Dual Self-supervision (DAGC)** |  arXiv  |           [Link](https://arxiv.org/abs/2111.05548)           |       [Link](https://github.com/ZhihaoPENG-CityU/DAGC)       |
@@ -150,7 +150,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
 | :--: | :----------------------------------------------------------- | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | 2022 | **Deep linear graph attention model for attributed graph clustering** | Knowl Based Syst | [Link](https://doi.org/10.1016/j.knosys.2022.108665) | - |
-| 2022 | **Scalable Deep Graph Clustering with Random-walk based Self-supervised Learning** | WWW | [Link](https://arxiv.org/pdf/2112.15530) | - | 
+| 2022 | **Scalable Deep Graph Clustering with Random-walk based Self-supervised Learning** | WWW | [Link](https://arxiv.org/pdf/2112.15530) | - |
 | 2022 | **X-GOAL: Multiplex Heterogeneous Graph Prototypical Contrastive Learning (X-GOAL)** | arXiv | [Link](https://arxiv.org/pdf/2109.03560) | - |
 | 2022 | **Deep Graph Clustering with Multi-Level Subspace Fusion** |   PR    |      [Link](https://doi.org/10.1016/j.patcog.2022.109077)      |-|
 | 2022 | **GRACE: A General Graph Convolution Framework for Attributed Graph Clustering** |   TKDD    |      [Link](https://dl.acm.org/doi/pdf/10.1145/3544977)      |                              -                               |
