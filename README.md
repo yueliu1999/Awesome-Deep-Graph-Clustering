@@ -108,6 +108,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2023 | **Hard Sample Aware Network for Contrastive Deep Graph Clustering (HSAN)** |  AAAI   |           [Link](https://arxiv.org/abs/2212.08665)           |          [Link](https://github.com/yueliu1999/HSAN)          |
 | 2022 | **NCAGC: A Neighborhood Contrast Framework for Attributed Graph Clustering (NCAGC)** |  arXiv  |           [Link](https://arxiv.org/abs/2206.07897)           | [Link](https://github.com/wangtong627/Dual-Contrastive-Attributed-Graph-Clustering-Network) |
 | 2022 | **Simple Contrastive Graph Clustering (SCGC)**               |  arXiv  |           [Link](https://arxiv.org/abs/2205.07865)           |                              -                               |
 | 2022 | **SCGC : Self-Supervised Contrastive Graph Clustering (SCGC)** |  arXiv  |           [Link](https://arxiv.org/pdf/2204.12656)           |           [Link](https://github.com/gayanku/SCGC)            |
