@@ -100,7 +100,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2019 | **CommunityGAN: Community Detection with Generative Adversarial Nets (CommunityGAN)** |  WWW   | [Link](https://dl.acm.org/doi/abs/10.1145/3308558.3313564) | [Link](https://github.com/SamJia/CommunityGAN) |
 | 2019 | **ProGAN: Network embedding via proximity generative adversarial network (ProGAN)** | SIGKDD | [Link](https://dl.acm.org/doi/pdf/10.1145/3292500.3330866) |                       -                        |
 | 2019 | **Learning Graph Embedding with Adversarial Training Methods (ARGA/ARVGA)** |  TCYB  |          [Link](https://arxiv.org/pdf/1901.01250)          |   [Link](https://github.com/GRAND-Lab/ARGA)    |
-| 2018 | **Adversarially Regularized Graph Autoencoder for Graph Embedding (ARGA/ARVGA)** | IJCAI  |          [Link](https://arxiv.org/pdf/1802.04407)          |   [Link](https://github.com/GRAND-Lab/ARGA)    |
+| 2019 | **Adversarially Regularized Graph Autoencoder for Graph Embedding (ARGA/ARVGA)** | IJCAI  |          [Link](https://arxiv.org/pdf/1802.04407)          |   [Link](https://github.com/GRAND-Lab/ARGA)    |
 
 
 
