@@ -144,9 +144,9 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2022 | **Ada-nets: Face clustering via adaptive neighbor discovery in the structure space** |   ICLR    |           [Link](https://arxiv.org/pdf/2202.03800)           |         [Link](https://github.com/damo-cv/Ada-NETS)          |
 | 2021 | **Adaptive Graph Auto-Encoder for General Data Clustering**  |   TPAMI   | [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9606581) |         [Link](https://github.com/hyzhang98/AdaGAE)          |
 | 2021 | **Contrastive Clustering**                                   |   AAAI    |         [Link](https://arxiv.org/pdf/2009.09687.pdf)         | [Link](https://github.com/Yunfan-Li/Contrastive-Clustering)  |
-| 2017 | **Towards k-means-friendly spaces: Simultaneous deep learning and clustering** |   ICML    | [Link](http://proceedings.mlr.press/v70/yang17b/yang17b.pdf) |           [Link](https://github.com/boyangumn/DCN)           |
-| 2017 | **Improved Deep Embedded Clustering with Local Structure Preservation** |   IJCAI   | [Link](https://www.researchgate.net/profile/Xifeng-Guo/publication/317095655_Improved_Deep_Embedded_Clustering_with_Local_Structure_Preservation/links/59263224458515e3d4537edc/Improved-Deep-Embedded-Clustering-with-Local-Structure-Preservation.pdf) |          [Link](https://github.com/XifengGuo/IDEC)           |
-| 2016 | **Unsupervised Deep Embedding for Clustering Analysis**      |   ICML    |     [Link](http://proceedings.mlr.press/v48/xieb16.pdf)      |           [Link](https://github.com/piiswrong/dec)           |
+| 2017 | **Towards k-means-friendly spaces: Simultaneous deep learning and clustering (DCN)** |   ICML    | [Link](http://proceedings.mlr.press/v70/yang17b/yang17b.pdf) |           [Link](https://github.com/boyangumn/DCN)           |
+| 2017 | **Improved Deep Embedded Clustering with Local Structure Preservation (IDEC)** |   IJCAI   | [Link](https://www.researchgate.net/profile/Xifeng-Guo/publication/317095655_Improved_Deep_Embedded_Clustering_with_Local_Structure_Preservation/links/59263224458515e3d4537edc/Improved-Deep-Embedded-Clustering-with-Local-Structure-Preservation.pdf) |          [Link](https://github.com/XifengGuo/IDEC)           |
+| 2016 | **Unsupervised Deep Embedding for Clustering Analysis (DEC)** |   ICML    |     [Link](http://proceedings.mlr.press/v48/xieb16.pdf)      |           [Link](https://github.com/piiswrong/dec)           |
 
 ### Other Related Methods
 
