@@ -31,7 +31,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |    Venue    |                            Paper                             | Code |
 | ---- | ------------------------------------------------------------ | :---------: | :----------------------------------------------------------: | :--: |
-| 2023 | **An Overview of Advanced Deep Graph Node Clustering** |    TCSS   | - |  - |
+| 2023 | **An Overview of Advanced Deep Graph Node Clustering** |    TCSS   | [Link](https://ieeexplore.ieee.org/abstract/document/10049408) |  - |
 | 2022 | **A Survey of Deep Graph Clustering: Taxonomy, Challenge, and Application** |    arXiv    | [Link](https://arxiv.org/abs/2211.12875) |  [Link](https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering) |
 | 2022 | **A Comprehensive Survey on Community Detection with Deep Learning** |    TNNLS    | [Link](https://arxiv.org/pdf/2105.12584.pdf?ref=https://githubhelp.com) |  -   |
 | 2020 | **A Comprehensive Survey on Graph Neural Networks**          |    TNNLS    | [Link](https://ieeexplore.ieee.org/abstract/document/9046288) |  -   |
@@ -102,6 +102,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2019 | **ProGAN: Network embedding via proximity generative adversarial network (ProGAN)** | SIGKDD | [Link](https://dl.acm.org/doi/pdf/10.1145/3292500.3330866) |                       -                        |
 | 2019 | **Learning Graph Embedding with Adversarial Training Methods (ARGA/ARVGA)** |  TCYB  |          [Link](https://arxiv.org/pdf/1901.01250)          |   [Link](https://github.com/GRAND-Lab/ARGA)    |
 | 2019 | **Adversarially Regularized Graph Autoencoder for Graph Embedding (ARGA/ARVGA)** | IJCAI  |          [Link](https://arxiv.org/pdf/1802.04407)          |   [Link](https://github.com/GRAND-Lab/ARGA)    |
+| 2022 | **Unsupervised network embedding beyond homophily (SELENE)** | TMLR  |          [Link](https://orbilu.uni.lu/bitstream/10993/53475/1/TMLR22b.pdf)          |   [Link](https://github.com/zhiqiangzhongddu/SELENE)    |
 
 
 
