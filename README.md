@@ -143,7 +143,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
 | :--: | :----------------------------------------------------------- | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 2023 | **Scalable Attributed-Graph Subspace Clustering (SASGC)**          |   AAAI    | [Link](https://chakib401.github.io/files/SAGSC.pdf) | [Link](https://github.com/chakib401/sagsc) |
+| 2023 | **Beyond Homophily: Reconstructing Structure for Graph-agnostic Clustering (DGCN)**          |   ICML    | [Link](https://arxiv.org/abs/2305.02931) | [Link](https://github.com/Panern/DGCN) |
+| 2023 | **Scalable Attributed-Graph Subspace Clustering (SAGSC)**          |   AAAI    | [Link](https://chakib401.github.io/files/SAGSC.pdf) | [Link](https://github.com/chakib401/sagsc) |
 | 2022 | **Adaptive Attribute and Structure Subspace Clustering Network (AASSC-Net)**          |   TIP    | [Link](https://ieeexplore.ieee.org/iel7/83/9626658/09769915.pdf) | [Link](https://github.com/ZhihaoPENG-CityU/TIP22---AASSC-Net) |
 | 2022 | **Twin Contrastive Learning for Online Clustering**          |   IJCV    | [Link](http://pengxi.me/wp-content/uploads/2022/07/Twin-Contrastive-Learning-for-Online-Clustering.pdf) | [Link](https://github.com/Yunfan-Li/Twin-Contrastive-Learning) |
 | 2022 | **Non-Graph Data Clustering via O(n) Bipartite Graph Convolution**          |   TPAMI    | [Link](https://ieeexplore.ieee.org/abstract/document/9996549) | [Link](https://github.com/hyzhang98/AnchorGAE-torch) |
