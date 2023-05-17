@@ -48,6 +48,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2023 | **Beyond The Evidence Lower Bound: Dual Variational Graph Auto-Encoders For Node Clustering** |   SDM    | [Link](https://epubs.siam.org/doi/epdf/10.1137/1.9781611977653.ch12) |          [Link](https://github.com/nairouz/BELBO-VGAE) |
 | 2022 | **Escaping Feature Twist: A Variational Graph Auto-Encoder for Node Clustering (FT-VGAE)** |   IJCAI    | [Link](https://www.ijcai.org/proceedings/2022/465) |          [Link](https://github.com/nairouz/FT-VGAE) |
 | 2022 | **Deep Attention-guided Graph Clustering with Dual Self-supervision (DAGC)** |  TCSVT  |           [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9999681)           |       [Link](https://github.com/ZhihaoPENG-CityU/DAGC)       |
 | 2022 | **Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering (R-GAE)** |  TKDE  | [Link](https://arxiv.org/pdf/2107.08562)  |           [Link](https://github.com/nairouz/R-GAE)   |
