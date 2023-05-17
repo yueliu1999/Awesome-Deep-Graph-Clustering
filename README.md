@@ -111,6 +111,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | 2023 | **Dink-Net: Neural Clustering on Large Graphs**              |  ICML   |                              -                               |                              -                               |
+| 2023 | **CONGREGATE: Contrastive Graph Clustering in Curvature Spaces**    |  arXiv   |   [Link](https://arxiv.org/pdf/2305.03555.pdf)                           |  [Link]((https://github.com/CurvCluster/Congregate) |
 | 2023 | **Simple Contrastive Graph Clustering (SCGC)**               |  TNNLS  |           [Link](https://arxiv.org/abs/2205.07865)           |                              -                               |
 | 2023 | **Hard Sample Aware Network for Contrastive Deep Graph Clustering (HSAN)** |  AAAI   |           [Link](https://arxiv.org/abs/2212.08665)           |          [Link](https://github.com/yueliu1999/HSAN)          |
 | 2023 | **Cluster-guided Contrastive Graph Clustering Network (CCGC)** |  AAAI   |           [Link](https://arxiv.org/abs/2301.01098)           |        [Link](https://github.com/xihongyang1999/CCGC)        |
