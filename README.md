@@ -48,6 +48,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2023 | **Deep Temporal Graph Clustering (TGC)** |   arXiv    | [Link](https://arxiv.org/pdf/2305.10738.pdf) |                              -                               |
 | 2022 | **Escaping Feature Twist: A Variational Graph Auto-Encoder for Node Clustering (FT-VGAE)** |   IJCAI    | [Link](https://www.ijcai.org/proceedings/2022/465) |          [Link](https://github.com/nairouz/FT-VGAE) |
 | 2022 | **Deep Attention-guided Graph Clustering with Dual Self-supervision (DAGC)** |  TCSVT  |           [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9999681)           |       [Link](https://github.com/ZhihaoPENG-CityU/DAGC)       |
 | 2022 | **Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering (R-GAE)** |  TKDE  | [Link](https://arxiv.org/pdf/2107.08562)  |           [Link](https://github.com/nairouz/R-GAE)   |
