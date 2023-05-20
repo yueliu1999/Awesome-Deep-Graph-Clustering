@@ -308,3 +308,5 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 
 [Awesome Knowledge Graph Reasoning](https://github.com/LIANGKE23/Awesome-Knowledge-Graph-Reasoning)
 
+[A Unified Framework for Deep Attribute Graph Clustering](https://github.com/Marigoldwu/A-Unified-Framework-for-Deep-Attribute-Graph-Clustering)
+
