@@ -30,7 +30,7 @@ def k_means(embedding, k, y_true, device="cpu"):
         cluster_id = model.fit_predict(embedding)
         center = model.cluster_centers_
     if device == "gpu":
-        cluster_id, center = kmeans(X=torch.tensor(embedding), num_clusters=k, distance="euclidean", device="cuda")
+        cluster_id, center, _ = kmeans(X=torch.tensor(embedding), num_clusters=k, distance="euclidean", device="cuda")
         cluster_id = cluster_id.numpy()
     acc, nmi, ari, f1 = evaluation(y_true, cluster_id)
     return acc, nmi, ari, f1, center
