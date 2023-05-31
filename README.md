@@ -310,3 +310,5 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 
 [A Unified Framework for Deep Attribute Graph Clustering](https://github.com/Marigoldwu/A-Unified-Framework-for-Deep-Attribute-Graph-Clustering)
 
+[Awesome Deep Graph Clustering](https://github.com/jinjiaqi1998/Awesome-Deep-Multiview-Clustering)
+
