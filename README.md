@@ -286,6 +286,24 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
   journal={arXiv preprint arXiv:2211.12875},
   year={2022}
 }
+
+@inproceedings{Dink-Net,
+  title={Dink-net: Neural clustering on large graphs},
+  author={Liu, Yue and Liang, Ke and Xia, Jun and Zhou, Sihang and Yang, Xihong and Liu, Xinwang and Li, Stan Z},
+  booktitle={Proceedings of International Conference on Machine Learning},
+  year={2023}
+}
+
+@inproceedings{HSAN,
+  title={Hard sample aware network for contrastive deep graph clustering},
+  author={Liu, Yue and Yang, Xihong and Zhou, Sihang and Liu, Xinwang and Wang, Zhen and Liang, Ke and Tu, Wenxuan and Li, Liang and Duan, Jingcan and Chen, Cancan},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={37},
+  number={7},
+  pages={8914--8922},
+  year={2023}
+}
+
 @inproceedings{DCRN,
   title={Deep Graph Clustering via Dual Correlation Reduction},
   author={Liu, Yue and Tu, Wenxuan and Zhou, Sihang and Liu, Xinwang and Song, Linxuan and Yang, Xihong and Zhu, En},
@@ -295,7 +313,8 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
   pages={7603-7611},
   year={2022}
 }
-@article{mrabah2021rethinking,
+
+@article{RGAE,
   title={Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering},
   author={Mrabah, Nairouz and Bouguessa, Mohamed and Touati, Mohamed Fawzi and Ksantini, Riadh},
   journal={IEEE Transactions on Knowledge and Data Engineering},
