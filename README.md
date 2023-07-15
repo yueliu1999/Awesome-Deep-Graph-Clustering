@@ -44,7 +44,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 ## Papers
 
-### Generative Deep Graph Clustering
+### Reconstructive Deep Graph Clustering
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
