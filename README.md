@@ -48,6 +48,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2023 | **Beyond Homophily: Reconstructing Structure for Graph-agnostic Clustering (DGCN)**          |   ICML    | [Link](https://arxiv.org/abs/2305.02931) | [Link](https://github.com/Panern/DGCN) |
 | 2023 | **Deep Temporal Graph Clustering (TGC)** |   arXiv    | [Link](https://arxiv.org/pdf/2305.10738.pdf) |                              -                               |
 | 2022 | **Escaping Feature Twist: A Variational Graph Auto-Encoder for Node Clustering (FT-VGAE)** |   IJCAI    | [Link](https://www.ijcai.org/proceedings/2022/465) |          [Link](https://github.com/nairouz/FT-VGAE) |
 | 2022 | **Deep Attention-guided Graph Clustering with Dual Self-supervision (DAGC)** |  TCSVT  |           [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9999681)           |       [Link](https://github.com/ZhihaoPENG-CityU/DAGC)       |
@@ -146,7 +147,6 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
 | :--: | :----------------------------------------------------------- | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 2023 | **Beyond Homophily: Reconstructing Structure for Graph-agnostic Clustering (DGCN)**          |   ICML    | [Link](https://arxiv.org/abs/2305.02931) | [Link](https://github.com/Panern/DGCN) |
 | 2023 | **Beyond The Evidence Lower Bound: Dual Variational Graph Auto-Encoders For Node Clustering**  |   SDM    | [Link](https://epubs.siam.org/doi/epdf/10.1137/1.9781611977653.ch12) | [Link](https://github.com/nairouz/BELBO-VGAE) |
 | 2023 | **GC-Flow: A Graph-Based Flow Network for Effective Clustering**          |   ICLM    | [Link](https://arxiv.org/pdf/2305.17284.pdf) | [Link](https://github.com/xztcwang/GCFlow) |
 | 2023 | **Scalable Attributed-Graph Subspace Clustering (SAGSC)**          |   AAAI    | [Link](https://chakib401.github.io/files/SAGSC.pdf) | [Link](https://github.com/chakib401/sagsc) |
