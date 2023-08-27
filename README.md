@@ -113,12 +113,11 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 2023 | **Dink-Net: Neural Clustering on Large Graphs**              |  ICML   |          [Link](https://arxiv.org/pdf/2305.18405.pdf)             |         [Link](https://github.com/yueliu1999/Dink-Net)                       |
-| 2023 | **CONGREGATE: Contrastive Graph Clustering in Curvature Spaces**|  IJCAI   |    [Link](https://arxiv.org/pdf/2305.03555.pdf)    |   [Link](https://github.com/CurvCluster/Congregate)                 |
+| 2023 | **Dink-Net: Neural Clustering on Large Graphs (Dink-Net)**              |  ICML   |          [Link](https://arxiv.org/pdf/2305.18405.pdf)             |         [Link](https://github.com/yueliu1999/Dink-Net)                       |
+| 2023 | **CONGREGATE: Contrastive Graph Clustering in Curvature Spaces (CONGREGATE)**|  IJCAI   |    [Link](https://arxiv.org/pdf/2305.03555.pdf)    |   [Link](https://github.com/CurvCluster/Congregate)                 |
 | 2023 | **Simple Contrastive Graph Clustering (SCGC)**               |  TNNLS  |           [Link](https://arxiv.org/abs/2205.07865)           |                              -                               |
 | 2023 | **Hard Sample Aware Network for Contrastive Deep Graph Clustering (HSAN)** |  AAAI   |           [Link](https://arxiv.org/abs/2212.08665)           |          [Link](https://github.com/yueliu1999/HSAN)          |
 | 2023 | **Cluster-guided Contrastive Graph Clustering Network (CCGC)** |  AAAI   |           [Link](https://arxiv.org/abs/2301.01098)           |        [Link](https://github.com/xihongyang1999/CCGC)        |
-| 2023 | **Contrastive Graph Clustering in Curvature Spaces** |  arXiv   |           [Link](https://arxiv.org/abs/2305.03555)           |        -       |
 | 2022 | **NCAGC: A Neighborhood Contrast Framework for Attributed Graph Clustering (NCAGC)** |  arXiv  |           [Link](https://arxiv.org/abs/2206.07897)           | [Link](https://github.com/wangtong627/Dual-Contrastive-Attributed-Graph-Clustering-Network) |
 | 2022 | **SCGC : Self-Supervised Contrastive Graph Clustering (SCGC)** |  arXiv  |           [Link](https://arxiv.org/pdf/2204.12656)           |           [Link](https://github.com/gayanku/SCGC)            |
 | 2022 | **Improved Dual Correlation Reduction Network (IDCRN)**      |  arXiv  |           [Link](https://arxiv.org/abs/2202.12533)           |                              -                               |
