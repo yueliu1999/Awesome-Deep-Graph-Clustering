@@ -198,9 +198,10 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2019 | **Multi-view Consensus Graph Clustering**                    |    TIP    | [Link](https://ieeexplore.ieee.org/abstract/document/8501973) |           [Link](https://github.com/kunzhan/MCGC)            |
 | 2019 | **Attributed Graph Clustering via Adaptive Graph Convolution (AGC)** |   IJCAI   |   [Link](https://www.ijcai.org/Proceedings/2019/0601.pdf)    |      [Link](https://github.com/karenlatong/AGC-master)       |
 | 2016 | **node2vec: Scalable Feature Learning for Networks (node2vec)** | SIGKDD | [Link](https://dl.acm.org/doi/abs/10.1145/2939672.2939754?casa_token=jt4dhGo-tKEAAAAA:lhscLc-u0XZFYYyi48kXK3_vtYR-PffsbbMRZdtpbaprcB1FGyjWH1RvstHACYALyZ9OtUf2nv_FjQ) | [Link](http://snap.stanford.edu/node2vec/) |
+| 2016 | **Variational Graph Auto-Encoders (GAE)** | NeurIPS Workshop | [Link](https://ieeexplore.ieee.org/abstract/document/9046288) | [Link](https://github.com/tkipf/gae) |
 | 2015 | **LINE: Large-scale Information Network Embedding (LINE)** | WWW | [Link](https://dl.acm.org/doi/pdf/10.1145/2736277.2741093?casa_token=ahQ9yUhknkAAAAAA:lP6rusbODmZ1ZpGxF-cIiiopMiAA8Q4I02cBBbfE5dc8-NQpiPOdV0cv4-43lA9CkTXU4mPei39UDg) | [Link](https://github.com/tangjianpku/LINE) |
 | 2014 | **DeepWalk: Online Learning of Social Representations (DeepWalk)** | SIGKDD | [Link](https://dl.acm.org/doi/pdf/10.1145/2623330.2623732?casa_token=x6Gui_HExYoAAAAA:mzfm0BH0rSX7qcQV2WJ6uTSsg7zjnPalmOQ8sQuoJrwXfh9fcDgVPgXb-APCLGk1qWsPpIkBhI61pw) | [Link](https://github.com/phanein/deepwalk) |
-| 2016 | **Variational Graph Auto-Encoders (GAE)** | NeurIPS Workshop | [Link](https://ieeexplore.ieee.org/abstract/document/9046288) | [Link](https://github.com/tkipf/gae) |
+
 
 
 
