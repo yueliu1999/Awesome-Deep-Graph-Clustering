@@ -114,6 +114,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2023 | **CONVERT: Contrastive Graph Clustering with Reliable Augmentation**              |  ACM MM   |          [Link](https://arxiv.org/pdf/2308.08963.pdf)             |         [Link](https://github.com/xihongyang1999/CONVERT)                       |
+| 2023 | **Attribute Graph Clustering via Learnable Augmentation**              |  arXiv   |          [Link](https://arxiv.org/pdf/2212.03559.pdf)             |         -                       |
 | 2023 | **CARL-G: Clustering-Accelerated Representation Learning on Graphs**              |  SIGKDD   |          [Link](https://arxiv.org/pdf/2306.06936.pdf)             |         -                       |
 | 2023 | **Dink-Net: Neural Clustering on Large Graphs (Dink-Net)**              |  ICML   |          [Link](https://arxiv.org/pdf/2305.18405.pdf)             |         [Link](https://github.com/yueliu1999/Dink-Net)                       |
 | 2023 | **CONGREGATE: Contrastive Graph Clustering in Curvature Spaces (CONGREGATE)**|  IJCAI   |    [Link](https://arxiv.org/pdf/2305.03555.pdf)    |   [Link](https://github.com/CurvCluster/Congregate)                 |
