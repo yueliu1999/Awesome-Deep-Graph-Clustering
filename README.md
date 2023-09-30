@@ -314,7 +314,7 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
   booktitle={Proceedings of the AAAI conference on artificial intelligence},
   volume={37},
   number={7},
-  pages={8914--8922},
+  pages={8914-8922},
   year={2023}
 }
 
