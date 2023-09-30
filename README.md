@@ -293,7 +293,15 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
   year={2022}
 }
 
-@inproceedings{Dink-Net,
+@article{SCGC,
+  title={Simple contrastive graph clustering},
+  author={Liu, Yue and Yang, Xihong and Zhou, Sihang and Liu, Xinwang and Wang, Siwei and Liang, Ke and Tu, Wenxuan and Li, Liang},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2023},
+  publisher={IEEE}
+}
+
+@inproceedings{Dink_Net,
   title={Dink-net: Neural clustering on large graphs},
   author={Liu, Yue and Liang, Ke and Xia, Jun and Zhou, Sihang and Yang, Xihong and Liu, Xinwang and Li, Stan Z},
   booktitle={Proceedings of International Conference on Machine Learning},
