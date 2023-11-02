@@ -142,6 +142,13 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2020 | **Contrastive Multi-View Representation Learning on Graphs (MVGRL)** |  ICML   | [Link](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf) |        [Link](https://github.com/kavehhassani/mvgrl)         |
 
 
+### Others
+
+
+| Year | Title                                                        | Venue  |                           Paper                            |                      Code                      |
+| ---- | ------------------------------------------------------------ | :----: | :--------------------------------------------------------: | :--------------------------------------------: |
+| 2023 | **Robust Graph Clustering via Meta Learning for Noisy Graphs (MetaGC)**  | CIKM  |          [Link](https://arxiv.org/abs/2311.00322)          | [Link](https://github.com/HyeonsooJo/MetaGC)  |
+
 
 
 
