@@ -48,6 +48,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2023 | **Scalable Attributed-Graph Subspace Clustering**       |  AAAI  |           [Link]([https://ojs.aaai.org/index.php/AAAI/article/view/25918))           | |
 | 2023 | **Graph Clustering with Graph Neural Networks (DMoN)**       |  JMLR  |           [Link](https://arxiv.org/pdf/2006.16904)           | [Link](https://github.com/google-research/google-research/tree/master/graph_embedding/dmon) |
 | 2023 | **Graph Clustering Network with Structure Embedding Enhanced (GC-SEE)**               | PR |            [link](https://doi.org/10.1016/j.patcog.2023.109833) | [link](https://github.com/Marigoldwu/GC-SEE) |
 | 2023 | **Beyond Homophily: Reconstructing Structure for Graph-agnostic Clustering (DGCN)**          |   ICML    | [Link](https://arxiv.org/abs/2305.02931) | [Link](https://github.com/Panern/DGCN) |
