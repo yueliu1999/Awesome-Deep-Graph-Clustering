@@ -355,7 +355,8 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 
 ## Other Related Awesome Repository
 
-[Awesome Incomplete Graph Representation Learning](https://github.com/WxTu/Awesome-Incomplete-Graph-Representation-Learning)
+
+[Awesome Partial Graph Machine Learning](https://github.com/WxTu/Awesome-Partial-Graph-Machine-Learning)
 
 [Awesome Knowledge Graph Reasoning](https://github.com/LIANGKE23/Awesome-Knowledge-Graph-Reasoning)
 
