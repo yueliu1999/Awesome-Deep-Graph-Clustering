@@ -164,6 +164,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2023 | **Spectral Clustering of Attributed Multi-relational Graphs**|  SIGKDD  | [Link](https://dl.acm.org/doi/pdf/10.1145/3447548.3467381) | - |
 | 2023 | **Local Graph Clustering with Noisy Labels**|  Arxiv  | [Link](https://arxiv.org/pdf/2310.08031.pdf) | - |
 | 2023 | **Robust Graph Clustering via Meta Weighting for Noisy Graphs**|  CIKM  | [Link](https://arxiv.org/pdf/2311.00322.pdf) | [Link](https://github.com/HyeonsooJo/MetaGC) |
+| 2023 | **Homophily-enhanced Structure Learning for Graph Clustering**|  CIKM  | [Link](https://arxiv.org/pdf/2308.05309.pdf) | [Link](https://github.com/galogm/HoLe) |
 | 2023 | **A Re-evaluation of Deep Learning Methodsfor Attributed Graph Clustering**  |   CIKM    | [Link](https://dl.acm.org/doi/pdf/10.1145/3583780.3614768) | [Link](https://github.com/2100271064/A-Re-evaluation-of-Deep-Learning-Methods-for-Attributed-Graph-Clustering) |
 | 2023 | **Beyond The Evidence Lower Bound: Dual Variational Graph Auto-Encoders For Node Clustering**  |   SDM    | [Link](https://epubs.siam.org/doi/epdf/10.1137/1.9781611977653.ch12) | [Link](https://github.com/nairouz/BELBO-VGAE) |
 | 2023 | **GC-Flow: A Graph-Based Flow Network for Effective Clustering**          |   ICLM    | [Link](https://arxiv.org/pdf/2305.17284.pdf) | [Link](https://github.com/xztcwang/GCFlow) |
