@@ -98,7 +98,6 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        | Venue  |                           Paper                            |                      Code                      |
 | ---- | ------------------------------------------------------------ | :----: | :--------------------------------------------------------: | :--------------------------------------------: |
-| 2023 | **Contrastive Learning with Cluster-Preserving Augmentation for Attributed Graph Clustering**  | ECML-PKDD |          [Link](https://link.springer.com/chapter/10.1007/978-3-031-43412-9_38)          | - |
 | 2023 | **Wasserstein Adversarially Regularized Graph Autoencoder (WARGA)**  | Neurocomputing  |          [Link](https://arxiv.org/pdf/2111.04981)          | [Link](https://github.com/LeonResearch/WARGA)  |
 | 2022 | **Unsupervised network embedding beyond homophily (SELENE)** | TMLR  |          [Link](https://orbilu.uni.lu/bitstream/10993/53475/1/TMLR22b.pdf)          |   [Link](https://github.com/zhiqiangzhongddu/SELENE)    |
 | 2020 | **JANE: Jointly adversarial network embedding (JANE)**              | IJCAI  |  [Link](https://www.ijcai.org/Proceedings/2020/0192.pdf)   |                       -                        |
@@ -115,6 +114,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2023 | **Contrastive Learning with Cluster-Preserving Augmentation for Attributed Graph Clustering**  | ECML-PKDD |          [Link](https://link.springer.com/chapter/10.1007/978-3-031-43412-9_38)          | - |  
+| 2023 | **Graph Contrastive Representation Learning with Input-Aware and Cluster-Aware Regularization**  | ECML-PKDD |          [Link](https://link.springer.com/chapter/10.1007/978-3-031-43415-0_39)          | - |
 | 2023 | **Self-Contrastive Graph Diffusion Network**              |  ACM MM   |          [Link](https://arxiv.org/pdf/2307.14613.pdf)             |         [Link](https://github.com/kunzhan/SCDGN)        
 | 2023 | **CONVERT: Contrastive Graph Clustering with Reliable Augmentation (CONVERT)**              |  ACM MM   |          [Link](https://arxiv.org/pdf/2308.08963.pdf)             |         [Link](https://github.com/xihongyang1999/CONVERT)                       |
 | 2023 | **Attribute Graph Clustering via Learnable Augmentation (AGCLA)**              |  arXiv   |          [Link](https://arxiv.org/pdf/2212.03559.pdf)             |         -                       |
