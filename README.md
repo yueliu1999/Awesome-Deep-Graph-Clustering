@@ -98,6 +98,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        | Venue  |                           Paper                            |                      Code                      |
 | ---- | ------------------------------------------------------------ | :----: | :--------------------------------------------------------: | :--------------------------------------------: |
+| 2023 | **Contrastive Learning with Cluster-Preserving Augmentation for Attributed Graph Clustering**  | ECML-PKDD |          [Link](https://link.springer.com/chapter/10.1007/978-3-031-43412-9_38)          | - |
 | 2023 | **Wasserstein Adversarially Regularized Graph Autoencoder (WARGA)**  | Neurocomputing  |          [Link](https://arxiv.org/pdf/2111.04981)          | [Link](https://github.com/LeonResearch/WARGA)  |
 | 2022 | **Unsupervised network embedding beyond homophily (SELENE)** | TMLR  |          [Link](https://orbilu.uni.lu/bitstream/10993/53475/1/TMLR22b.pdf)          |   [Link](https://github.com/zhiqiangzhongddu/SELENE)    |
 | 2020 | **JANE: Jointly adversarial network embedding (JANE)**              | IJCAI  |  [Link](https://www.ijcai.org/Proceedings/2020/0192.pdf)   |                       -                        |
