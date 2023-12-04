@@ -44,6 +44,15 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 ## Papers
 
+
+### Temporal Deep Graph Clustering
+
+| Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
+| ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2023 | **Deep Temporal Graph Clustering (TGC)** |   arXiv    | [Link](https://arxiv.org/pdf/2305.10738.pdf) |                              -                               |
+| 2023 | **arXiv4TGC: Large-Scale Datasets for Temporal Graph Clustering (arXiv4TGC)** |   arXiv    | [Link](https://arxiv.org/abs/2306.04962) |                              [Link](https://github.com/MGitHubL/arXiv4TGC)                               |
+
+
 ### Reconstructive Deep Graph Clustering
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
@@ -144,13 +153,6 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2020 | **Adaptive Graph Encoder for Attributed Graph Embedding (AGE)** | SIGKDD  |           [Link](https://arxiv.org/pdf/2007.01594)           |            [Link](https://github.com/thunlp/AGE)             |
 | 2020 | **CommDGI: Community Detection Oriented Deep Graph Infomax (CommDGI)** |  CIKM   |  [Link](https://dl.acm.org/doi/abs/10.1145/3340531.3412042)  |          [Link](https://github.com/FDUDSDE/CommDGI)          |
 | 2020 | **Contrastive Multi-View Representation Learning on Graphs (MVGRL)** |  ICML   | [Link](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf) |        [Link](https://github.com/kavehhassani/mvgrl)         |
-
-### Temporal Deep Graph Clustering
-
-| Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
-| ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 2023 | **Deep Temporal Graph Clustering (TGC)** |   arXiv    | [Link](https://arxiv.org/pdf/2305.10738.pdf) |                              -                               |
-| 2023 | **arXiv4TGC: Large-Scale Datasets for Temporal Graph Clustering (arXiv4TGC)** |   arXiv    | [Link](https://arxiv.org/abs/2306.04962) |                              [Link](https://github.com/MGitHubL/arXiv4TGC)                               |
 
 
 
