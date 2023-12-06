@@ -122,7 +122,6 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-
 | 2023 | **Dual Contrastive Learning Network for Graph Clustering**  | TNNLS |          [Link](https://ieeexplore.ieee.org/abstract/document/10097557)          | - |  
 | 2023 | **Contrastive Learning with Cluster-Preserving Augmentation for Attributed Graph Clustering**  | ECML-PKDD |          [Link](https://link.springer.com/chapter/10.1007/978-3-031-43412-9_38)          | - |  
 | 2023 | **Graph Contrastive Representation Learning with Input-Aware and Cluster-Aware Regularization**  | ECML-PKDD |          [Link](https://link.springer.com/chapter/10.1007/978-3-031-43415-0_39)          | - |
