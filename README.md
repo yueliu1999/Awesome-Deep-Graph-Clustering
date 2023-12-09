@@ -357,6 +357,16 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
   year={2022}
 }
 
+
+@inproceedings{liuyue_RGC,
+  title={Reinforcement Graph Clustering with Unknown Cluster Number},
+  author={Liu, Yue and Liang, Ke and Xia, Jun and Yang, Xihong and Zhou, Sihang and Liu, Meng and Liu, Xinwang and Li, Stan Z},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  pages={3528--3537},
+  year={2023}
+}
+
+
 @article{RGAE,
   title={Rethinking Graph Auto-Encoder Models for Attributed Graph Clustering},
   author={Mrabah, Nairouz and Bouguessa, Mohamed and Touati, Mohamed Fawzi and Ksantini, Riadh},
