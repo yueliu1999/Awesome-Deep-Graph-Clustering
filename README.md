@@ -8,7 +8,7 @@
 
 # ADGC: Awesome Deep Graph Clustering
 
-ADGC is a collection of state-of-the-art (SOTA), novel deep graph clustering methods (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact yueliu19990731@163.com. If you find this repository useful to your research or work, it is really appreciated to star this repository. :sparkles: If you use our code or the processed datasets in this repository for your research, please cite 1-2 papers in the citation part [here](https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering#citation). :heart:
+ADGC is a collection of state-of-the-art (SOTA), novel deep graph clustering methods (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact yueliu19990731@163.com. If you find this repository useful to your research or work, it is really appreciated to star this repository. :sparkles: If you use our code or the processed datasets in this repository for your research, please cite 2-3 papers in the citation part [here](https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering#citation). :heart:
 
 [![Made with Python][python-img]][adgc-url]
 [![GitHub stars][stars-img]][stars-url]
@@ -379,12 +379,15 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 
 ## Other Related Awesome Repository
 
+[A Unified Framework for Deep Attribute Graph Clustering](https://github.com/Marigoldwu/A-Unified-Framework-for-Deep-Attribute-Graph-Clustering)
 
 [Awesome Partial Graph Machine Learning](https://github.com/WxTu/Awesome-Partial-Graph-Machine-Learning)
 
 [Awesome Knowledge Graph Reasoning](https://github.com/LIANGKE23/Awesome-Knowledge-Graph-Reasoning)
 
-[A Unified Framework for Deep Attribute Graph Clustering](https://github.com/Marigoldwu/A-Unified-Framework-for-Deep-Attribute-Graph-Clustering)
+[Awesome Temporal Graph Learning](https://github.com/MGitHubL/Awesome-Temporal-Graph-Learning)
 
 [Awesome Deep Multiview Clustering](https://github.com/jinjiaqi1998/Awesome-Deep-Multiview-Clustering)
+
+
 
