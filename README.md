@@ -57,6 +57,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **Contrastive Deep Nonnegative Matrix Factorization for Community Detection (CDNMF)**               | ICASSP |            [link](https://arxiv.org/abs/2311.02357) | [link](https://github.com/6lyc/CDNMF) |
 | 2023 | **Beyond The Evidence Lower Bound: Dual Variational Graph Auto-Encoders For Node Clustering (BELBO-VGAE)**       |  SDM  |           [Link](https://epubs.siam.org/doi/pdf/10.1137/1.9781611977653.ch12)           | [Link](https://github.com/nairouz/BELBO-VGAE) |
 | 2023 | **Graph Clustering with Graph Neural Networks (DMoN)**       |  JMLR  |           [Link](https://arxiv.org/pdf/2006.16904)           | [Link](https://github.com/google-research/google-research/tree/master/graph_embedding/dmon) |
 | 2023 | **Graph Clustering Network with Structure Embedding Enhanced (GC-SEE)**               | PR |            [link](https://doi.org/10.1016/j.patcog.2023.109833) | [link](https://github.com/Marigoldwu/GC-SEE) |
@@ -125,6 +126,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **Contrastive Deep Nonnegative Matrix Factorization for Community Detection (CDNMF)**               | ICASSP |            [link](https://arxiv.org/abs/2311.02357) | [link](https://github.com/6lyc/CDNMF) |
 | 2023 | **A Contrastive Variational Graph Auto-Encoder for Node Clustering (CVGAE)**  | PR |          [Link](https://www.sciencedirect.com/science/article/abs/pii/S0031320323009068)          | [Link](https://github.com/nairouz/CVGAE_PR) |  
 | 2023 | **Dual Contrastive Learning Network for Graph Clustering**  | TNNLS |          [Link](https://ieeexplore.ieee.org/abstract/document/10097557)          | [Link](https://github.com/XinPeng97/TNNLS_DCLN) |  
 | 2023 | **Contrastive Learning with Cluster-Preserving Augmentation for Attributed Graph Clustering**  | ECML-PKDD |          [Link](https://link.springer.com/chapter/10.1007/978-3-031-43412-9_38)          | - |  
