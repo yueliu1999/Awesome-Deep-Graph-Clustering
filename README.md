@@ -180,7 +180,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
 | :--: | :----------------------------------------------------------- | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-
+| 2023 | **Mutual Boost Network for attributed graph clustering**|  KBS  | [Link](https://www.sciencedirect.com/science/article/pii/S0957417423009818) | - |
 | 2023 | **Redundancy-Free Self-Supervised Relational Learning for Graph Clustering**|  TNNLS  | [Link](https://arxiv.org/pdf/2309.04694.pdf) | [Link](https://github.com/yisiyu95/R2FGC) |
 | 2023 | **Spectral Clustering of Attributed Multi-relational Graphs**|  SIGKDD  | [Link](https://dl.acm.org/doi/pdf/10.1145/3447548.3467381) | - |
 | 2023 | **Local Graph Clustering with Noisy Labels**|  Arxiv  | [Link](https://arxiv.org/pdf/2310.08031.pdf) | - |
