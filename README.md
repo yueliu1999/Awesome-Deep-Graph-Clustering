@@ -168,8 +168,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |    Venue    |                            Paper                             | Code |
 | ---- | ------------------------------------------------------------ | :---------: | :----------------------------------------------------------: | :--: |
-| 2024 | **End-to-end Learnable Clustering for Intent Learning in Recommendation**  | arXiv |          [Link](https://arxiv.org/pdf/2401.05975.pdf)          | [Link](https://github.com/yueliu1999/ELCRec) |  
-
+| 2024 | **End-to-end Learnable Clustering for Intent Learning in Recommendation**  | arXiv |          [Link](https://arxiv.org/pdf/2401.05975.pdf)          | [Link](https://github.com/yueliu1999/ELCRec) | 
+| 2023 | **GuardFL: Safeguarding Federated Learning Against Backdoor Attacks through Attributed Client Graph Clustering** | arXiv |          [Link](https://arxiv.org/pdf/2306.04984.pdf)          |          -          |
 
 
 ### Others
