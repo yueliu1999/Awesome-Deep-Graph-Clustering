@@ -165,6 +165,9 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 
 ### Application
+
+| Year | Title                                                        |    Venue    |                            Paper                             | Code |
+| ---- | ------------------------------------------------------------ | :---------: | :----------------------------------------------------------: | :--: |
 | 2024 | **End-to-end Learnable Clustering for Intent Learning in Recommendation**  | arXiv |          [Link](https://arxiv.org/pdf/2401.05975.pdf)          | [Link](https://github.com/yueliu1999/ELCRec) |  
 
 
