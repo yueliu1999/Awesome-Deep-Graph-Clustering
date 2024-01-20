@@ -49,8 +49,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 2023 | **Deep Temporal Graph Clustering (TGC)** |   arXiv    | [Link](https://arxiv.org/pdf/2305.10738.pdf) |                              -                               |
-| 2023 | **arXiv4TGC: Large-Scale Datasets for Temporal Graph Clustering (arXiv4TGC)** |   arXiv    | [Link](https://arxiv.org/abs/2306.04962) |                              [Link](https://github.com/MGitHubL/arXiv4TGC)                               |
+| 2023 | **Deep Temporal Graph Clustering (TGC)** |   ICLR    | [Link](https://arxiv.org/pdf/2305.10738.pdf) |                              [link](https://github.com/MGitHubL/TGC)                               |
+| 2023 | **arXiv4TGC: Large-Scale Datasets for Temporal Graph Clustering (arXiv4TGC)** |   arXiv    | [Link](https://arxiv.org/abs/2306.04962) |                              [Link](https://github.com/MGitHubL/Data4TGC)                               |
 
 
 ### Reconstructive Deep Graph Clustering
@@ -380,6 +380,13 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
   booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
   pages={3528--3537},
   year={2023}
+}
+
+@inproceedings{TGC_ML_ICLR,
+  title={Deep Temporal Graph Clustering},
+  author={Liu, Meng and Liu, Yue and Liang, Ke and Tu, Wenxuan and Wang, Siwei and Zhou, Sihang and Liu, Xinwang},
+  booktitle={The 12th International Conference on Learning Representations},
+  year={2024}
 }
 
 
