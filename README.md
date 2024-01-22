@@ -208,6 +208,16 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2017 | **Improved Deep Embedded Clustering with Local Structure Preservation (IDEC)** |   IJCAI   | [Link](https://www.researchgate.net/profile/Xifeng-Guo/publication/317095655_Improved_Deep_Embedded_Clustering_with_Local_Structure_Preservation/links/59263224458515e3d4537edc/Improved-Deep-Embedded-Clustering-with-Local-Structure-Preservation.pdf) |          [Link](https://github.com/XifengGuo/IDEC)           |
 | 2016 | **Unsupervised Deep Embedding for Clustering Analysis (DEC)** |   ICML    |     [Link](http://proceedings.mlr.press/v48/xieb16.pdf)      |           [Link](https://github.com/piiswrong/dec)           |
 
+
+
+### Deep Hierarchical Clustering
+
+| Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
+| :--: | :----------------------------------------------------------- | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2023 | **Contrastive Hierarchical Clustering (CHC)**|  ECML PKDD  | [Link](https://arxiv.org/abs/2303.03389) | [Link](https://github.com/MichalZnalezniak/Contrastive-Hierarchical-Clustering) |
+
+
+
 ### Other Related Methods
 
 | Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
