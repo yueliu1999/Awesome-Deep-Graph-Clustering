@@ -363,6 +363,13 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
   year={2023}
 }
 
+@inproceedings{TGC_ML_ICLR,
+  title={Deep Temporal Graph Clustering},
+  author={Liu, Meng and Liu, Yue and Liang, Ke and Tu, Wenxuan and Wang, Siwei and Zhou, Sihang and Liu, Xinwang},
+  booktitle={The 12th International Conference on Learning Representations},
+  year={2024}
+}
+
 @inproceedings{HSAN,
   title={Hard sample aware network for contrastive deep graph clustering},
   author={Liu, Yue and Yang, Xihong and Zhou, Sihang and Liu, Xinwang and Wang, Zhen and Liang, Ke and Tu, Wenxuan and Li, Liang and Duan, Jingcan and Chen, Cancan},
@@ -392,12 +399,7 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
   year={2023}
 }
 
-@inproceedings{TGC_ML_ICLR,
-  title={Deep Temporal Graph Clustering},
-  author={Liu, Meng and Liu, Yue and Liang, Ke and Tu, Wenxuan and Wang, Siwei and Zhou, Sihang and Liu, Xinwang},
-  booktitle={The 12th International Conference on Learning Representations},
-  year={2024}
-}
+
 
 
 @article{RGAE,
