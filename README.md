@@ -49,7 +49,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 2024 | **Deep Temporal Graph Clustering (TGC)** |   ICLR    | [Link](https://arxiv.org/pdf/2305.10738.pdf) |                              [link](https://github.com/MGitHubL/TGC)                               |
+| 2024 | **Deep Temporal Graph Clustering (TGC)** |   ICLR    | [Link](https://openreview.net/pdf?id=ViNe1fjGME) |                              [link](https://github.com/MGitHubL/TGC)                               |
 | 2023 | **arXiv4TGC: Large-Scale Datasets for Temporal Graph Clustering (arXiv4TGC)** |   arXiv    | [Link](https://arxiv.org/abs/2306.04962) |                              [Link](https://github.com/MGitHubL/Data4TGC)                               |
 
 
