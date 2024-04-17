@@ -57,6 +57,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **An End-to-End Deep Graph Clustering via Online Mutual Learning**  | TNNLS | [link](https://ieeexplore.ieee.org/abstract/document/10412657) | - |
 | 2024 | **Contrastive Deep Nonnegative Matrix Factorization for Community Detection (CDNMF)**               | ICASSP |            [link](https://arxiv.org/abs/2311.02357) | [link](https://github.com/6lyc/CDNMF) |
 | 2023 | **EGRC-Net: Embedding-Induced Graph Refinement Clustering Network (EGRC-Net)** |  TIP  |           [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10326461)           |       [Link](https://github.com/ZhihaoPENG-CityU/TIP23---EGRC-Net)       |
 | 2023 | **Beyond The Evidence Lower Bound: Dual Variational Graph Auto-Encoders For Node Clustering (BELBO-VGAE)**       |  SDM  |           [Link](https://epubs.siam.org/doi/pdf/10.1137/1.9781611977653.ch12)           | [Link](https://github.com/nairouz/BELBO-VGAE) |
