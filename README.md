@@ -52,6 +52,18 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | 2024 | **Deep Temporal Graph Clustering (TGC)** |   ICLR    | [Link](https://openreview.net/pdf?id=ViNe1fjGME) |                              [link](https://github.com/MGitHubL/TGC)                               |
 | 2023 | **arXiv4TGC: Large-Scale Datasets for Temporal Graph Clustering (arXiv4TGC)** |   arXiv    | [Link](https://arxiv.org/abs/2306.04962) |                              [Link](https://github.com/MGitHubL/Data4TGC)                               |
 
+### Deep Graph Clustering with Unknown Cluster Number
+
+
+| Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
+| ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **Masked AutoEncoder for Graph Clustering without Pre-defined Cluster Number k** |   arXiv    | [Link](https://arxiv.org/pdf/2401.04741.pdf) |                              -                               |
+| 2023 | **Reinforcement Graph Clustering with Unknown Cluster Number (RGC)**              |  ACM MM   |          [Link](https://arxiv.org/pdf/2308.06827)             |         [Link](https://github.com/yueliu1999/RGC)        
+
+
+
+
+
 
 ### Reconstructive Deep Graph Clustering
 
