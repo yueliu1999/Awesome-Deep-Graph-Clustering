@@ -44,6 +44,12 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 ## Papers
 
+### New-architecture Deep Graph Clustering
+
+| Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
+| ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **Kolmogorov-Arnold Network (KAN) for Graphs** |   -    | - |                              [link](https://github.com/yueliu1999/KAN4Graph)                               |
+
 
 ### Temporal Deep Graph Clustering
 
