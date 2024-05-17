@@ -146,6 +146,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **Contrastive Multiview Attribute Graph Clustering With Adaptive Encoders**               | TNNLS |            [link]([https://arxiv.org/abs/2311.02357](https://ieeexplore.ieee.org/abstract/document/10509800)) | - |
 | 2024 | **Contrastive Deep Nonnegative Matrix Factorization for Community Detection (CDNMF)**               | ICASSP |            [link](https://arxiv.org/abs/2311.02357) | [link](https://github.com/6lyc/CDNMF) |
 | 2023 | **A Contrastive Variational Graph Auto-Encoder for Node Clustering (CVGAE)**  | PR |          [Link](https://www.sciencedirect.com/science/article/abs/pii/S0031320323009068)          | [Link](https://github.com/nairouz/CVGAE_PR) |  
 | 2023 | **Dual Contrastive Learning Network for Graph Clustering**  | TNNLS |          [Link](https://ieeexplore.ieee.org/abstract/document/10097557)          | [Link](https://github.com/XinPeng97/TNNLS_DCLN) |  
