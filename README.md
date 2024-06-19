@@ -208,6 +208,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
 | :--: | :----------------------------------------------------------- | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+
+| 2024 | **Information-enhanced deep graph clustering network (IEDGCN)** | Neurocomputing | [Link](https://www.sciencedirect.com/science/article/pii/S092523122400763X) | - |
 | 2024 | **Every Node is Different: Dynamically Fusing Self-Supervised Tasks for Attributed Graph Clustering** | AAAI | [Link](https://arxiv.org/pdf/2401.06595v1) | [Link](https://github.com/q086/DyFSS) | 
 | 2024 | **DGCLUSTER: A Neural Framework for Attributed Graph Clustering via Modularity Maximization (DGCluster)** | AAAI | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/28983) | - |
 | 2023 | **Mutual Boost Network for attributed graph clustering (MBN)**|  KBS  | [Link](https://www.sciencedirect.com/science/article/pii/S0957417423009818) | - |
