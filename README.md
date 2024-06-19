@@ -74,6 +74,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **Deep Masked Graph Node Clustering （DMGC）**  | TCSS | [link](https://ieeexplore.ieee.org/abstract/document/10550181) | - |
 | 2024 | **Multi-scale graph clustering network (MGCN)**  | IS | [link](https://www.sciencedirect.com/science/article/abs/pii/S002002552400937X) | [link](https://github.com/Zj202309/MGCN) | 
 | 2024 | **An End-to-End Deep Graph Clustering via Online Mutual Learning**  | TNNLS | [link](https://ieeexplore.ieee.org/abstract/document/10412657) | - |
 | 2024 | **Contrastive Deep Nonnegative Matrix Factorization for Community Detection (CDNMF)**               | ICASSP |            [link](https://arxiv.org/abs/2311.02357) | [link](https://github.com/6lyc/CDNMF) |
@@ -209,6 +210,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 | Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
 | :--: | :----------------------------------------------------------- | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 
+| 2024 | **Deep graph clustering by integrating community structure with neighborhood information (DIGC)** | IS | [Link](https://www.sciencedirect.com/science/article/pii/S002002552400865X) | - |
 | 2024 | **Information-enhanced deep graph clustering network (IEDGCN)** | Neurocomputing | [Link](https://www.sciencedirect.com/science/article/pii/S092523122400763X) | - |
 | 2024 | **Every Node is Different: Dynamically Fusing Self-Supervised Tasks for Attributed Graph Clustering** | AAAI | [Link](https://arxiv.org/pdf/2401.06595v1) | [Link](https://github.com/q086/DyFSS) | 
 | 2024 | **DGCLUSTER: A Neural Framework for Attributed Graph Clustering via Modularity Maximization (DGCluster)** | AAAI | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/28983) | - |
