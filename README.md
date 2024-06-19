@@ -74,6 +74,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **Multi-scale graph clustering network (MGCN)**  | IS | [link](https://www.sciencedirect.com/science/article/abs/pii/S002002552400937X) | [link](https://github.com/Zj202309/MGCN) | 
 | 2024 | **An End-to-End Deep Graph Clustering via Online Mutual Learning**  | TNNLS | [link](https://ieeexplore.ieee.org/abstract/document/10412657) | - |
 | 2024 | **Contrastive Deep Nonnegative Matrix Factorization for Community Detection (CDNMF)**               | ICASSP |            [link](https://arxiv.org/abs/2311.02357) | [link](https://github.com/6lyc/CDNMF) |
 | 2023 | **EGRC-Net: Embedding-Induced Graph Refinement Clustering Network (EGRC-Net)** |  TIP  |           [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10326461)           |       [Link](https://github.com/ZhihaoPENG-CityU/TIP23---EGRC-Net)       |
@@ -145,6 +146,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **GLAC-GCN: Global and Local Topology-Aware Contrastive Graph Clustering Network (GLAC-GCN)**               | TAI |            [link]([https://ieeexplore.ieee.org/abstract/document/10557452)) | [link](https://github.com/xuyuankun631/GLAC-GCN) |
 | 2024 | **Contrastive Multiview Attribute Graph Clustering With Adaptive Encoders**               | TNNLS |            [link]([https://arxiv.org/abs/2311.02357](https://ieeexplore.ieee.org/abstract/document/10509800)) | - |
 | 2024 | **Contrastive Deep Nonnegative Matrix Factorization for Community Detection (CDNMF)**               | ICASSP |            [link](https://arxiv.org/abs/2311.02357) | [link](https://github.com/6lyc/CDNMF) |
 | 2023 | **A Contrastive Variational Graph Auto-Encoder for Node Clustering (CVGAE)**  | PR |          [Link](https://www.sciencedirect.com/science/article/abs/pii/S0031320323009068)          | [Link](https://github.com/nairouz/CVGAE_PR) |  
