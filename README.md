@@ -147,6 +147,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **Revisiting Modularity Maximization for Graph Clustering: A Contrastive Learning Perspective**               | KDD |            [ - | [link](https://github.com/EdisonLeeeee/MAGI?tab=readme-ov-file) |
 | 2024 | **GLAC-GCN: Global and Local Topology-Aware Contrastive Graph Clustering Network (GLAC-GCN)**               | TAI |            [link]([https://ieeexplore.ieee.org/abstract/document/10557452)) | [link](https://github.com/xuyuankun631/GLAC-GCN) |
 | 2024 | **Contrastive Multiview Attribute Graph Clustering With Adaptive Encoders**               | TNNLS |            [link]([https://arxiv.org/abs/2311.02357](https://ieeexplore.ieee.org/abstract/document/10509800)) | - |
 | 2024 | **Contrastive Deep Nonnegative Matrix Factorization for Community Detection (CDNMF)**               | ICASSP |            [link](https://arxiv.org/abs/2311.02357) | [link](https://github.com/6lyc/CDNMF) |
