@@ -209,7 +209,6 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
 | :--: | :----------------------------------------------------------- | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-
 | 2024 | **Deep graph clustering by integrating community structure with neighborhood information (DIGC)** | IS | [Link](https://www.sciencedirect.com/science/article/pii/S002002552400865X) | - |
 | 2024 | **Information-enhanced deep graph clustering network (IEDGCN)** | Neurocomputing | [Link](https://www.sciencedirect.com/science/article/pii/S092523122400763X) | - |
 | 2024 | **Every Node is Different: Dynamically Fusing Self-Supervised Tasks for Attributed Graph Clustering** | AAAI | [Link](https://arxiv.org/pdf/2401.06595v1) | [Link](https://github.com/q086/DyFSS) | 
