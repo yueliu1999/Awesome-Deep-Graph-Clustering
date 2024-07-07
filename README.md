@@ -62,9 +62,9 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **LSEnet: Lorentz Structural Entropy Neural Network for Deep Graph Clustering (LSEnet)** |   ICML    | [Link](https://arxiv.org/pdf/2405.11801) |                    [Link](https://github.com/ZhenhHuang/LSEnet/tree/main)                              |
 | 2024 | **Masked AutoEncoder for Graph Clustering without Pre-defined Cluster Number k (GCMA)** |   arXiv    | [Link](https://arxiv.org/pdf/2401.04741.pdf) |                              -                               |
 | 2023 | **Reinforcement Graph Clustering with Unknown Cluster Number (RGC)**              |  ACM MM   |          [Link](https://arxiv.org/pdf/2308.06827)             |         [Link](https://github.com/yueliu1999/RGC)        
-
 
 
 
