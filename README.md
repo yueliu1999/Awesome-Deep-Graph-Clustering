@@ -74,6 +74,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **Synergistic Deep Graph Clustering Network (SynC)**  | Arxiv | [link](https://arxiv.org/pdf/2406.15797) | [link](https://github.com/Marigoldwu/SynC) | 
 | 2024 | **Deep Masked Graph Node Clustering （DMGC）**  | TCSS | [link](https://ieeexplore.ieee.org/abstract/document/10550181) | - |
 | 2024 | **Multi-scale graph clustering network (MGCN)**  | IS | [link](https://www.sciencedirect.com/science/article/abs/pii/S002002552400937X) | [link](https://github.com/Zj202309/MGCN) | 
 | 2024 | **An End-to-End Deep Graph Clustering via Online Mutual Learning**  | TNNLS | [link](https://ieeexplore.ieee.org/abstract/document/10412657) | - |
