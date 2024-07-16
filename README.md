@@ -442,15 +442,17 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 
 ## Other Related Awesome Repository
 
-[A Unified Framework for Deep Attribute Graph Clustering](https://github.com/Marigoldwu/A-Unified-Framework-for-Deep-Attribute-Graph-Clustering)
+[A-Unified-Framework-for-Deep-Attribute-Graph-Clustering](https://github.com/Marigoldwu/A-Unified-Framework-for-Deep-Attribute-Graph-Clustering)
 
-[Awesome Partial Graph Machine Learning](https://github.com/WxTu/Awesome-Partial-Graph-Machine-Learning)
+[Awesome-Deep-Group-Recommendation](https://github.com/yueliu1999/Awesome-Deep-Group-Recommendation)
 
-[Awesome Knowledge Graph Reasoning](https://github.com/LIANGKE23/Awesome-Knowledge-Graph-Reasoning)
+[Awesome-Partial-Graph-Machine-Learning](https://github.com/WxTu/Awesome-Partial-Graph-Machine-Learning)
 
-[Awesome Temporal Graph Learning](https://github.com/MGitHubL/Awesome-Temporal-Graph-Learning)
+[Awesome-Knowledge-Graph-Reasoning](https://github.com/LIANGKE23/Awesome-Knowledge-Graph-Reasoning)
 
-[Awesome Deep Multiview Clustering](https://github.com/jinjiaqi1998/Awesome-Deep-Multiview-Clustering)
+[Awesome-Temporal-Graph-Learning](https://github.com/MGitHubL/Awesome-Temporal-Graph-Learning)
+
+[Awesome-Deep-Multiview-Clustering](https://github.com/jinjiaqi1998/Awesome-Deep-Multiview-Clustering)
 
 
 
