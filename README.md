@@ -251,6 +251,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
 | :--: | :----------------------------------------------------------- | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **Effective Clustering on Large Attributed Bipartite Graphs (TPO)** | arXiv | [Link](https://dl.acm.org/doi/pdf/10.1145/3637528.3671764) | - |
 | 2023 | **GPUSCAN++: Efficient Structural Graph Clustering on GPUs** | arXiv | [Link](https://arxiv.org/pdf/2311.12281.pdf) | - |
 | 2022 | **Deep linear graph attention model for attributed graph clustering** | Knowl Based Syst | [Link](https://doi.org/10.1016/j.knosys.2022.108665) | - |
 | 2022 | **Scalable Deep Graph Clustering with Random-walk based Self-supervised Learning** | WWW | [Link](https://arxiv.org/pdf/2112.15530) | - |
