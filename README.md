@@ -192,7 +192,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |    Venue    |                            Paper                             | Code |
 | ---- | ------------------------------------------------------------ | :---------: | :----------------------------------------------------------: | :--: |
-| 2024 | **End-to-end Learnable Clustering for Intent Learning in Recommendation**  | arXiv |          [Link](https://arxiv.org/pdf/2401.05975.pdf)          | [Link](https://github.com/yueliu1999/ELCRec) | 
+| 2024 | **End-to-end Learnable Clustering for Intent Learning in Recommendation**  | NeurIPS |          [Link](https://arxiv.org/pdf/2401.05975.pdf)          | [Link](https://github.com/yueliu1999/ELCRec) | 
 | 2023 | **GuardFL: Safeguarding Federated Learning Against Backdoor Attacks through Attributed Client Graph Clustering** | arXiv |          [Link](https://arxiv.org/pdf/2306.04984.pdf)          |          -          |
 
 
@@ -371,6 +371,13 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 ## Citation
 
 ```
+@article{ELCRec,
+  title={End-to-end Learnable Clustering for Intent Learning in Recommendation},
+  author={Liu, Yue and Zhu, Shihao and Xia, Jun and Ma, Yingwei and Ma, Jian and Zhong, Wenliang and Zhang, Guannan and Zhang, Kejun and Liu, Xinwang},
+  booktitle={Proceedings of International Conference on Neural Information Processing Systems},
+  year={2024}
+}
+
 @article{deep_graph_clustering_survey,
   title={A Survey of Deep Graph Clustering: Taxonomy, Challenge, and Application},
   author={Liu, Yue and Xia, Jun and Zhou, Sihang and Wang, Siwei and Guo, Xifeng and Yang, Xihong and Liang, Ke and Tu, Wenxuan and Li, Z. Stan and Liu, Xinwang},
