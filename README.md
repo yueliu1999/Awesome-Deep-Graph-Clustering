@@ -17,7 +17,7 @@ ADGC is a collection of state-of-the-art (SOTA), novel deep graph clustering met
 
 --------------
 
-## What's Deep Graph Clustering?
+## What is Deep Graph Clustering?
 
 Deep graph clustering, which aims to reveal the underlying graph structure and divide the nodes into different groups, has attracted intensive attention in recent years. More details can be found in the survey paper. [Link](https://arxiv.org/abs/2211.12875)
 
