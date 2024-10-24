@@ -371,6 +371,14 @@ About the introduction of each dataset, please check [here](./dataset/README.md)
 ## Citation
 
 ```
+
+@inproceedings{ITR,
+  title={Identify Then Recommend: Towards Unsupervised Group Recommendation},
+  author={Liu, Yue and Zhu, Shihao and Yang, Tianyuan and Ma, Jian and Zhong, Wenliang},
+  booktitle={Proc. of NeurIPS},
+  year={2024}
+}
+
 @article{ELCRec,
   title={End-to-end Learnable Clustering for Intent Learning in Recommendation},
   author={Liu, Yue and Zhu, Shihao and Xia, Jun and Ma, Yingwei and Ma, Jian and Zhong, Wenliang and Zhang, Guannan and Zhang, Kejun and Liu, Xinwang},
