@@ -44,6 +44,13 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 ## Papers
 
+### LLM-based Deep Graph Clustering
+
+| Year | Title                                                        | Venue |                            Paper                             | Code |
+| ---- | ------------------------------------------------------------ |:-----:| :----------------------------------------------------------: |:----:|
+| 2024 | **Large Language Model Guided Graph Clustering** |  LOG  | [Link](https://openreview.net/pdf?id=CLyhlb5DG5) |  -   |
+
+
 ### New-architecture Deep Graph Clustering
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
