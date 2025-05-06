@@ -55,6 +55,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **Expander Hierarchies for Normalized Cuts on Graphs** | KDD  |[link](https://dl.acm.org/doi/pdf/10.1145/3637528.3671978)    |    https://zenodo.org/records/12108189   |      
 | 2024 | **Kolmogorov-Arnold Network (KAN) for Graphs** |   -    | - |                              [link](https://github.com/yueliu1999/KAN4Graph)                               |
 
 
@@ -62,6 +63,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **Graph-based Time Series Clustering for End-to-End Hierarchical Forecasting** |   arxiv    | [Link](https://arxiv.org/pdf/2305.19183) |                    -                          |
 | 2024 | **Deep Temporal Graph Clustering (TGC)** |   ICLR    | [Link](https://openreview.net/pdf?id=ViNe1fjGME) |                              [link](https://github.com/MGitHubL/TGC)                               |
 
 ### Deep Graph Clustering with Unknown Cluster Number
@@ -69,6 +71,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **NeuroCUT: A Neural Approach for Robust Graph Partitioning** |  KDD    | [Link](https://doi.org/10.1145/3637528.3671815) |                    [Link](https://github.com/idea-iitd/NeuroCut)                              |
 | 2024 | **LSEnet: Lorentz Structural Entropy Neural Network for Deep Graph Clustering (LSEnet)** |   ICML    | [Link](https://arxiv.org/pdf/2405.11801) |                    [Link](https://github.com/ZhenhHuang/LSEnet/tree/main)                              |
 | 2024 | **Masked AutoEncoder for Graph Clustering without Pre-defined Cluster Number k (GCMA)** |   arXiv    | [Link](https://arxiv.org/pdf/2401.04741.pdf) |                              -                               |
 | 2023 | **Reinforcement Graph Clustering with Unknown Cluster Number (RGC)**              |  ACM MM   |          [Link](https://arxiv.org/pdf/2308.06827)             |         [Link](https://github.com/yueliu1999/RGC)        
@@ -199,6 +202,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |    Venue    |                            Paper                             | Code |
 | ---- | ------------------------------------------------------------ | :---------: | :----------------------------------------------------------: | :--: |
+| 2024 | **EyeGraph: Modularity-aware Spatio Temporal Graph Clustering for Continuous Event-based Eye Tracking**  | NeurIPS |          [Link](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?params=/context/sis_research/article/10909/&path_info=2367_EyeGraph_Modularity_aware.pdf)          | - | 
 | 2024 | **Identify Then Recommend: Towards Unsupervised Group Recommendation (ITR)**  | NeurIPS |          [Link](https://arxiv.org/abs/2410.23757)          | [Link](https://github.com/yueliu1999/ITR) | 
 | 2024 | **End-to-end Learnable Clustering for Intent Learning in Recommendation (ELCRec)**  | NeurIPS |          [Link](https://arxiv.org/pdf/2401.05975.pdf)          | [Link](https://github.com/yueliu1999/ELCRec) | 
 | 2023 | **GuardFL: Safeguarding Federated Learning Against Backdoor Attacks through Attributed Client Graph Clustering** | arXiv |          [Link](https://arxiv.org/pdf/2306.04984.pdf)          |          -          |
@@ -259,6 +263,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
 | :--: | :----------------------------------------------------------- | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2024 | **PSMC: Provable and Scalable Algorithms for Motif Conductance Based Graph Clustering**|KDD | [Link](https://doi.org/10.1145/3637528.3671666) | - |
 | 2024 | **Effective Clustering on Large Attributed Bipartite Graphs (TPO)** | arXiv | [Link](https://dl.acm.org/doi/pdf/10.1145/3637528.3671764) | - |
 | 2023 | **GPUSCAN++: Efficient Structural Graph Clustering on GPUs** | arXiv | [Link](https://arxiv.org/pdf/2311.12281.pdf) | - |
 | 2022 | **Deep linear graph attention model for attributed graph clustering** | Knowl Based Syst | [Link](https://doi.org/10.1016/j.knosys.2022.108665) | - |
