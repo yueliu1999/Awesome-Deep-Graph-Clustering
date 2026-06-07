@@ -31,6 +31,9 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |    Venue    |                            Paper                             | Code |
 | ---- | ------------------------------------------------------------ | :---------: | :----------------------------------------------------------: | :--: |
+| 2026 | **Beyond the Academic Monoculture: A Unified Framework and Industrial Perspective for Attributed Graph Clustering** |    arXiv    | [Link](https://arxiv.org/abs/2603.20829) |  - |
+| 2026 | **Bridging Academia and Industry: A Comprehensive Benchmark for Attributed Graph Clustering** |    arXiv    | [Link](https://arxiv.org/abs/2602.08519) |  - |
+| 2025 | **DGCBench: A Deep Graph Clustering Benchmark (PyDGC)** |    NeurIPS    | [Link](https://neurips.cc/virtual/2025/poster/121541) |  [Link](https://github.com/Marigoldwu/PyDGC) |
 | 2023 | **An Overview of Advanced Deep Graph Node Clustering** |    TCSS   | [Link](https://ieeexplore.ieee.org/abstract/document/10049408) |  - |
 | 2022 | **A Survey of Deep Graph Clustering: Taxonomy, Challenge, and Application** |    arXiv    | [Link](https://arxiv.org/abs/2211.12875) |  [Link](https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering) |
 | 2022 | **A Comprehensive Survey on Community Detection with Deep Learning** |    TNNLS    | [Link](https://arxiv.org/pdf/2105.12584.pdf?ref=https://githubhelp.com) |  -   |
@@ -48,6 +51,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        | Venue |                            Paper                             | Code |
 | ---- | ------------------------------------------------------------ |:-----:| :----------------------------------------------------------: |:----:|
+| 2026 | **Node Role-Guided LLMs for Dynamic Graph Clustering (DyG-RoLLM)** |  WWW  | [Link](https://arxiv.org/abs/2603.13799) |  [Link](https://github.com/Clearloveyuan/DyG-RoLLM)   |
+| 2025 | **When Noisy Labels Meet Class Imbalance on Graphs: A Graph Augmentation Method with LLM and Pseudo Label (GraphALP)** |  arXiv  | [Link](https://arxiv.org/abs/2507.18153) |  -   |
 | 2024 | **Large Language Model Guided Graph Clustering** |  LOG  | [Link](https://openreview.net/pdf?id=CLyhlb5DG5) |  -   |
 
 
@@ -55,6 +60,13 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2026 | **Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering (CoCo)** | ICLR (Oral)  |[Link](https://openreview.net/forum?id=9jdQLmPUHW)    |    [Link](https://github.com/juweipku/CoCo)   |
+| 2026 | **ASIL: Augmented Structural Information Learning for Deep Graph Clustering in Hyperbolic Space** | TPAMI  |[Link](https://arxiv.org/abs/2504.09970)    |    -   |
+| 2026 | **Weighted Graph Clustering via Scale Contraction and Graph Structure Learning** | arXiv  |[Link](https://arxiv.org/abs/2601.17307)    |    -   |
+| 2025 | **Attention Beyond Neighborhoods: Reviving Transformer for Graph Clustering (AGCN)** | arXiv  |[Link](https://arxiv.org/abs/2509.15024)    |    -   |
+| 2025 | **Deep Cut-informed Graph Embedding and Clustering (DCGC)** | KDD  |[Link](https://arxiv.org/abs/2503.06635)    |    -   |
+| 2025 | **Unsupervised Graph Clustering with Deep Structural Entropy (DeSE)** | KDD  |[Link](https://arxiv.org/abs/2505.14040)    |    -   |
+| 2025 | **Deep Multi-modal Graph Clustering via Graph Transformer Network** | AAAI  |[Link](https://ojs.aaai.org/index.php/AAAI/article/view/32844)    |    -   |
 | 2024 | **Expander Hierarchies for Normalized Cuts on Graphs** | KDD  |[link](https://dl.acm.org/doi/pdf/10.1145/3637528.3671978)    |    https://zenodo.org/records/12108189   |      
 | 2024 | **Kolmogorov-Arnold Network (KAN) for Graphs** |   -    | - |                              [link](https://github.com/yueliu1999/KAN4Graph)                               |
 
@@ -63,6 +75,10 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2026 | **Deep Temporal Graph Clustering: A Comprehensive Benchmark and Datasets (BenchTGC)** |   TPAMI    | [Link](https://arxiv.org/abs/2601.12903) |                    [Link](https://github.com/MGitHubL/BenchTGC)                          |
+| 2025 | **Multiview Temporal Graph Clustering (MVTGC)** |   TNNLS    | [Link](https://ieeexplore.ieee.org/document/11079275/) |                    [Link](https://github.com/MGitHubL/MVTGC)                          |
+| 2025 | **Revisiting Dynamic Graph Clustering via Matrix Factorization (DyG-MF)** |   WWW    | [Link](https://arxiv.org/abs/2502.06117) |                    [Link](https://github.com/Clearloveyuan/DyG-MF)                          |
+| 2024 | **Federated Temporal Graph Clustering (FTGC)** |   arXiv    | [Link](https://arxiv.org/abs/2410.12343) |                    -                          |
 | 2024 | **Graph-based Time Series Clustering for End-to-End Hierarchical Forecasting** |   arxiv    | [Link](https://arxiv.org/pdf/2305.19183) |                    -                          |
 | 2024 | **Deep Temporal Graph Clustering (TGC)** |   ICLR    | [Link](https://openreview.net/pdf?id=ViNe1fjGME) |                              [link](https://github.com/MGitHubL/TGC)                               |
 
@@ -84,6 +100,8 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2025 | **Scalable Attribute-Missing Graph Clustering via Neighborhood Differentiation (CMV-ND)**  | arXiv | [link](https://arxiv.org/abs/2507.13368) | - | 
+| 2025 | **Dynamic Deep Graph Learning for Incomplete Multi-View Clustering with Masked Graph Reconstruction Loss**  | arXiv | [link](https://arxiv.org/abs/2511.11181) | - | 
 | 2024 | **Synergistic Deep Graph Clustering Network (SynC)**  | Arxiv | [link](https://arxiv.org/pdf/2406.15797) | [link](https://github.com/Marigoldwu/SynC) | 
 | 2024 | **Deep Masked Graph Node Clustering （DMGC）**  | TCSS | [link](https://ieeexplore.ieee.org/abstract/document/10550181) | - |
 | 2024 | **Multi-scale graph clustering network (MGCN)**  | IS | [link](https://www.sciencedirect.com/science/article/abs/pii/S002002552400937X) | [link](https://github.com/Zj202309/MGCN) | 
@@ -142,6 +160,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        | Venue  |                           Paper                            |                      Code                      |
 | ---- | ------------------------------------------------------------ | :----: | :--------------------------------------------------------: | :--------------------------------------------: |
+| 2025 | **Clustering-Oriented Generative Attribute Graph Imputation (CGIR)**  | ACM MM  |          [Link](https://arxiv.org/abs/2507.19085)          | -  |
 | 2023 | **Wasserstein Adversarially Regularized Graph Autoencoder (WARGA)**  | Neurocomputing  |          [Link](https://arxiv.org/pdf/2111.04981)          | [Link](https://github.com/LeonResearch/WARGA)  |
 | 2022 | **Unsupervised network embedding beyond homophily (SELENE)** | TMLR  |          [Link](https://orbilu.uni.lu/bitstream/10993/53475/1/TMLR22b.pdf)          |   [Link](https://github.com/zhiqiangzhongddu/SELENE)    |
 | 2020 | **JANE: Jointly adversarial network embedding (JANE)**              | IJCAI  |  [Link](https://www.ijcai.org/Proceedings/2020/0192.pdf)   |                       -                        |
@@ -158,6 +177,14 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |  Venue  |                            Paper                             |                             Code                             |
 | ---- | ------------------------------------------------------------ | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2025 | **Hybrid-Collaborative Augmentation and Contrastive Sample Adaptive-Differential Awareness for Robust Attributed Graph Clustering (RAGC)**               | NeurIPS |  [link](https://arxiv.org/abs/2510.02731) | [link](https://github.com/TianxiangZhao0474/RAGC) |
+| 2025 | **Disentangling Homophily and Heterophily in Multimodal Graph Clustering (DMGC)**               | ACM MM |  [link](https://arxiv.org/abs/2507.15253) | [link](https://github.com/Uncnbb/DMGC) |
+| 2025 | **Trustworthy Neighborhoods Mining: Homophily-Aware Neutral Contrastive Learning for Graph Clustering (NeuCGC)**               | TNNLS |  [link](https://arxiv.org/abs/2512.15027) | - |
+| 2025 | **Multi-Task Curriculum Graph Contrastive Learning with Clustering Entropy Guidance (CurGL)**               | IJCAI |  [link](https://www.ijcai.org/proceedings/2025/773) | - |
+| 2025 | **A Simple yet Effective Hypergraph Clustering Network (HCN)**               | IJCAI |  [link](https://www.ijcai.org/proceedings/2025/707) | - |
+| 2025 | **Prototype-based Contrastive Graph Clustering Network for Reducing False Negatives**               | Sci. Rep. |  [link](https://www.nature.com/articles/s41598-025-87142-0) | - |
+| 2025 | **DCPRES: Contrastive Deep Graph Clustering with Progressive Relaxation Weighting Strategy**               | Electronics |  [link](https://www.mdpi.com/2079-9292/14/21/4206) | - |
+| 2025 | **Motif-based Contrastive Graph Clustering with Clustering-oriented Prompt (MCGC)**               | IPM |  [link](https://www.sciencedirect.com/science/article/abs/pii/S0306457325001499) | - |
 | 2024 | **Revisiting Modularity Maximization for Graph Clustering: A Contrastive Learning Perspective**               | SIGKDD |  [link](https://arxiv.org/pdf/2406.14288) | [link](https://github.com/EdisonLeeeee/MAGI?tab=readme-ov-file) |
 | 2024 | **GLAC-GCN: Global and Local Topology-Aware Contrastive Graph Clustering Network (GLAC-GCN)**               | TAI |            [link](https://ieeexplore.ieee.org/abstract/document/10557452) | [link](https://github.com/xuyuankun631/GLAC-GCN) |
 | 2024 | **Contrastive Multiview Attribute Graph Clustering With Adaptive Encoders**               | TNNLS |            [link](https://ieeexplore.ieee.org/abstract/document/10509800) | - |
@@ -202,6 +229,7 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        |    Venue    |                            Paper                             | Code |
 | ---- | ------------------------------------------------------------ | :---------: | :----------------------------------------------------------: | :--: |
+| 2025 | **DCA: Graph-Guided Deep Embedding Clustering for Brain Atlases**  | NeurIPS |          [Link](https://github.com/ncclab-sustech/DCA)          | [Link](https://github.com/ncclab-sustech/DCA) | 
 | 2024 | **EyeGraph: Modularity-aware Spatio Temporal Graph Clustering for Continuous Event-based Eye Tracking**  | NeurIPS |          [Link](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?params=/context/sis_research/article/10909/&path_info=2367_EyeGraph_Modularity_aware.pdf)          | - | 
 | 2024 | **Identify Then Recommend: Towards Unsupervised Group Recommendation (ITR)**  | NeurIPS |          [Link](https://arxiv.org/abs/2410.23757)          | [Link](https://github.com/yueliu1999/ITR) | 
 | 2024 | **End-to-end Learnable Clustering for Intent Learning in Recommendation (ELCRec)**  | NeurIPS |          [Link](https://arxiv.org/pdf/2401.05975.pdf)          | [Link](https://github.com/yueliu1999/ELCRec) | 
@@ -263,6 +291,13 @@ Deep graph clustering, which aims to reveal the underlying graph structure and d
 
 | Year | Title                                                        | **Venue** |                            Paper                             |                             Code                             |
 | :--: | :----------------------------------------------------------- | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 2025 | **Spectral Subspace Clustering for Attributed Graphs (S2CAG)**|KDD | [Link](https://arxiv.org/abs/2411.11074) | [Link](https://github.com/HKBU-LAGAS/S2CAG) |
+| 2025 | **Robust Deep Signed Graph Clustering via Weak Balance Theory (DSGC)**|WWW | [Link](https://arxiv.org/abs/2502.05472) | - |
+| 2025 | **Simple yet Effective Graph Distillation via Clustering**|KDD | [Link](https://arxiv.org/abs/2505.20807) | - |
+| 2025 | **FairAD: Computationally Efficient Fair Graph Clustering via Algebraic Distance**|arXiv | [Link](https://arxiv.org/abs/2510.27136) | - |
+| 2025 | **Stochastic Deep Graph Clustering for Practical Group Formation (DeepForm)**|arXiv | [Link](https://arxiv.org/abs/2511.02879) | - |
+| 2025 | **Federated Multi-view Graph Clustering with Incomplete Attribute Imputation**|IJCAI | [Link](https://www.ijcai.org/proceedings/2025/570) | - |
+| 2025 | **Learn from Global Rather Than Local: Consistent Context-Aware Representation Learning for Multi-View Graph Clustering**|IJCAI | [Link](https://www.ijcai.org/proceedings/2025/573) | - |
 | 2024 | **PSMC: Provable and Scalable Algorithms for Motif Conductance Based Graph Clustering**|KDD | [Link](https://doi.org/10.1145/3637528.3671666) | - |
 | 2024 | **Effective Clustering on Large Attributed Bipartite Graphs (TPO)** | arXiv | [Link](https://dl.acm.org/doi/pdf/10.1145/3637528.3671764) | - |
 | 2023 | **GPUSCAN++: Efficient Structural Graph Clustering on GPUs** | arXiv | [Link](https://arxiv.org/pdf/2311.12281.pdf) | - |
